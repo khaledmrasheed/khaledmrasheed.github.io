@@ -1,0 +1,29 @@
+CSCI(MATH) 2610
+Spring 2011
+Homework assignment 3
+
+Due Thursday, February 10th (in class)
+
+All assignments are from Rosen's text book.
+
+
+Section 2.1 Page 119
+	4		(10 points)
+	16		(10 points)
+	20 		(10 points)
+	26		(10 points)
+	30		(10 points)
+
+Section 2.2 Page 130
+	2		(10 points)
+	4		(10 points)
+	20		(10 points)
+	32		(10 points)
+	36		(10 points)
+
+
+Total:	100 points
+
+Please note the following: 
+-Write your solutions clearly and precisely.
+-Staple all your solutions together and write your name on the first page.

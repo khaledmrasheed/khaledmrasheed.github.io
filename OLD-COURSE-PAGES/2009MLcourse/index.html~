@@ -1,0 +1,323 @@
+<Html>
+
+<Head>
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI/ARTI 8950 Machine Learning
+</Title>
+
+<Link Rev="made" Href="mailto:krasheed@cs.rutgers.edu">
+
+</Head>
+
+<Body>
+
+<H1>CSCI/ARTI 8950 Machine Learning</H1>
+
+Spring 2009: Tuesdays and Thursdays 3:30pm - 4:45pm & Wednesdays
+3:35pm - 4:25pm, Boyd GSRC 208</BR>
+
+</BR>
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A> </BR>
+Telephone: (706)542-3444</BR> 
+Office Hours: Tuesday: 1-2:30pm and Wednesday: 4:35-6:00pm or by email
+appointment</BR>
+Office Location: Room 219B, Boyd GSRC</BR> 
+Email: khaled@cs.uga.edu</BR>
+</BR>
+<Hr>
+
+<H2>Objectives:</H2> 
+
+Machine learning is a sub-field of artificial intelligence which is
+concerned with computer programs that can automatically improve their
+capabilities and/or performance by acquiring (learning) experience.
+The main objectives of this course are to provide students with an
+in-depth introduction to machine learning theory and methods
+and an exploration of research problems in machine learning and its
+applications which may lead to work on a project or a dissertation.
+
+The course is intended primarily for computer science and artificial
+intelligence graduate students. Graduate students from other
+departments who have a strong interest and sufficient experience in
+artificial intelligence may also find the course interesting.
+
+<H2>Recommended Background:</H2> 
+
+CSCI/PHIL 4550/6550 Artificial Intelligence or CSCI 4560/6560
+Evolutionary Computation (or permission of the instructor).
+Familiarity with basic computer algorithms and data structures and at
+least one high level programming language.
+
+<H2>Topics to be Covered:</H2> 
+
+<li>Part I: Machine learning techniques: Selected from inductive learning,
+decision trees, neural network approaches, evolutionary computation
+approaches and classifier systems, reinforcement learning, statistical
+and Bayesian learning, instance-based learning, explanation-based
+learning and computational learning theory.
+
+<li>Part II: Machine learning applications: Selected from data mining,
+bioinformatics, biomedical modelling, medical diagnosis, text
+classification, pattern recognition and/or other contemporary
+applications.
+
+
+<H2>Expected Work:</H2> 
+
+Reading; assignments (some include programming and/or running existing
+programs); midterm; final and term project and paper.  (Unless
+otherwise announced by the instructor: all assignments and all exams
+must be done entirely on your own.)
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All academic work must meet the standards contained in <A
+HREF="http://www.uga.edu/honesty/ahpd/culture_honesty.htm">
+"A Culture of Honesty."</A> Students are responsible for informing
+themselves about those standards before performing any academic
+work. The penalties for academic dishonesty are severe and ignorance
+is not an acceptable defense.
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 30% (Programs, homeworks, attendance, paper presentation)
+<li>Midterm Examination: 20%  
+<li>Final Examination: 25% 
+<li>Term Project: 25% (includes term paper and presentation)
+<br>
+
+Students may work on their term projects in groups of up to
+<strong>three</strong> students each. The above distribution is only
+tentative and may change later. The instructor will announce any
+changes.
+
+<H2>Assignment Submission Policy</H2> 
+
+Assignments must be turned in by the assigned deadline. Late
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the ML Class
+Home-page at <A HREF="http://www.cs.uga.edu/~khaled/MLcourse/">
+http://www.cs.uga.edu/~khaled/MLcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there.
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> "Machine Learning", Tom Mitchell.  McGraw-Hill, 1997. (Required.) 
+
+<H2>Additional Books</H2> 
+
+<li> "Data Mining: Practical Machine Learning Tools and Techniques
+(2nd edition)", Ian Witten & Eibe Frank. Morgan Kaufmann, 2005.
+
+<li> "Evolutionary Computation : Towards a New Philosophy of Machine
+Intelligence", David Fogel. IEEE press, 1999.
+
+
+<H2>Web Resources</H2> 
+
+<li> <A
+HREF="http://home.earthlink.net/~dwaha/research/machine-learning.html">
+David Aha's Machine Learning Resources</a>
+
+<li> <A HREF="http://archive.ics.uci.edu/ml/">
+University of California at Irvine ML Repository</a>
+
+<li> <A HREF="http://www.cs.waikato.ac.nz/~ml">
+The WEKA Machine Learning Project</a>
+
+<H2>Announcements:</H2>
+
+<li>[4-29-2009]: All your scores so far are posted <A
+HREF="2009_CSCI_ARTI_8950.htm">HERE</A>. Please make sure that your
+scores are properly recorded. Note that the projected grades are old
+and do not reflect the work that was done after the midterm.
+
+<li> [1-29-2009] My former student Cesar Koirala has kindly prepared a
+power point presentation about Weka that you can find <A
+HREF="WEKA.pps">HERE</A>. This gives step-by-step instructions on
+how to use the package for your homework assignments and provides a
+complete tutorial.
+
+<H2>Papers</H2>
+
+<li> "Least significant bit steganography detection with machine
+learning techniques" Shen Ge et al., 2007. [Chandana Kaza][3-18] {<A
+HREF="http://portal.acm.org/citation.cfm?id=1288552.1288556&coll=Portal&dl=GUIDE&CFID=21561461&CFTOKEN=19990489">download</A>}
+
+<li> "User-Oriented Document Summarization through Vision-Based
+Eye-Tracking" Songhua Xu et al., 2009. [ManChon U][3-18] {<A
+HREF="http://portal.acm.org/citation.cfm?id=1502650.1502656">download</A>}
+
+<li> "Learning to compress images and videos"
+Li Cheng and S. Vishwanathan, 2007. [Sal LaMarca][3-18] {<A
+HREF="http://www.cheng1.net/papers/CheVis_ICML07.pdf">download</A>}
+
+<li> "Simulation of mass spectra of noncyclic alkanes and alkenes
+using artificial neural network" M. Jalili-Heravi and M. Fatemi,
+2000. [Jun Han][3-25] {<A
+HREF="http://www.sciencedirect.com/science/article/B6TF4-4090GDJ-B/2/0c418877397f663e3777833c22d12731">download</A>}
+
+<li> "Distinguishing Protein-Coding from Non-Coding RNAs through
+Support Vector Machines" Jinfeng Liu et al., 2006. [Shasha
+Liu][3-25]{<A
+HREF="http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1449884">download</A>}
+
+<li> "Analysis of human motion using snakes and neural networks" Ken
+Tabb et al., 2000. [Qian Ma][3-25] {<A
+HREF="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.101.6101">download</A>}
+
+<li> "Browsing on Small Screens: Recasting Web-Page Segmentation into
+an Efficient Machine Learning Framework" Shumeet Baluja, 2006. [Qi
+Li][4-1] {<A
+HREF="http://www.esprockets.com/papers/www2006-2502-baluja.pdf">download</A>}
+
+<li> "A comparative study on diabetes disease diagnosis using neural
+networks" Hasan Temurtas et al., 2009. [Sascha Strauss][4-1] {<A
+HREF="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V03-4TT9GFH-1&_user=655127&_coverDate=05%2F31%2F2009&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000033918&_version=1&_urlVersion=0&_userid=655127&md5=5cf457382d8faaf127d00e4c11bfb50e">download</A>}
+
+<li> "Hybrid genetic algorithms and support vector machines for
+bankruptcy prediction" Sung-Hwan Min, 2005. [Rahul Lakshmanan][4-1]  {<A
+HREF="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V03-4HC15T2-3&_user=655127&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000033918&_version=1&_urlVersion=0&_userid=655127&md5=05b5e9c7dca7df96d8106b3fec82b7c5">download</A>}
+
+<li> "Clustering by Passing Messages Between Data Points" Brendan
+J. Frey and Delbert Dueck, 2007. [Dajiang Zhu][4-8] {<A
+HREF="http://www.psi.toronto.edu/affinitypropagation/FreyDueckScience07.pdf">download</A>}
+
+<li> "Identifying Predictive Structures in Relational Data Using
+Multiple Instance Learning" Amy McGovern and David Jensen,
+2003. [Harini][4-8] {<A
+HREF="http://www.hpl.hp.com/conferences/icml2003/papers/184.pdf">download</A>}
+
+<li> "Discrete combinatorial circuits emerging in neural networks: A
+mechanism for rules of grammar in the human brain?" Friedemann
+Pulvermllera and Andreas Knoblauch, 2009. [Matthew Eavenson][4-8]{<A
+HREF="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6T08-4VGWYD2-3&_user=10&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=7329310deee4413661e4be2a3293f688">download</A>}
+
+<li> "Online Feature Selection for Pixel Classification" Karen Glocer
+et al., 2005. [Vasim Mahamuda][4-15] {<A
+HREF="http://www.machinelearning.org/proceedings/icml2005/papers/032_Online_GlocerEtAl.pdf">download</A>}
+
+<li> "Support Cluster Machine" bin Li et al., 2007. [Ekhlas
+Sonu][4-15] {<A
+HREF="http://www.machinelearning.org/proceedings/icml2007/papers/106.pdf">download</A>}
+
+<li> "Scaling Up Context-Sensitive Text Correction" Andrew J. Carlson
+et al., 2001. [Shahab Razavi][4-15] {<A
+HREF="http://l2r.cs.uiuc.edu/~danr/Papers/iaai01.pdf">download</A>}
+
+<li> "Overcoming the Brittleness Bottleneck usingWikipedia: Enhancing
+Text Categorization with Encyclopedic Knowledge" Evgeniy Gabrilovich
+and Shaul Markovitch, 2006. [Sheng Yin][4-21] {<A
+HREF="http://www.aaai.org/Papers/AAAI/2006/AAAI06-204.pdf">download</A>}
+
+<li> "Focused Crawling Using Context Graphs" M. Diligenti et al.,
+2000. [Ankur Oberai][4-21] {<A
+HREF="http://net.pku.edu.cn/~wbia/2004/public_html/Readings/crawling/(48)Focused%20Crawling%20Using%20Context%20Graphs%20(2000).pdf">download</A>}
+
+<li> "Classification and diagnostic prediction of cancers using gene
+expression profiling and artificial neural networks" Javed Khan et
+al., 2001. [Liang Wang][4-21] {<A
+HREF="http://cmbi.bjmu.edu.cn/cmbidata/vcell/neural/Classification%20and%20diagnostic%20prediction%20of%20cancers%20using%20gene%20expression%20profiling%20and%20artificial%20neural%20networks.pdf">download</A>}
+
+<li> "Improving Text Classification Using EM with Background Text"
+S. Zelikovitz, H. Hirsh, 2005. [Thomas Drapela][4-21]{<A
+HREF="http://www.cs.csi.cuny.edu/~zelikovi/publications/1FLAIRS05ZelikovitzS.pdf">download</A>}
+
+<li> "Learning to Detect Objects in Images via a Sparse, Part-Based
+Representation" S. Agarwal et al.,2004.  [Matthew Losanno][4-21] {<A
+HREF="http://l2r.cs.uiuc.edu/~danr/Papers/AgarwalAwRo04.pdf">download</A>}
+
+<li> "An Empirical Research on Extracting Relations from Wikipedia
+Text" 2008. [Justin Martin][4-23] {<A
+HREF="http://www.springerlink.com/content/f3267nu0502j0p41/fulltext.pdf">download</A>}
+
+<li> "Evolutionary Function Approximation for Reinforcement Learning"
+Shimon Whiteson and Peter Stone, 2006. [Zhen Li][4-23] {<A
+HREF="http://jmlr.csail.mit.edu/papers/volume7/whiteson06a/whiteson06a.pdf">download</A>}
+
+<li> "An Introduction to Variable and Feature Selection" Isabelle
+ Guyon and Andre Elissee, 2003. [Naveed Ahmed][4-23] {<A
+ HREF="http://jmlr.csail.mit.edu/papers/volume3/guyon03a/guyon03a.pdf">download</A>}
+
+<li> "A comparative study of machine-learning methods to predict the
+effects of single nucleotide polymorphisms on protein function"
+Krishnan et al., 2003. [?][4-21] {<A
+HREF="http://bioinformatics.oxfordjournals.org/cgi/content/abstract/19/17/2199">download</A>}
+
+<H2>Assignments:</H2> 
+<li>
+<A HREF="homework1.pdf">Assignment 1</A>
+<li>
+<A HREF="homework2.pdf">Assignment 2</A>
+<li>
+<A HREF="homework3.pdf">Assignment 3</A>
+<li>
+<A HREF="homework4.pdf">Assignment 4</A>
+<li>
+<A HREF="homework5.pdf">Assignment 5</A>
+<li>
+<A HREF="homework6.pdf">Assignment 6</A>
+<li>
+<A HREF="homework7.pdf">Assignment 7</A>
+
+
+<H2>Lecture Notes:</H2> 
+<li>
+<A HREF="ML-Intro.pdf">Introduction </A>
+<li>
+<A HREF="ML-C1.pdf">Chapter 1</A>
+<li>
+<A HREF="ML-C2.pdf">Chapter 2</A>
+<li>
+<A HREF="ML-C3.pdf">Chapter 3</A>
+<li>
+<A HREF="ML-C4.pdf">Chapter 4</A>
+<li>
+<A HREF="ML-C5.pdf">Chapter 5</A>
+<li>
+<A HREF="ML-C6.pdf">Chapter 6</A>
+<li>
+<A HREF="ML-C8.pdf">Chapter 8</A>
+<li>
+<A HREF="EC.pdf">Evolutionary Computation</A>
+<li>
+<A HREF="ML-C7.pdf">Chapter 7</A>
+<li>
+<A HREF="ML-C13.pdf">Chapter 13</A>
+
+<Hr>
+
+<strong>The course syllabus is a general plan for the course;
+deviations announced to the class by the instructor may be
+necessary.</strong><BR>
+
+<P>
+
+Last modified: April 29, 2009.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@cs.uga.edu">khaled[at]cs.uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>

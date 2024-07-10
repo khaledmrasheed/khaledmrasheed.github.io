@@ -1,0 +1,165 @@
+CSCI/ENGR 8940: Solution sketches for Assignment #2
+
+
+Problem 1:
+----------
+(a)
+Prufer number: 1,2,3,4,5
+Tree:
+
+    6-- 1 -- 2 -- 3 -- 4 -- 5 -- 7
+
+(b)
+Prufer number: 1,2,1,4,5
+Tree:
+
+	3-- 1 -- 4 -- 5 -- 7
+	    |
+	    |
+	6-- 2
+
+
+(c)
+Prufer number: 1,1,1,1,1
+Tree:
+	      3	
+	      |
+	      |
+  	
+       2 ---- 1 ---- 4
+	    /   \
+          /   |   \
+	6     |     5
+	      7	 
+		 
+
+(d)	
+Prufer number: 1,2,1,2,1
+Tree:
+
+		 7	 
+		 |
+		 |
+
+	  3 ---- 1 ---- 5
+		 
+		 |
+		 |
+
+	  4 ---- 2 ---- 6
+
+
+Causality: The above examples show that small changes in the Prufer
+number may result in large changes in the tree structure. The
+difference between the Prufer numbers of parts (a) and (b) was in one
+position only, but the trees were significantly different. The
+difference between the Prufer numbers of parts (c) and (d) was in two
+places but only by a unit change each. Again, the trees were
+significantly different. In fact, many researchers observed the
+causality problem of Prufer numbers. Some of them were considering
+organizing a workshop in GECCO'2001 to discuss methods to improve the
+causality of tree representations or a similar topic. I don't know if
+they will go ahead with it though.
+
+NOTE: The comment is an opinion, thus there is no right or wrong
+answer to this part, other comments will be acceptable.
+
+Problem 2:
+----------
+F1(x)=the number of ones in bit string x 
+F2(x)=the number of ones or zeros in bit string x whichever is larger 
+
+(a)
+
+Causality: F2 has better causality. Under F1, if we change one gene
+(bit), the fitness will increase or decrease by exactly 1. On the
+other hand, under F2 if we change one gene the fitness could increase
+by 1 or stay the same or decrease by 1. Thus the expected absolute
+change in fitness value under F2 is less than 1.
+
+NOTE: due to the ambiguity in definition of causality, other solutions
+may be accepted for full or partial credit.
+
+(b)
+
+Epistasis: F2 suffers more epistasis. Under F2, if we change one gene
+(bit) from 0 to 1 say, the fitness could increase by 1 (if the other
+genes have more 1s than 0s) or stay the same (if the other genes have
+an equal number of 1s and 0s) or even decrease by one (if the other
+genes have more 0s than 1s). On the other hand, under F2, if we change
+one gene from 0 to 1 the effect will be a unit increase in fitness
+regardless of the values of other genes. A similar argument can be
+made for changing a gene from 1 to 0.
+
+
+Problem 3:
+-----------
+S1=11101111 
+S2=00010100
+S3=01000011 
+
+H1=1******* 
+H2=0******* 
+H3=******11 
+H4=***0*00* 
+H5=1*****1* 
+H6=1110**1*
+
+(a)
+H1 is matched by S1
+H2 is matched by S2 and S3
+H3 is matched by S1 and S3
+H4 is not matched by any string
+H5 is matched by S1
+H6 is matched by S1
+
+In other words:
+S1 matches schemata H1, H3, H5, H6
+S2 matches schema H2
+S3 matches schemata H2, H3
+
+(b)
+Schema	Order	Defining length	
+
+H1	1	0
+H2	1	0
+H3	2	1
+H4	3	3
+H5	2	6
+H6	5	6
+
+(c)
+
+The probability of survival of schema Hi=(1-Pm)^o(Hi) where Pm=0.001
+and o(Hi) is the order of schema Hi. Thus the probabilities are 0.999,
+0.999, 0.998, 0,997, 0.998, 0.995 respectively.
+
+Problem 4:
+----------
+
+In this problem the genotype space contains 16 individuals, whose
+fitness values span the range 0 to 15.
+
+(a) Schema 1*** is matched by the individuals with fitness values 8+0,
+8+1 ... 8+7. Thus, the average fitness = 8+(0+1+2...7)/8 
+= 8 + 4*(0+7)/8  (arithmetic series)
+= 11.5
+
+(b) Schema 0*** is matched by the individuals with fitness values 0+0,
+0+1 ... 0+7. Thus, the average fitness = 0+(0+1+2...7)/8 
+= 0 + 4*(0+7)/8  (arithmetic series)
+= 3.5
+
+Another solution: The average fitness of schema 0*** = average fitness
+of schema 1*** - 8 = 3.5 since the only difference is the first bit
+which adds 8 to each fitness value.
+
+(c) Schema ***1 is matched by the individuals with fitness values 1+2*0,
+1+2*1 ... 1+2*7. Thus, the average fitness = 1+2*(0+1+2...7)/8 
+= 1 + 2* [4*(0+7)/8]  (arithmetic series)
+= 8
+
+(d) Schema ***0 differs from ***1 in the last bit position only, which
+decreases each fitness value by 1. Thus the average fitness of schema
+***0 = 7
+

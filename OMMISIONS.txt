@@ -1,0 +1,96 @@
+1.	Diptee Mehta and Khaled Rasheed, “Machine Learning Approaches for Biomaterial Modeling”, submitted under review to Applied Intelligence: The International Journal of Artificial Intelligence, Neural Networks and Complex Problem-Solving Technologies, 2007.
+
+National Science Foundation (NSF), " III: Small: Collective Association Discovery in a Dynamic Peer to Peer Network" I. budak Arpinar (PI) and Khaled Rasheed (Co-PI), $424,508, May 1, 2009 – April 30, 2012.(Rejected)
+
+2004--2008, $1,889,000, Co-PI:<A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A> (PI: Doyle
+Knight, Co-PIs: Joachim Kohn and William Welsh), "ITR/DDDAS - Dynamic
+Data Driven Modeling of Bioresponse to Polymers". Submitted under
+review to the National Science Foundation (NSF).[rejected]
+
+National Science Foundation, "CAREER: A framework for modeling,
+evaluation and design in biomedical domains", Khaled Rasheed (PI),
+$476,000, 2004-2009 [REJECTED].
+
+<LI>2004--2007, $408,000, Co-PI:<A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A> (PI: Budak
+Arpinar, Co-PI: Amit Sheth), "Dialogue: Collective Knowledge
+Composition in a Dynamically Evolving Network", Submitted under review
+to the National Science Foundation (NSF).[rejected]
+
+
+<LI>National Science Foundation, "ITR: Study, Design, Optimization and
+Synthesis of Electromagnetic Band Gap Structures for Mitigation of
+Electromagnetic Interface and Surface Waves", Co-PI: <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A> (PI: Omar
+Ramahi), $582,000, 2003--2006.
+
+
+International Foundation for Ethical Research, "Computer modeling and
+evaluation of external skeletal fixation structures for dogs", Khaled
+Rasheed (PI),$45,000, 2003-2005 [REJECTED].
+
+
+UGA Faculty of Engineering Grants, "Evaluation and design of external
+skeletal fixation structures using artificial intelligence and
+numerical methods", Khaled Rasheed (PI), Co-PIs: Dennis Aron and Thiab
+Taha, $50,000, 2003-2005 [REJECTED].
+
+National Science Foundation, "CAREER: Efficient
+genetic-algorithm-based design optimization using online learning",
+Khaled Rasheed (PI), $426,000, 2003-2007 [REJECTED].
+
+National Science Foundation, "CAREER: Efficient
+genetic-algorithm-based design optimization using online learning",
+Khaled Rasheed (PI), $399,000, 2002-2006 [REJECTED].
+
+Army Research Office of the Department of Defense (DoD), "Research and
+Development of an Advanced Network Surveillance and Incident Analysis
+System", Khaled Rasheed (Co-PI), James Cannady (PI) and several
+Co-PIs, $4,155,000, 2001-2005 [REJECTED].
+
+National Science Foundation (NSF), "Generating and Using Reduced
+Models to Improve Genetic Algorithm Based Design Optimization", Khaled
+Rasheed (PI) and Haym Hirsh (Co-PI), $378,000, 2000-2003 [REJECTED].
+
+
+
+<H3>REFERENCES:</H3>
+<UL>
+<LI>Prof. Haym Hirsh (Associate Professor)
+<Dd>Department of Computer Science
+<Dd>Rutgers University
+<Dd>Piscataway, New Jersey 08855
+<Dd><Strong>E-mail:</Strong><a href=mailto:hirsh@cs.rutgers.edu>
+hirsh@cs.rutgers.edu</a>, <Strong>phone:</Strong>(732)445-4176
+
+<LI>Prof. Donald Smith (Associate Research Professor)
+<Dd>Department of Computer Science
+<Dd>Rutgers University
+<Dd>Piscataway, New Jersey 08855
+<Dd><Strong>E-mail:</Strong><a href=mailto:dsmith@cs.rutgers.edu>
+dsmith@cs.rutgers.edu</a>, <Strong>phone:</Strong>(732)445-3628
+
+<LI>Prof. Doyle Knight (Professor of Mechanical & Aerospace Engineering )
+<Dd>Department of Mechanical & Aerospace Engineering
+<Dd>Rutgers University
+<Dd>Piscataway, New Jersey 08855
+<Dd><Strong>E-mail:</Strong><a href=mailto:knight@jove.rutgers.edu>
+knight@jove.rutgers.edu</a>, <Strong>phone:</Strong>(732)445-4464
+
+<LI>Prof. Mark J. Jakiela (Hunter Associate Professor of Mechanical Design)
+<Dd>Department of Mechanical Engineering
+<Dd>Washington University in St. Louis
+<Dd>St. Louis, MO 63130-4899
+<Dd><Strong>E-mail:</Strong><a href=mailto:mjj@mecf.wustl.edu>
+mjj@mecf.wustl.edu</a>, <Strong>phone:</Strong>(314)935-4966
+
+<LI>Prof. Sushil Louis (Associate Professor and Graduate Director) 
+<Dd>Department of Computer Science
+<Dd>University of Nevada, Reno 
+<Dd>Reno, NV 89557
+<Dd><Strong>E-mail:</Strong><a
+href=mailto:sushil@cs.unr.edu>sushil@cs.unr.edu</a>,
+<Strong>phone:</Strong>(775)784-4315
+
+</UL>

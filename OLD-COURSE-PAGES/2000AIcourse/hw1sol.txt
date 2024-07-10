@@ -1,0 +1,165 @@
+CSCI/PHIL 4550/6550: Solution sketches for Assignment #1
+
+1. Missionaries and Cannibals
+
+   See page 68 of the Russell & Norvig text book for discussion
+   Assume without loss of generality that they move from west to east
+
+   a. Minimal state description is triple (#M,#C,#B) which says how many
+      missionaries (0-3), cannibals (0-3), and boats (0-1) are on the
+      west (starting) side.  
+
+      5 operators (or 10 if you put the direction into the operator).
+
+      Applicability conditions for the operators prevent the operators
+      from moving to an invalid state, or from inappropriately
+      applying (such as when trying to move 2M from a side that has less
+      than 2M).  Note that invalid states cannot be described solely
+      by #C>#M on either side since cannibals on one side by themselves
+      is a valid state.
+
+      Transformation function for each operator is a function from old
+      state to new state -- could be state pairs, or a computable
+      function.
+      
+      The following is a solution with 10 operators:
+      
+      Operator     Transformation        Applicable to states
+      1)1M east    (M,C,1)->(M-1,C,0)    (3,2,1),(1,1,1)
+      2)2M east    (M,C,1)->(M-2,C,0)    (3,1,1),(2,2,1)
+      3)1C east    (M,C,1)->(M,C-1,0)    (3,3,1),(3,2,1),(3,1,1)
+                                         (0,3,1),(0,2,1),(0,1,1)
+      4)2C east    (M,C,1)->(M,C-2,0)    (3,3,1),(3,2,1),(0,3,1)
+                                         (0,2,1)
+      5)1M1C east  (M,C,1)->(M-1,C-1,0)  (3,3,1),(2,2,1),(1,1,1)
+
+      6)1M west    (M,C,0)->(M+1,C,1)    (2,2,0),(0,1,0)
+      7)2M west    (M,C,0)->(M+2,C,1)    (1,1,0),(0,2,0)
+      8)1C west    (M,C,0)->(M,C+1,1)    (3,2,0),(3,1,0),(3,0,0)
+                                         (0,2,0),(0,1,0),[(0,0,0) goal]
+      9)2C west    (M,C,0)->(M,C+2,1)    (3,1,0),(3,0,0),(0,1,0)
+                                         [(0,0,0) goal]
+     10)1M1C west  (M,C,0)->(M+1,C+1,1)  (2,2,0),(1,1,0),[(0,0,0) goal]
+
+      Goal test is for state (0,0,0) [or (0,0,1)].
+      Thus, some of the above applicability conditions (marked with [])
+      are redundant as search will not proceed beyond goal. 
+
+      There are a number of admissible heuristic evaluation functions.
+      One is h(n)=0. A better one is (M+C-2)*2+1 which is the number of
+      trips to move everyone to the other side with no regard to the
+      constraint about not have Cannibals out number missionaries.
+
+   b. Fastest legal solution requires 11 boat trips.
+
+
+2.    d/2
+   O(b   ) if you assume hash table comparisons of cost 1;
+                d
+   otherwise O(b )
+
+
+3. Not dfs as it may never succeed; bfs would be good if you have the
+   space, otherwise iterative deepening would be ok.
+
+   Depth-limited search isn't good as you don't know what the limit is
+   ahead of time.  Note also that you'd like to interleave search
+   operations from the front and back -- you don't do bfs one direction
+   for depth d/2 and then search from the other direction 
+   since you don't (in general) know what d is.  Finally, note that bfs
+   really isn't needed at all -- what is needed is some method that stores
+   all the states explored so that you can compare against them (which
+   might explore the states in a different order than bfs).
+
+
+4. Sorting
+
+   a) There are a couple of solutions.  One is:
+
+      variables = {P1..Pn} where Pi is Xi's sorted position
+      domain of variable Pi is {1..n}
+      binary constraints: {ForAll PiPj:  i<>j => Pi<>Pj}
+                          {ForAll PiPj:  Pi<Pj => Xi<=Xj}
+
+      Another is:
+
+      variables = {P1..Pn} which are the sorted values from set X
+      domain of variable Pi is X
+      binary constraints: {ForAll PiPj:  i<j => Pi<Pj}
+
+   b) (for second solution above)
+
+      P1      5            3            7         1
+             / \         / | \          |        / \
+      P2    7   9      5   7  9         9       5   3
+            |         / \  |                   / \  |
+      P3    9        7   9 9                  7   9 5
+                     |                        |     |
+      P4             9                        9     7
+                                                    |
+      P5                                            9  
+
+   c) CSP is not a good method for sorting; sorting is a well-understood
+      problem with methods that can achieve O(nlgn) performance which
+      is much better than most CSP methods.  Note that even in CSP
+      formulations in which the trees are small, there are often large
+      numbers of constraints to check.
+
+
+5. e-admissibility
+
+   a) The relation is that f*apparent(found-goal) is at most epsilon higher
+      than f*(true-goal). Proof was given in class.
+
+   b) Two possible answers are:
+
+      -- modify the current h which is epsilon-admissible to be
+           h'(x) = max(0, h(x) - epsilon), which is now admissible
+
+      -- instead of terminating when you find the first goal, continue 
+         expanding nodes [noting any new goals found] until all unexpanded
+         nodes have f-scores higher than the goal with the smallest g-value
+         + epsilon (which is also the optimal goal).  In this way you explore
+         all nodes that are within epsilon of the goal you found and this
+         is sufficient (based on a).
+
+
+6. Monotonicity in f does not imply admissibility.  It is easy to 
+   construct a counter-example -- just add a large constant to an admissible
+   h (for example the true cost to the goal), rendering it inadmissible, 
+   without affecting monotonicity.  You cannot assume that h(goal)=0 since 
+   that is a property of admissibility, which is what you want to prove.
+
+
+7. a. The top part of the tree is as follows:
+
+                           (1 2 3)
+                (1 2 3)                 (-1 5 2)
+          (1 2 3)     (6 1 2)    (-1 5 2)      (5 4 5)
+
+      Note that you need to maximize the current player's utility at
+      each level, and that you propagate entire vectors up the tree
+      intact -- no mixing -- because it describes the utility of the
+      leaf node that will be reached by best play from a given node.
+
+   b. 
+      In the case of 3 players, the value of a state is a vector of
+      3 numbers, representing the utility for each player. It is no
+      longer possible to use a sign to indicate which player's turn
+      it is, so we use a player number, which could be 1, 2 or 3.
+
+      Minimax(State,Player):
+      If (State is the end of a game)
+      Then Return(Value(State))
+      Else 1. For each child Ci of State do 
+	      Ei = Minimax(Ci,(Player+1) MOD (number of players)).
+	   2. Return the vector Ei that has the Max of all Ei[Player]'s
+
+      Top Level Call Playing Player 1:
+	  Minimax(State,1)
+      Top Level Call Playing Player 2:
+	  Minimax(State,2)
+      Top Level Call Playing Player 3:
+	  Minimax(State,3)
+	  
+      Note that the above can be used for any number of players.

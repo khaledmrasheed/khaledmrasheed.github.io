@@ -1,0 +1,274 @@
+<Html>
+
+<Head>
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI 4560/6560 Evolutionary Computation and Its Applications
+</Title>
+
+<Link Rev="made" Href="mailto:khaled@cs.uga.edu">
+
+</Head>
+
+<Body>
+
+<H1>CSCI 4560/6560 Evolutionary Computation and Its Applications</H1>
+Fall 2004: Tuesdays and Thursdays 3:30pm - 4:45pm, Mondays 3:35pm -
+4:25pm, Boyd GSRC 306</BR> </BR>
+
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A></BR>
+Telephone: 542-3444</BR>
+Office Hours: Monday: 4:30-6:00pm & Friday: 3-6pm</BR>
+Office Location: Room 219B, Boyd GSRC</BR>
+Email: khaled@cs.uga.edu</BR>
+</BR>
+
+Teaching Assistant: Liang Shi</BR>
+Office Hours: Wednesday: 2:30pm-4:30pm</BR>
+Office Location: Room 307, Boyd GSRC</BR>
+Email: shi@cs.uga.edu</BR>
+
+<Hr>
+
+<H2>Objectives:</H2> 
+
+To provide a broad introduction to the field of Genetic Algorithms
+(GA) and other fields of Evolutionary Computation and global
+optimization. To teach students how to apply these methods to solve
+problems in complex domains.
+
+The course is appropriate both for students preparing for research in
+Evolutionary Computation, as well as Science and Engineering students
+who want to apply Evolutionary Computation techniques to solve
+problems in their fields of study.
+
+<H2>Recommended Background:</H2> 
+
+CSCI 2720 Data Structures (or permission of the instructor).
+Familiarity with basic computer algorithms and data structures and at
+least one high level programming language.
+
+<H2>Topics to be Covered:</H2> 
+
+Genetic Algorithm core topics including representation, operators and
+architectures. Other fields of evolutionary computation. Evolutionary
+Computation applications in science and Engineering. Other global
+optimization techniques such as simulated annealing.
+
+<H2>Expected Work:</H2> 
+
+Reading; assignments (including programming); midterm; final; and term
+project and paper.  (Unless otherwise
+announced by the instructor: all assignments and all exams must be
+done entirely on your own.)
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All students are responsible for maintaining the highest standards of
+honesty and integrity in every phase of their academic careers. The
+penalties for academic dishonesty are severe and ignorance is not an
+acceptable defense.
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 30% (Programs, questions, paper presentations)
+<li>Midterm Examination: 20%
+<li>Final Examination: 25%
+<li>Term Project: 25% (includes term paper and presentation)
+
+<br>
+
+Students may work on their term projects individually or in groups of
+up to THREE students each. The above distribution is only tentative
+and may change later. The instructor will announce any changes.
+
+<H2>Assignment Submission Policy</H2> 
+
+Assignments must be turned in by the assigned deadline. Late
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the EC Class
+Home-page at <A HREF="http://www.cs.uga.edu/~khaled/ECcourse/">
+http://www.cs.uga.edu/~khaled/ECcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there.
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> "Introduction to Evolutionary Computing", Eiben and
+Smith. Springer-Verlag, New York, 2003. (Required)
+
+<H2>Additional Books</H2> 
+
+<li> "Genetic Algorithms in Search, Optimization, and Machine
+Learning", David Goldberg. Addison-Wesley, 1989.
+
+<li> "An Introduction to Genetic Algorithms", Melanie Mitchell. MIT
+Press, 1996.
+ 
+<li> "Genetic Algorithms + Data Structures = Evolution Programs",
+Zbigniew Michalewicz. Springer-Verlag, New York,1996.
+
+<li> "Evolutionary Computation", D. Dumitrescu et al. CRC Press,
+2000. 
+
+<li> "Evolutionary Computation 1", Thomas Back et al. IOP Publishing,
+2000.  
+
+<H2>Announcements:</H2>
+
+<li> 12-3-2004: Remember that the last homework assignment is due next
+Monday. You should bring the homework to class IN PERSON. We shall not
+have a lecture next Tuesday as Friday classes will be meeting then. We
+shall have a review lecture on Thursday and that will be the last day
+of classes.
+
+<li> 11-22-2004: The fifth homework assignment is posted below and is
+due on 12-6-2004. 
+
+<li> 11-22-2004: We shall start our paper presentations tomorrow so
+please sign up for a paper presentation before its too late. Each
+presentation will be 15 minutes including questions and answers. You
+can present in any format you like. Keep in mind that you are
+presenting from an evolutionary computation point of view. You need
+not spend too much time describing the application domain (just enough
+for us to appreciate that it is a significant problem). Also remember
+to offer your own opinion about the paper at the end of your
+presentation.
+
+<li> 11-9-2004: Due to the evacuation of Boyd GSRC today, the lecture
+was not held. The homework deadline is now Thursday 11-11 instead of
+today. I will not be holding office hours on Friday as I shall be out
+of town but I will hold office hours tomorrow from 1:30 to 3:30 pm
+instead.
+
+<li> 10-13-2004: The projected grades and all scores are posted <A
+HREF="2004_CSCI_6560_4560.txt">HERE</A>. Please make sure that all
+your scores are properly recorded. If your projected grade is C or
+lower, I strongly advise you to come and see me tomorrow or Friday. I
+will be available in my office tomorrow from 2 to 3 p.m. in addition
+to my office hours on Friday.
+
+
+
+<H2>Papers:</H2> 
+
+<li> "Hybrid Genetic Algorithm for the Vehicle Routing Problem with
+Time Windows" G. B. Alvarenga et al.,2002. [Rice,Rabbani][11-23]{<A
+HREF="galvarenga.pdf">download</A>}<p>
+
+<li> "Optimized Monte Carlo Path Generation using Genetic Algorithms"
+Philip Dutre et al., 1998.[Erbar,Palmer][11-23] {<A
+HREF="tr267-genren.pdf">download</A>}<p>
+
+<li> "Discovery of RNA structural elements using evolutionary
+computation" Gary B. Fogel et al., 2002.[Yinglie,Dongcheng][11-23]{<A
+HREF="5310.pdf">download</A>}<p>
+
+<li> "Optimization of Road Networks Using Evolutionary Strategies"
+F. Schweitzer, et al., 1997. [Mary Couey,Matt Turnipseed][11-23]{<A
+HREF="
+http://summa.physik.hu-berlin.de/~frank/p_evcomp.html">download</A>}<p>
+
+<li> "APPLYING GENETIC ALGORITHMS TO THE OPTIMUM DESIGN OF A CONCERT
+HALL" S.S ato , et al. 2002.[Pancake,Evans][11-29]{<A
+HREF="http://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6WM3-475B3KK-C-1&_cdi=6923&_orig=search&_coverDate=11%2F28%2F2002&_qd=1&_sk=997419996&view=c&wchp=dGLbVzz-zSkWb&_acct=C000033918&_version=1&_userid=655127&md5=a435b4ae1a0b9fcc3c69ae4ace3d6c23&ie=f.pdf">download</A>}<p>
+
+<li> "Design of a High-Gain Operational Amplifier and Other Circuits by
+Means of Genetic Programming" J. Koza et al.,
+1997.[Northenor,Grengeri][11-29]{<A
+HREF="http://citeseer.ist.psu.edu/koza97design.html">download</A>}<p>
+
+<li> "Evolving an Expert Checkers Playing Program without Using Human
+Expertise" Kumar Chellapilla David B. Fogel,
+?.[Glade,Pedicini][11-29]{<A
+HREF="http://citeseer.ist.psu.edu/cache/papers/cs/30299/http:zSzzSzwww.natural-selection.comzSzLibraryzSz2001zSzIEEE-TEVC.pdf/evolving-an-expert-checkers.pdf">download</A>}<p>
+
+<li> "An Evolutionary Artificial Neural Networks Approach for Breast
+Cancer Diagnosis" H. Abbass, 2002.[Maier<fmaier@uga.edu>,?][11-30]{<A
+HREF="http://citeseer.nj.nec.com/abbass02evolutionary.html">download</A>}<p>
+
+<li> "Ant colonies for the traveling salesman problem" M. Dorigo,
+L. Gambardella, 1996.[Nesimi,Stargel][11-30]{<A
+HREF="IJ.15-BIOSYS97.ps">download</A>}<p>
+
+<li> "EVOLUTION OF FOOD FORAGING STRATEGIES FOR THE CARIBBEAN ANOLIS
+LIZARD USING GENETIC PROGRAMMING" John R. Koza et
+al. 1992. [Decker,Lewis][11-30]{<A
+HREF="http://www.genetic-programming.com/jkpdf/sfi1992.pdf">download</A>}<p>
+
+
+<li> "Constrained Multi-Objective Optimization Using Steady State
+Genetic Algorithms" D. Chafekar et al., 2003.[Ryan
+Millar,Zhao][11-30]{<A
+HREF="http://citeseer.nj.nec.com/591279.html">download</A>}<p>
+
+<li> "The generation of form using an evolutionary approach"
+Mike Rosenman,1997.[?,?][]{<A
+HREF="http://www.arch.usyd.edu.au/~mike/GenForm1.pdf">download</A>}<p>
+ 
+<H2>Project presentaion schedule:</H2> 
+<li>December 2nd: All who are not listed below!
+<li>December 6th: (Erbar&PAlmer) (Sheron Decker,Lewis,Northernor)
+(Stargel,Millar,Robert) (Che,Song,Zhao) (Gringeri)
+
+<H2>Assignments:</H2> 
+<li><A HREF="homework1.ps">Homework 1</A>
+<li><A HREF="homework2.ps">Homework 2</A>
+<li><A HREF="homework3.ps">Homework 3</A>
+<li><A HREF="homework4.ps">Homework 4</A>
+<li><A HREF="homework5.ps">Homework 5</A>
+
+
+<H2>Lecture Notes:</H2> 
+<li>
+<A HREF="EC.ps">Introduction</A>,<A HREF="EC_4.ps">Compressed</A>
+<li>
+<A HREF="chapter01.ppt">Chapter 1</A>
+<li>
+<A HREF="chapter02.ppt">Chapter 2</A>
+<li>
+<A HREF="chapter03.ppt">Chapter 3</A>
+<li>
+<A HREF="../gado.ps">GADO</A>,<A HREF="../gado.pdf">PDF</A>
+<li>
+<A HREF="chapter04.ppt">Chapter 4</A>
+<li>
+<A HREF="chapter05.ppt">Chapter 5</A>
+<li>
+<A HREF="chapter06.ppt">Chapter 6</A>
+<li>
+<A HREF="chapter14.ppt">Chapter 14</A>
+<li>
+<A HREF="chapter08.ppt">Chapter 8</A>
+<li>
+<A HREF="chapter09.ppt">Chapter 9</A>
+<Hr>
+
+
+Last modified: December 3, 2004.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@cs.uga.edu">khaled@cs.uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>
+

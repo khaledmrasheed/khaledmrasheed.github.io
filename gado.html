@@ -1,0 +1,58 @@
+<head>
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<title> GADO </title>
+</head>
+<H1> GADO: Genetic Algorithm for Design Optimization </H1>
+<HR>
+
+
+In my Ph.D research, I developed GADO, a genetic algorithm (GA)
+designed with the goal of being suitable for use in engineering
+design. It uses new operators and search control strategies that
+target the domains which typically arise in such applications. GADO
+has been applied in a variety of optimization tasks which span many
+fields. It demonstrated a great deal of robustness and efficiency
+relative to competing methods.<P>
+
+In GADO, each individual in the GA population represents a parametric
+description of an artifact, such as an aircraft or a missile. All
+parameters have continuous intervals. The fitness of each individual
+is based on the sum of a proper measure of merit computed by a
+simulator or some analysis code (such as the takeoff mass of an
+aircraft), and a penalty function if relevant (such as to impose
+limits on the permissible size of an aircraft). A steady state GA
+model is used, in which operators are applied to two parents selected
+from the elements of the population via some selection scheme, one
+offspring point is produced, then an existing point in the population
+is replaced by the newly generated point via some replacement
+strategy. Here selection was performed by rank because of the wide
+range of fitness values caused by the use of a penalty function. The
+replacement strategy used here is a crowding technique, which takes
+into consideration both the fitness and the proximity of the points in
+the GA population. The GA stops when either the maximum number of
+evaluations has been exhausted or the population loses diversity and
+practically converges to a single point in the search space. Floating
+point representation is used.  Several crossover and mutation
+operators are used, most of which were designed specifically for the
+target domain type. The most innovative crossover method is guided
+crossover which emulates gradient based methods to improve the local
+convergence of the GA. GADO also uses some search control strategies
+such as a screening module which saves time by avoiding the full
+evaluation of points that are unlikely to correspond to good designs.<P>
+
+More about GADO can be found in <A HREF="publications.html">my publications</A>.
+
+
+<H2> GADO Optimization Demos</H2>
+<H3><A HREF="./final_plane.gif">Supersonic Aircraft Design Demo</A></H3>
+<H3><A HREF="./inlet_demo.mpg">Missile Inlet Design Demo</A></H3>
+<HR>
+
+<ADDRESS>
+<A Href="http://cobweb.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A>
+(<A Href="mailto:khaled@cs.uga.edu">khaled@cs.uga.edu</A>)
+
+</ADDRESS>
+
+
+

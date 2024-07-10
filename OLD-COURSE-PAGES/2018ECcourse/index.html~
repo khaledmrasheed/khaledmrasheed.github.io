@@ -1,0 +1,378 @@
+<Html>
+
+<Head>
+
+<!--
+
+<SCRIPT language="JavaScript">
+var password; var pass1="4560"; password=prompt('Enter Password',' ');
+if (password==pass1) alert('Correct Password! Click OK to Enter!');
+else { window.location="http://www.cs.uga.edu/~khaled/"; } //
+</SCRIPT>
+-->
+
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI 4560/6560 Evolutionary Computation and Its Applications
+</Title>
+
+<Link Rev="made" Href="mailto:khaled@cs.uga.edu">
+
+</Head>
+
+<Body>
+
+<H1>CSCI 4560/6560 Evolutionary Computation and Its Applications</H1>
+
+Fall 2018: Tuesdays and Thursdays 2:00pm - 3:15pm Dawson Hall Room 306 &
+Mondays 2:30pm - 3:20pm, Boyd GSRC Room 208</BR>
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A></BR>
+Telephone: 542-0881</BR>
+Office Hours: Monday 3:30-5:00pm & Thursday 3:30-5:00pm or by email
+appointment</BR>
+Office Location: Room 518, Boyd GSRC</BR>
+Email: khaled@uga.edu</BR>
+</BR>
+Teaching Assistant: Roxana Attar</BR>
+Office hours: Mondays: 10 AM - noon</BR>
+Office Location: Room 537, Boyd GSRC</BR>
+Email: roxana.attar@uga.edu</BR>
+
+<!--
+-->
+<Hr>
+
+<H2>Objectives:</H2> 
+
+To provide a broad introduction to the field of Genetic Algorithms and
+other fields of Evolutionary Computation and global optimization. To
+teach students how to apply these methods to solve problems in complex
+domains.
+
+The course is appropriate both for students preparing for research in
+Evolutionary Computation, as well as Science and Engineering students
+who want to apply Evolutionary Computation techniques to solve
+problems in their fields of study.
+
+<H2>Recommended Background:</H2> 
+
+CSCI 1302 Software Development. Familiarity with basic computer
+algorithms and data structures and at least one high level programming
+language.
+
+<H2>Topics to be Covered:</H2> 
+
+Components of an Evolutionary Algorithm, Genetic Algorithms, Evolution
+Strategies, Evolutionary Programming, Genetic Programming, Learning
+Classifier systems, Parameter Control, Multi-modal Problems,
+Multi-objective Evolutionary Optimization, Hybridization and Memetic
+Algorithms, Working With Evolutionary Algorithms, Theory of
+Evolutionary Computation, Evolutionary Computation applications in
+science and Engineering. Other nature-inspired global optimization
+techniques.
+
+<H2>Expected Work:</H2> 
+
+Reading; assignments (including programming); midterm; final; and term
+project and paper.  (Unless otherwise announced by the instructor: all
+assignments and all exams must be done entirely on your own.)
+
+<H2>Course Objectives and Expected Outcomes:</H2>
+
+This course presents a survey of topics in evolutionary computation.
+At the end of the semester, all students are expected to be able to do
+the following:
+<br>
+
+<li>Formulate a problem as an evolutionary computation
+search/optimization by specifying representations, selection and
+variation operators.
+<li>Write a program or use a package to implement an evolutionary algorithm.
+<li>Conduct evolutionary optimization experiments and properly report
+and discuss the results.
+<li>Effectively present an evolutionary computation article to an audience.
+<li>Review and critique evolutionary computation articles.
+<li>Reason about the schema theorem and the theory of evolutionary computation.
+
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All academic work must meet the standards contained in <A
+HREF="https://honesty.uga.edu/Academic-Honesty-Policy/">
+"A Culture of Honesty."</A> Students are responsible for informing
+themselves about those standards before performing any academic
+work. The penalties for academic dishonesty are severe and ignorance
+is not an acceptable defense.
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 30% (Programs, questions, paper presentations)
+<li>Midterm Examination: 20%
+<li>Undergraduates: Final Examination: 50%
+<li>Graduates: Final Examination 25% And Term Project: 25% (includes
+term paper and presentation)
+
+<br>
+
+Term projects are required for graduate students and optional for
+undergraduates. If any undergraduates choose to do term projects,
+their grade distribution will be the same as that of graduate
+students. Students may work on their term projects individually or in
+groups of up to Four students each. The above distribution is only
+tentative and may change later. The instructor will announce any
+changes.
+
+<H2>Assignment Submission Policy</H2> 
+
+Assignments must be turned in by the assigned deadline. Late
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the EC Class
+Home-page at <A HREF="http://cobweb.cs.uga.edu/~khaled/ECcourse/">
+http://cobweb.cs.uga.edu/~khaled/ECcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there. 
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> "Introduction to Evolutionary Computing", Eiben and
+Smith. Springer-Verlag, Corrected 2nd printing, 2007, ISBN:
+978-3-540-40184-1. (Required)
+
+<H2>Additional Books</H2> 
+
+<li> "Genetic Algorithms in Search, Optimization, and Machine
+Learning", David Goldberg. Addison-Wesley, 1989.
+
+<li> "An Introduction to Genetic Algorithms", Melanie Mitchell. MIT
+Press, 1996.
+ 
+<li> "Genetic Algorithms + Data Structures = Evolution Programs",
+Zbigniew Michalewicz. Springer-Verlag, New York,1996.
+
+<li> "Evolutionary Computation", D. Dumitrescu et al. CRC Press,
+2000. 
+
+<li> "Evolutionary Computation 1", Thomas Back et al. IOP Publishing,
+2000.  
+
+<li> "Evolutionary Computation, A "Unified Approach", K. DeJong. MIT
+Press, 2006.
+
+<H2>Web Resources</H2> 
+
+<li><A HREF="http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/genetic/ga/systems/0.html">
+GA software packages from the CMU Artificial Intelligence
+repository</a>
+
+<li> <A HREF="http://web.archive.org/web/20050319094717/aic.nrl.navy.mil/galist/src/">Web
+archived version of the GA source codes at GALIST archives</a>
+
+<H2>Announcements:</H2>
+
+ <li> [12-1-2018] As announced in class, the final exam will be on
+Tuesday 12-11-2018 3:30-6:30pm. It will be in Dawson Hall room 306. It
+will cover all the topics discussed in the course but more focus will
+be given to the topics that were not covered by the midterm starting
+from Chapter 6 and including all handouts. It will be open notes but
+the use of laptops or phones will not be allowed except that you can
+use your phone as a calculator if needed. You should also bring your
+own lecture notes and all handouts. One of the questions will be about
+a paper presented in class. Copies of that paper will be provided for
+you in the exam so you need not print any of them. We shall have our
+review lecture on Monday. Please bring your answers to Homework 5 with
+you, as we shall go through the solutions as well as some previous
+final exam questions.
+
+<li> [12-1-2018] The course project report should look like a
+conference paper of about 8 two-column pages or 12 single-column pages
+(there is no restriction on size though). You should include a title,
+an abstract, an introduction, a mention of related work if any, a
+description of your experiments and results and a conclusion which may
+include limitations and/or future work. For application oriented
+projects, don't forget to describe the domain that you applied your EC
+technique(s) to, in enough detail for the reader to appreciate the
+significance and difficulty of the problem. <strong>Please bring the
+printed reports with you to the final exam on 12-11-2018.</strong>
+This is a HARD deadline. Also please include your emails in the report
+just in case I need some clarifications, code or data.
+
+<li> [10-2-2018] The midterm exam will be next Tuesday 10-9-2018. It
+will cover all the topics discussed in the course till the end of
+Chapter 5. It will be open notes but the use of books, laptops or
+phones will not be allowed. You should bring a calculator to the
+exam. You should also bring your lecture notes and all handouts and
+you may also bring any additional notes, homeworks etc. We shall have
+a review lecture this Thursday.
+
+<H2>Papers:</H2> 
+
+<li> "An empirical study on GAs without parameters" Thomas Back et
+  al.,2000. [Stout,Dunagan][10-29]{<A HREF="http://ringil.cis.ksu.edu/Courses/CIS732/Handouts/p4.pdf">download</A>}
+
+<li> "Differential Evolution Algorithm With Strategy Adaptation for
+Global Numerical Optimization" A. K. Qin et al., 2009. [Marcus Hill,
+Caleb Crumley][11-5]
+{<A HREF="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.473.8325&rep=
+rep1&type=pdf">download</A>}
+  
+<li> "Evolving an Expert Checkers Playing Program without Using Human
+Expertise" Kumar Chellapilla and David Fogel, 2001. [Watson
+Martin,Tyler Weaver][11-5]
+{<A HREF="http://www.cse.unr.edu/~sushil/class/gas/papers/cea/FogelIEEE-TEVC.pdf
+">download</A>}
+
+<li> "Pareto front feature selection based on artificial bee colony optimization",2018. [Moldenhawer,Austin][11-8]{<A HREF="https://www-sciencedirect-com.proxy-remote.galib.uga.edu/science/article/pii/S0020025516312609">download</A>}
+
+<li> "Improving GA Search Reliability Using Maximal Hyper-Rectangle
+Analysis" Chongshan Zhang and Khaled Rasheed, 2005. [James West,
+Clapper][11-8]
+  {<A HREF="http://www.cs.bham.ac.uk/~wbl/biblio/gecco2005/docs/p1185.pdf">download</A>}
+
+<li> "Research on genetic algorithm based on emotion recognition using physiological signals", 20. [Jean Bae, Darren Ing][11-8]
+  {<A HREF="https://ieeexplore.ieee.org/document/6092256">download</A>}
+
+<li> "GA-Net: A Genetic Algorithm for Community Detection in Social Networks" Cl
+ara Pizzuti, 2008. [Brandy Barber, Karolina Sabonaityte][11-8]{<A HREF=" http://link.springer.com/ch
+apter/10.1007/978-3-540-87700-4_107">download</A>}
+
+<li> "Emotional image and musical information retrieval with interactive genetic algorithm",
+2004. [Wesley Wittikiend, Madeleine Lucas][11-12]
+  {<A HREF="https://ieeexplore.ieee.org/abstract/document/1278692">download</A>}
+
+
+<li> "A User-Oriented Image Retrieval System Based on Interactive
+Genetic Algorithm", 2010. [Chris Whitmire, Brij Rokad ][11-13]
+{<A HREF="https://ieeexplore.ieee.org/document/5753936">download</A>}
+
+<li> "Evolutionary swarm design of architectural idea models" S. von
+Mammen and C. Jacob, 2008.[Joshua Shannon, Ben Flanders][11-13]{<A
+HREF="http://portal.acm.org/citation.cfm?id=1389115">download</A>} 
+
+
+<li> "Genetic Algorithms for Evolving Computer Chess Programs",
+2010. [Nicholas Angelastro, Martin Garin][11-15]
+{<A HREF="http://www.genetic-programming.org/hc2014/David-Paper.pdf">download</A>}
+  
+<li> "Promoting Creative Design in Interactive Evolutionary
+Computation" 2011. [Gavin Ng,Chase Olson][11-15]
+{<A HREF="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.228.434&rep=r
+ep1&type=pdf">download</A>}
+
+<li> "Enhanced Genetic Path Planning for Autonomous Flight",
+2017. [Zachary Jones,Singley][11-15]
+  {<A HREF="https://dl.acm.org/citation.cfm?id=3071293">download</A>}
+
+<li> "Power optimization of wind turbines with data mining and
+evolutionary computation" A. Kusiak et al., 2010. [Mishuk Dutta, Brianna King][11-15]
+  {<A HREF="http://www.sciencedirect.com/science/article/pii/S0960148109003772">download</A>}
+
+<li> "MetaPIGA v2.0: maximum likelihood large phylogeny estimation
+using the metapopulation genetic algorithm and other stochastic
+heuristics", 2010. [Samuel Arsenault,Cody Tate][11-26]
+  {<A HREF="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-379">download</A>}
+
+<li> "Ant colony optimization techniques for the vehicle routing
+problem" John E. Bella and Patrick R. McMullen, 2004. [Noah Abouhamdan, Joseph Kwon][11-26]
+  {<A HREF="http://www.sciencedirect.com/science/article/pii/S1474034604000060">download</A>}
+
+<li> "Selecting Best Investment Opportunities from Stock Portfolios Optimized by a Multiobjective Evolutionary Algorithm" 2015. [Ankush, ?][11-26]
+  {<A HREF="https://dl.acm.org/citation.cfm?id=2754645">download</A>}
+
+<li> "A GENETIC ALGORITHM FOR COMPOSING MUSIC", 2010. [Aubrey
+Olandt,Trevin Metcalf][11-27]
+{<A HREF="http://scindeks-clanci.ceon.rs/data/pdf/0354-0243/2010/0354-02431001157M.pdf">download</A>}
+
+ <li> "An Implementation of Intrusion Detection System Using Genetic
+Algorithm" Mohammad Sazzadul Hoque et al., 2012. [Joshua Anickat, Safa Asadi][11-27] {<A HREF="http://arxiv.org/abs/1204.1336">download</A>}
+
+
+<li> "Enhancing the Quality of Noisy Training Data Using a Genetic Algorithm and Prototype Selection", 2008. [Mohammad, Richard Howard][11-27]
+  {<A HREF="https://www.researchgate.net/publication/220835468_Enhancing_the_Quality_of_Noisy_Training_Data_Using_a_Genetic_Algorithm_and_Prototype_Selection">download</A>}
+
+<li> "An Adaptive Memetic Algorithm With
+Rank-Based Mutation for Artificial Neural
+Network Architecture Optimization", 2017. [Aurimas Stripeikis, Grant Slone][11-29]
+  {<A HREF="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8038796&tag=1">download</A>}
+
+
+ 
+<p>
+
+<H2>Assignments:</H2> 
+
+
+<li><A HREF="homework1.pdf">Homework 1</A>
+<li><A HREF="homework2.pdf">Homework 2</A>
+<li><A HREF="homework3.pdf">Homework 3</A>
+<li><A HREF="homework4.pdf">Homework 4</A>
+<li><A HREF="homework5.pdf">Homework 5</A>
+<li><A HREF="homework6.pdf">Homework 6</A>
+<!--
+--->
+
+<H2>Lecture Notes:</H2> 
+<li>
+<A HREF="Evolutionary_Computation.pptx">Introduction</A>
+<li>
+<A HREF="chapter01.ppt">Chapter 1</A>
+<li>
+<A HREF="chapter02.ppt">Chapter 2</A>
+<li>
+<A HREF="chapter03.ppt">Chapter 3</A>
+<li>
+<A HREF="chapter04.ppt">Chapter 4</A>
+<li>
+<A HREF="chapter05.ppt">Chapter 5</A>
+<li>
+<A HREF="chapter06.ppt">Chapter 6</A>
+<li>
+<A HREF="chapter08.ppt">Chapter 8</A>
+<li>
+<A HREF="chapter09.ppt">Chapter 9</A>
+<li>
+<A HREF="chapter11.ppt">Chapter 11</A>
+<li>
+<A HREF="chapter14.ppt">Chapter 14</A>
+<!--
+<li>
+<A HREF="chapter10.ppt">Chapter 10</A>
+<li>
+<A HREF="../gado-short.pdf">GADO</A>
+
+
+--->
+
+<Hr>
+
+
+<strong>The course syllabus is a general plan for the course; deviations
+announced to the class by the instructor may be necessary.</strong><BR>
+
+<Hr>
+Last modified: December 1, 2018.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@uga.edu">khaled (at) uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>
+

@@ -1,0 +1,193 @@
+<Html>
+
+<Head>
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI/PHIL 4550/6550 Artificial Intelligence
+</Title>
+
+
+
+</Head>
+
+<Body>
+
+<H1>CSCI/PHIL 4550/6550 Artificial Intelligence</H1>
+Fall 2009: Tuesdays and Thursdays 2:00pm - 3:15pm, Geog-Geol 200B</BR>
+</BR>
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A></BR>
+Telephone: 542-3444</BR>
+Office Hours: Wednesday: 4:35-6:00pm & Thursday: 12:30-1:30pm or by email
+appointment</BR>
+Office Location: Room 219B, Boyd GSRC</BR>
+Email: khaled@cs.uga.edu</BR>
+</BR>
+
+Teaching Assistant: Chris Neasbit</BR>
+Office Hours: Monday: 2:15-3:15pm & Friday: 1-2pm</BR>
+Office Location: Room 301A, Boyd GSRC</BR>
+Email: cjneasbi@uga.edu@uga.edu</BR>
+
+
+<Hr>
+
+
+<H2>Objectives:</H2> 
+
+To provide a broad introduction to the field of Artificial
+Intelligence (AI). The course is appropriate both for nonspecialists
+who wish to acquire a general understanding of the field, and for
+students preparing for more advanced courses or research in Artificial
+Intelligence.
+
+<H2>Recommended Background:</H2> 
+
+Familiarity with first-order logic, basic graph representations and
+algorithms, complexity and programming.
+
+<H2>Topics to be Covered:</H2> 
+
+Goals of the Artificial Intelligence field; Core topics of AI,
+including search, knowledge representation, reasoning, planning and
+learning; Applications of AI selected from among the following:
+machine vision, natural language processing, and robotics; other
+advanced topics.
+
+<H2>Expected Work:</H2> 
+
+Reading; problem sets; quizzes, two midterms and a final examination.
+(Unless otherwise announced by the instructor: all problem set
+solutions and all exams must be done entirely on your own.)
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All academic work must meet the standards contained in <A
+HREF="http://www.uga.edu/honesty/ahpd/culture_honesty.htm">
+"A Culture of Honesty."</A> Students are responsible for informing
+themselves about those standards before performing any academic
+work. The penalties for academic dishonesty are severe and ignorance
+is not an acceptable defense.
+
+<H2>Grading Policy:</H2> 
+
+<li>Problem Sets:             30 %</a>
+<li>Midterm Examinations:     20+20 %</a>
+<li>Final Examination:        30 %</a><br>
+
+The above distribution is only tentative and may change later. The
+instructor will announce any changes.
+
+<H2>Homework Submission Policy</H2> 
+
+Homework must be turned in by the assigned deadline. Late homework
+will not be accepted. Rare exceptions may be made by the instructor
+only under extenuating circumstances and in accordance with the
+university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the AI Class
+Home-page at <A HREF="http://www.cs.uga.edu/~khaled/AIcourse/">
+http://www.cs.uga.edu/~khaled/AIcourse/</a>, including
+assignments. Announcements may be posted between class meetings.  You
+are responsible for being aware of whatever information is posted
+there.
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> Artificial Intelligence: A Modern Approach, Russell and 
+Norvig, Prentice-Hall, second edition, 2003. (Required.) </a>
+
+<H2>Additional Books</H2> 
+
+<li> Essentials of Artificial Intelligence, Ginsberg, Morgan Kaufmann, 1993.
+
+<li> Artificial Intelligence, Winston, Addison-Wesley, 3rd ed., 1992.</a>
+
+<li> Artificial Intelligence, 2nd Edition, Rich and Knight,
+McGraw-Hill, 1990.
+
+
+<H2>Announcements:</H2>
+
+<li>[11-2-2009] For Problem set 4, problem 3, part b: You need not
+prove that Ellen is not married. This part is now for extra credit. To
+do it, you will probably need to use the equality axioms on Page 304
+of the text book.
+
+<li>[11-2-2009] The second midterm will be on Thursday 11-12-2009. It
+will be open book and open notes. The use of laptops will not be
+permitted so please print the lecture notes and bring them with you if
+you need them. The lecture on Tuesday 11-10-2009 will be a review
+lecture.
+
+<li>[9-16-2009] The first midterm will be on Tuesday 9-29-2009. It
+will be open book and open notes. The use of laptops will not be
+permitted so please print the lecture notes and bring them with you if
+you need them. The lecture on Thursday 9-24-2009 will be a review
+lecture.
+
+<li>[9-11-2009] Your Colleague Christopher Jackson found a very nice
+site which illustrates lots of concepts in AI.  For example there is a
+tool for visually solving Constraint Satisfaction Problems using Arc
+Consistency. The tools can be found in http://www.aispace.org.
+
+<H2>Homeworks:</H2> 
+<li><A HREF="homework1.pdf">Homework 1</A>
+<li><A HREF="homework2.pdf">Homework 2</A>
+<li><A HREF="homework3.pdf">Homework 3</A>
+<li><A HREF="homework4.pdf">Homework 4</A>
+<li><A HREF="homework5.pdf">Homework 5</A>
+
+
+<H2>Lecture Notes:</H2> 
+<li>
+<A HREF="chapter01.pdf">Chapter 1</A>
+<li>
+<A HREF="chapter02.pdf">Chapter 2</A>
+<li>
+<A HREF="chapter03.pdf">Chapter 3</A>
+<li>
+<A HREF="chapter04.pdf">Chapter 4</A>
+<li>
+<A HREF="chapter05.pdf">Chapter 5</A>
+<li>
+<A HREF="chapter06.pdf">Chapter 6</A>
+<li>
+<A HREF="chapter07.pdf">Chapter 7</A>
+<li>
+<A HREF="chapter08.pdf">Chapter 8</A>
+<li>
+<A HREF="chapter09.pdf">Chapter 9</A>
+<li>
+<A HREF="chapter11.pdf">Chapter 11</A>
+<li>
+<A HREF="MLshort.pdf">Machine Learning</A>
+
+
+<Hr>
+
+<strong>The course syllabus is a general plan for the course; deviations
+announced to the class by the instructor may be necessary.</strong><BR>
+
+<Hr>
+Last modified: November 18, 2009.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@cs.uga.edu">khaled (at) cs.uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>

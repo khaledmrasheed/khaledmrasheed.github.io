@@ -1,0 +1,211 @@
+CSCI 4560/6560: Solution sketches for Assignment #1
+
+Note: Your solutions need not be as detailed as the ones below to
+receive full credit
+
+Problem 1:
+----------
+S1=11101111 
+S2=00010100
+S3=01000011 
+
+H1=1******* 
+H2=0******* 
+H3=******11 
+H4=***0*00* 
+H5=1*****1* 
+H6=1110**1*
+
+(a)
+H1 is matched by S1
+H2 is matched by S2 and S3
+H3 is matched by S1 and S3
+H4 is not matched by any string
+H5 is matched by S1
+H6 is matched by S1
+
+In other words:
+S1 matches schemata H1, H3, H5, H6
+S2 matches schema H2
+S3 matches schemata H2, H3
+
+(b)
+Schema	Order	Defining length	
+
+H1	1	0
+H2	1	0
+H3	2	1
+H4	3	3
+H5	2	6
+H6	5	6
+
+
+
+Problem 2:
+----------
+
+In this problem the genotype space contains 16 individuals, whose
+fitness values span the range 0 to 15.
+
+(a) Schema 1*** is matched by the individuals with fitness values 8+0,
+8+1 ... 8+7. Thus, the average fitness = 8+(0+1+2...7)/8 
+= 8 + 4*(0+7)/8  (arithmetic series)
+= 11.5
+
+(b) Schema 0*** is matched by the individuals with fitness values 0+0,
+0+1 ... 0+7. Thus, the average fitness = 0+(0+1+2...7)/8 
+= 0 + 4*(0+7)/8  (arithmetic series)
+= 3.5
+
+Another solution: The average fitness of schema 0*** = average fitness
+of schema 1*** - 8 = 3.5 since the only difference is the first bit
+which adds 8 to each fitness value.
+
+(c) Schema ***1 is matched by the individuals with fitness values 1+2*0,
+1+2*1 ... 1+2*7. Thus, the average fitness = 1+2*(0+1+2...7)/8 
+= 1 + 2* [4*(0+7)/8]  (arithmetic series)
+= 8
+
+(d) Schema ***0 differs from ***1 in the last bit position only, which
+decreases each fitness value by 1. Thus the average fitness of schema
+***0 = 7
+
+
+Problem 3
+---------
+Given :
+
+Six individuals with fitness values 5, 10, 15, 25, 50, 100.
+i.e. f(xi) = { 5, 10, 15, 25, 50, 100 } ;
+N = 6 ;
+
+Total fitness F  = Sigma(f(xi))	for i = 1 to N
+                       = 5 + 10 + 15 + 25 + 50 + 100
+		            = 205
+
+Hence selection probabilities of individuals
+
+a) 5/205 , 10/205 , 15/205 , 25/205 , 50/205 , 100/205
+    0.0244, 0.0488, 0.0730, 0.122, 0.244, 0.488
+
+b) Scaling using Sigma truncation with c  = 2
+     Mean = M = 205/6 = 34.17
+     Standard Deviation  (sd)
+     sd^2 = sigma((f(xi) - M)^2)/N
+     = ((5-34.17)^2+(10-34.17) ^2+ (15-34.17) ^2+ (25-34.17) ^2
+        + (50-34.17) ^2+ (100-34.17) ^2)/6
+     = (850.89+584.19+367.49+84.09+250.59+4333.59)/6
+     = 6470.84/6
+     = 1078.47
+hence sd = 32.84
+
+now sigma function is
+
+S(f(x)) = T(f(x) - (M - c*sd))
+
+Hence scaled fitness for each x will be
+
+T(f(x1)) = 5 - (34.17 - 2*32.84) =  36.51
+T(f(x1)) = 10 - (34.17 - 2*32.84) =  41.51
+T(f(x1)) = 15 - (34.17 - 2*32.84) =  46.51
+T(f(x1)) = 25 - (34.17 - 2*32.84) =  56.51
+T(f(x1)) = 50 - (34.17 - 2*32.84) =  81.51
+T(f(x1)) = 100 - (34.17 - 2*32.84) =  131.51
+
+New Average fitness is 65.67
+Total fitness is now F = 394.06
+
+Hence new probabilities are
+0.0927, 0.105, 0.118, 0.1433, 0.207, 0.334
+
+c)  If the fitness of fittest changes to 10000 from 100 then
+
+Mean = M = 10105/6 = 1684.17
+     Standard Deviation
+     sd^2 = sigma((f(xi) - M)^2)/N
+     = ((5-1684.17)^2+(10-1684.17) ^2+ (15-1684.17) ^2+ (25-1684.17) ^2
+        + (50-1684.17) ^2 + (10000-1684.17) ^2)/6
+     = 
+(2819611.89+2802845.19+2786128.49+2752845.09+2670511.59+69153028.59)/6
+     = 82984970.84/6
+     = 13830828.47
+hence sd = 3718.98
+
+now sigma function is
+
+S(f(x)) = T(f(x) - (M - c*sd))
+And T(x) = x	 if x > 0
+               = 0  otherwise
+
+Hence scaled fitness for each x will be
+
+T(f(x1)) = 5 - (1684.17 - 2*3718.98) =  5758.79 i.e. 0
+T(f(x1)) = 10 - (1684.17 - 2*3718.98) =  5763.79 i.e. 0
+T(f(x1)) = 15 - (1684.17 - 2*3718.98) =  5768.79 i.e. 0
+T(f(x1)) = 25 - (1684.17 - 2*3718.98) =  5778.79 i.e. 0
+T(f(x1)) = 50 - (1684.17 - 2*3718.98) =  5803.79 i.e. 0
+T(f(x1)) = 10000 - (1684.17 - 2*3718.98) =  15753.79
+
+Total fitness is now F = 44627.74
+
+Hence new probabilities are
+
+0.129, 0.129, 0.129, 0.129, 0.13, 0.353
+
+Problem 4
+---------
+
+Under linear ranking selection,let min be expected no. of offsprings
+of worst individual and max be expected no of offsprings of best
+individual
+
+Then we can write for each individual of the population the selection
+probability Pi as
+
+Pi = 1/n { min + (max - min)(ri - 1)/(n-1) }	..........eqn 1
+
+where, ri = rank of individual xi
+
+now we have the expected no. of offspring of individual xi is ni = nPi
+
+if population size is constant, we have
+
+sigma(nj) = sigma(nPj) = n
+
+>From this and eqn 1 we have
+
+n*min + 1/(n-1) ( max - min ) ( ( rj - 1 ) = n	..........eqn 2
+i.e. min + 1/2 * (max - min) = 1
+i.e. min = 2 - max or max = 2 - min		..........eqn 3
+
+Now if we consider that worst individual has zero probability of selection 
+that means there
+will be no offspring of worst individual
+
+that means min = 0.
+Hence max will be 2 from eqn 3
+
+and probability of selection Pi changes to
+
+Pi = 1/n { 2(ri - 1)/(n-1) }
+
+So this is probability of selection in the Linear rank based selection
+
+Now if we consider Binary tournament
+
+Now we can select 2 individuals from n in n(n-1) ways i.e. first in n ways 
+and second obviously in (n-1) ways.
+
+But when we select for binary tournament the no of times an individual with 
+rank ri will get selected is
+( ri - 1 ) and so the no of times the other individual will get selected is 
+also ( ri -1)
+
+And as the probability of selecting either one are mutually exclusive hence 
+they get added.
+So total probability of selecting and individual xi is Pi
+
+Pi = ((ri-1)+(ri-1))/n(n-1) = 1/n { 2( ri -1 ) / ( n - 1 ) }
+i.e. same as the case stated above in linear ranking selection
+So as probabilities are same selection pressure is also same.
+

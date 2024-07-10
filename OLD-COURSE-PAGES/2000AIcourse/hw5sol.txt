@@ -1,0 +1,287 @@
+PROBLEM 1 SOLUTION: 
+
+Algorithm: 
+
+Processing Positive Examples: 
+Step1: Generalize each member of the S set to include the positive instance.
+Step2: Delete any members of the G set that do not include the
+positive instance.
+Step3: Delete any members of S set not subsumed by some member of the G set.
+Step4: Delete any members of S set that subsume other members of S set.)
+
+Processing Negative Examples:
+Step1: Specialize each member of the G set to exclude the negative instance.
+Step2: Delete any members of the S set that include the negative instance.
+Step3: Delete any members of G set that do not subsume some member of
+the S set.  
+Step4: Delete any members of G set that are subsumed by other members
+of G set.)
+
+Initialization of Version Space:
+
+                              G
+                            (***) 
+
+               (0**)(1**)(*0*) (*1*)(**0)(**1)
+
+(00*)(01*)(10*)(11*)(0*0)(0*1) (1*0)(1*1)(*00)(*01)(*10)(*11)
+
+          (000)(001)(010)(011) (100)(101)(110)(111)
+
+                             { } 
+                              S
+
+After 1st Example: (011,+)
+Step1: Generalize each member of the S set to include the positive instance.
+
+                              G
+                            (***) 
+
+               (0**)(1**)(*0*) (*1*)(**0)(**1)
+
+(00*)(01*)(10*)(11*)(0*0)(0*1) (1*0)(1*1)(*00)(*01)(*10)(*11)
+
+          (000)(001)(010)(011) (100)(101)(110)(111)
+                           S
+                             { }
+
+Step2: Delete any members of the G set that do not include the
+positive instance.
+       (Nothing to do in this case.)
+
+Step3: Delete any members of S set not subsumed by some member of the G set.
+       (Nothing to do in this case.)
+
+Step4: Delete any members of S set that subsume other members of S set.)
+       (Nothing to do in this case.)
+
+After 2nd Example: (010,-)
+Step1: Specialize each member of the G set to exclude the negative instance.
+
+                            (***) 
+                      G    G               G
+               (0**)(1**)(*0*) (*1*)(**0)(**1)
+
+(00*)(01*)(10*)(11*)(0*0)(0*1) (1*0)(1*1)(*00)(*01)(*10)(*11)
+
+          (000)(001)(010)(011) (100)(101)(110)(111)
+                           S
+                             { }
+
+Step2: Delete any members of the S set that include the negative instance.
+       (Nothing to do in this case.)
+
+Step3: Delete any members of G set that do not subsume all members of
+the S set.
+                            (***) 
+                                           G
+               (0**)(1**)(*0*) (*1*)(**0)(**1)
+
+(00*)(01*)(10*)(11*)(0*0)(0*1) (1*0)(1*1)(*00)(*01)(*10)(*11)
+
+          (000)(001)(010)(011) (100)(101)(110)(111)
+                           S
+                             { }
+
+Step4: Delete any members of G set that are subsumed by other members
+of G set.)
+       (Nothing to do in this case.)
+
+After 3rd Example: (001,+)
+
+Step1: Generalize each member of the S set to include the positive instance.
+
+                            (***) 
+                                           G
+               (0**)(1**)(*0*) (*1*)(**0)(**1)
+
+(00*)(01*)(10*)(11*)(0*0)(0*1) (1*0)(1*1)(*00)(*01)(*10)(*11)
+                           S                             
+          (000)(001)(010)(011) (100)(101)(110)(111)
+
+                             { }
+
+Step2: Delete any members of the G set that do not include the
+positive instance.
+       (Nothing to do in this case.)
+
+Step3: Delete any members of S set not subsumed by some member of the G set.
+       (Nothing to do in this case.)
+
+Step4: Delete any members of S set that subsume other members of S set.)
+       (Nothing to do in this case.)
+
+After 4th Example: (101,-)
+
+Step1: Specialize each member of the G set to exclude the negative instance.
+
+                            (***) 
+
+               (0**)(1**)(*0*) (*1*)(**0)(**1)
+                           G                   G         G
+(00*)(01*)(10*)(11*)(0*0)(0*1) (1*0)(1*1)(*00)(*01)(*10)(*11)
+                           S                          
+          (000)(001)(010)(011) (100)(101)(110)(111)
+
+                             { }
+
+Step2: Delete any members of the S set that include the negative instance.
+       (Nothing to do in this case.)
+
+Step3: Delete any members of G set that do not subsume all members of
+the S set.
+
+                            (***) 
+
+               (0**)(1**)(*0*) (*1*)(**0)(**1)
+                           G   
+(00*)(01*)(10*)(11*)(0*0)(0*1) (1*0)(1*1)(*00)(*01)(*10)(*11)
+                           S   
+          (000)(001)(010)(011) (100)(101)(110)(111)
+
+                             { }
+
+Step4: Delete any members of G set that are subsumed by other members of G set.
+       (Nothing to do in this case.)
+
+Classification of test example (111): Negative!
+
+
+PROBLEM 2 SOLUTION: 
+
+First find the "merit" of each feature: 
+
+Merit(F) = -Fraction(F=0)
+	   *I(Fraction(F=0 and Positive),Fraction(F=0 and Negative))    
+           -Fraction(F=1)
+	   *I(Fraction(F=1 and Positive),Fraction(F=1 and Negative))
+
+Merit(Size) =   -.75 * I(2/3,1/3) - .25 * I (1,0)     = -0.6887194
+Merit(Color) =  -.5  * I(.5,.5) - .5 * I(.5,.5)     = -1.0
+Merit(Shape) =  -.75 * I(2/3,1/3) - .25 * I (1,0)     = -0.6887194
+
+Size and shape are equally good for splitting, and each is better than
+color. ID3 would arbitrarly choose one, lets say "Shape". Now the tree
+looks like: 
+
+                           Shape
+                            /\
+                        0  /  \ 1
+                          /    \
+                         /      \
+                    {(e2,-)}  {(e1,+),(e3,+),(e4,-)}
+
+The left branch is done. Now we need to split the right branch, using
+either size or color. 
+
+Merit(Size)  =  -.66667 * I(1,0) - .33333 * I(1,0) = 0.0
+Merit(Color) =  -.66667 * I(0.5,0.5) - .33333 * I(1,0) = -0.66667
+
+Size is best. Now the tree looks like: 
+
+                           Shape
+                            /\
+                        0  /  \ 1
+                          /    \
+                         /      \
+                    {(e2,-)}   Size
+                                /\ 
+                            0  /  \ 1
+                              /    \
+                             /      \
+                 {(e1,+),(e3,+)}  {(e4,-)}
+
+
+Classification of test example (111): Negative!
+
+PROBLEM 3 SOLUTION: 
+
+We transform the threshold into a weight w4=-Theta by adding a fixed
+additional input that is always 1.
+
+Initial weights:
+              w1 = 0.25
+              w2 = 0.5
+              w3 = 0.75
+              w4 = -1.0
+
+Processing Example 1 (011,+): 
+
+Output = If w1*I1   +    w2*I2   +   w3*I3 + w4*1>0 Then 1 Else 0
+            .25*0   +    .5*1    +   .75*1 - 1.0*1>0   Then 1 Else 0
+       = 1 (Right)
+
+No changes in weights:  
+
+Processing Example 2 (010,-):
+
+Output = If w1*I1   +    w2*I2   +   w3*I3 + w4*1>0 Then 1 Else 0
+            .25*0   +    .5*1    +   .75*0 - 1.0*1>0  Then 1 Else 0
+       = 0 (Right)
+
+No changes in weights: 
+
+Processing Example 3 (001,+) 
+
+Output = If w1*I1   +    w2*I2   +   w3*I3 + w4*1>0 Then 1 Else 0
+            .25*0   +    .5*0    +   .75*1 - 1.0*1>0   Then 1 Else 0
+       = 0 (Wrong)
+
+Delta-w1 = Eta*(d - a)*I1 = 0.1*1*0 = 0
+Delat-w2 = Eta*(d - a)*I2 = 0.1*1*0 = 0
+Delta-w3 = Eta*(d - a)*I3 = 0.1*1*1 = 0.1
+Delta-w4 = Eta*(d - a)*1 = 0.1*1*1 = 0.1
+         
+New Weights: 
+              w1 = 0.25
+              w2 = 0.5
+              w3 = 0.85
+              w4 = -0.9
+
+Processing Example 4 (101,-) 
+
+Output = If w1*I1   +    w2*I2   +   w3*I3 + w4*1>0 Then 1 Else 0
+            .25*1   +    .5*0    +  0.85*1 - 0.9*1>0  Then 1 Else 0
+       = 1 (Wrong)
+
+Delta-w1 = Eta*(t - a)*I1 = 0.1*(-1)*1 = -0.1
+Delta-w2 = Eta*(t - a)*I2 = 0.1*(-1)*0 = 0
+Delta-w3 = Eta*(t - a)*I3 = 0.1*(-1)*1 = -0.1
+Delta-w4 = Eta*(t - a)*1 = 0.1*(-1)*1 = -0.1
+
+Final Values: w1 = 0.15
+              w2 = 0.5
+              w3 = 0.75
+              w4 = -1.0
+Continuing in this manner, the sequence of weight changes will be:
+w1    w2   w3    w4
+.15   .5   .85   -.9
+.05   .5   .75   -1
+.05   .5   .85   -.9
+.05   .5   .95   -.8
+-.05  .5   .85   -.9
+-.05  .5   .95   -.8
+-.15  .5   .85   -.9
+-.15  .5   .95   -.8
+
+Classification of Test Example: (111) Positive!
+
+Output = If w1*I1   +    w2*I2   +   w3*I3 + w4*1>0 Theta Then 1 Else 0
+           -0.15*1  +    0.5*1   +   0.95*1 - 0.8*1>0 Then 1 Else 0
+       = 1
+         
+PROBLEM 4 SOLUTION: 
+
+* A fitness function could be the number of unthreatened queens
+Examples: (1,1,1,1,1,1,1,1) fitness=0
+	  (1,2,3,4,5,6,7,8) fitness=0
+	  (1,3,5,2,4,8,7,6) fitness=4
+
+* Point crossover and random crossover could be used. Mutation can be
+  done by selecting a random position in the vector and changing the
+  number in that position to move the queen of that column to an
+  unthreatened square in the same column if possible. Another mutation
+  method would be uniform mutation.
+
+* A termination criterion could be that the GA finds an individual
+  with fitness=8

@@ -1,0 +1,133 @@
+CSCI/PHIL 4550/6550: Solution sketches for Assignment #2
+
+In the following, some symbols were used to make it easy to write in 
+plain text. These are their meanings:
+(& means and),(+ means or),(~ means not),(A means "for all"),
+(E means "there exists"),(=> means "implies"),(== means "equal")
+
+1. a. ~Ax Student(x) => (Takes(x,H) & Takes(x,B)
+   b. Ex Student(x) & Fails(x,H) & Ay Student(y) & Fails(y,H) => x=y
+   c. Ex Student(x) & Fails(x,H) & Fails(x,B) & 
+      Ay Student(y) & Fails(y,H) & Fails(y,B) => x=y
+   d. Ex Ay Scores(x,H) > Score(y,B)
+   e. Ax Person(x) & (Ay Vegetarian(y) => Dislikes(x,y)) => Smart(x)
+   f. Ax,y Person(x) & Smart(y) & Vegetarian(y) => ~Likes(x,y)
+   g. Ex Woman(x) & Ay Man(y) & ~Vegetarian(y) => Likes(x,y)
+   h. Ex Barber(x) & Ay Man(y) & ~Shaves(y,y) => Shaves(x,y)
+   i. Ax,y Person(x) & Professor(y) & ~Smart(y) => ~Likes(x,y)
+   j. Ax Politician(x) =>
+         (Ey At Person(y) & Fool(x,y,t)) &
+         (Et Ay Person(y) => Fools(x,y,t)) &
+         ~(At Ay Person(y) => Fools(x,y,t))
+
+2. a. {x/A,y/B,z/B}
+   b. No unifier
+   c. {y/John,x/John}
+   d. No unifier (because the occurs-check prevents unification of
+      y with Father(y))
+
+3. a. Ax Club-Member(x) => (x==Joe) + (x==Sally) + 
+                          (x==Bill) + (x==Ellen).
+      Club-Member(Joe).
+      Club-Member(Sally).
+      Club-Member(Bill).
+      Club-Member(Ellen).
+      Married(Joe,Sally).
+      Brother(Bill,Ellen).
+      Ax,y Club-Member(x) & Married(x,y) => Club-Member(y).
+      Owner-last-meeting-house(Joe).
+
+   b. New statements:
+      i:  Owner-last-meeting-house(Sally).
+      ii: ~ Ex Married(Ellen,x).
+
+      To prove i:
+         need:  Ax,y Owner-last-meeting-house(x) & Married(x,y) =>
+                     Owner-last-meeting-house(y).
+
+      Start with 1) ~O(Sally)   [i.e. Owner-last-meeting-house(Sally)=>False
+                                as query to prove]
+                 2) O(Joe)
+                 3) M(Joe,Sally)
+                 4) ~O(x) + ~M(x,y) + O(y)   [new fact added]
+
+      Unify 2 & 4, generating 5) ~M(Joe,y) + O(y)
+      Unify 3 & 5, generating 6) O(Sally)
+      Unify 1 & 6, generating F, done.
+
+      To prove ii:
+         #1 Ax,y Brother(x,y) => ~Married(x,y)
+         #2 Ax,y Married(x,y) => ~Ez Married(z,y) & ~(z==x)
+         #3 Ax,y Married(x,y) => Married(y,x)
+         #4 Ax ~Married(x,x)
+         
+      Start with 1) M(Ellen,G)                 [from query to prove]
+                 2) ~C(x) + ~M(x,y) + C(y)              [given]
+                 3) ~M(a,b) + M(b,a)                    [new fact #3]
+                 4) ~M(c,d) + ~M(e,d) + (e==c)          [new fact #2]
+                 5) ~B(e,f) + ~M(e,f)                   [new fact #1]
+                 6) B(Bill,Ellen)                       [given]
+                 7) M(Joe,Sally)                        [given]
+                 8) ~C(z) + (z==Joe) + (z==Sally) +     [given]
+                            (z==Bill) + (z==Ellen).
+                 9) ~M(g,g)                             [new fact #4]
+                 10) C(Ellen).                          [given]
+                 11) C(Sally).                          [given]
+                 12) C(Bill).                           [given]
+                 13) C(Joe).                            [given]
+
+      Unify 1 & 2, generating 15) ~C(Ellen) + C(G)
+      Unify 11 & 15, generating 16) C(G)
+      Unify 16 & 8, generating 17) (G==Joe) + (G==Sally) +
+                                   (G==Bill) + (G==Ellen).
+      Apply axioms of equality from pp.284 w/ 17) and 1) to get
+           18) M(Ellen,Joe) + M(Ellen,Sally) + M(Ellen,Bill) + M(Ellen,Ellen)
+      Unify 18 & 9, giving 19) M(Ellen,Joe) + M(Ellen,Sally) + M(Ellen,Bill)
+      Unify 7 & 3, giving 20) M(Sally,Joe)
+      Unify 20 & 4, giving 21) ~M(H,Joe) + (H==Sally)
+      Unify 21 & 19 s.t. H==Ellen, giving 22) M(Ellen,Sally) + M(Ellen,Bill)
+      Unify 5 & 6, giving 23) ~M(Bill,Ellen)
+      Unify 23 & 3, giving 24) ~M(Ellen,Bill)
+      Unify 24 & 22, giving 25) M(Ellen,Sally)
+      Unify 25 & 4, giving 26) ~M(H,Sally) + (H==Ellen)
+      Unify 26 & 7, giving F, done.
+
+4. The solution to this problem depends heavily on the interpretation of the
+   first fact: Steve only likes easy courses.
+   
+   If you translate this fact to the following first-order logic sentence:
+	1)	Ax Course(x) & Likes(Steve,x) => Easy(x)
+   There will be no solution, as the other facts will give:
+	2)	Ay Course(y) & Science(y) => hard(y)
+	3)	Az Course(z) & Basket-weaving(z) => Easy(z)
+	4)	Course(BK301) & Basket-weaving(BK301)
+   You want to prove Ec Course(c) & Likes(Steve,c)
+   The negation of this is Ac ~Course(c) + ~Likes(Steve,c)
+   If you convert facts 1 through 4 into normal form you get
+
+	1')	~Course(x) + ~Likes(Steve,x) + Easy(x)
+	2')	~Course(y) + ~Science(y) + hard(y)
+	3')	~Course(z) + ~Basket-weaving(z) + Easy(z)
+	4')	Course(BK301)  
+	5')	Basket-weaving(BK301)
+	6')     ~Course(c) + ~Likes(Steve,c)      [negated goal]
+
+   The original system had no contradictions and the negated goal can
+   only unify with 4') giving ~Likes(Steve,BK301) which can only unify
+   with a literal of the form Likes(r,s) (i.e. non-negated Likes) which
+   does not occur anywhere in the clauses. Thus there is no way to prove
+   Ec Course(c) & Likes(Steve,c) and thus there is no way to answer
+   the question.
+
+   (the above argument is a valid solution to this problem)
+
+   Another solution:
+   You can take the first fact to also mean : "Steve only likes ALL
+   easy courses". Which is a possible but not the most likely meaning.
+   In this case you can add the following fact:
+      
+	1_2')	~Course(x) + ~Easy(x) + Likes(Steve,x)
+
+   In this case you can easily derive a contradiction and then use the
+   technique discussed in class to extract the answer : Steve would like
+   BK301

@@ -1,0 +1,193 @@
+<Html>
+
+<Head>
+
+<SCRIPT language="JavaScript">
+var password; var pass1="2610"; password=prompt('Enter Password',' ');
+if (password==pass1) alert('Correct Password! Click OK to Enter!');
+else { window.location="http://www.cs.uga.edu/~khaled/"; } //
+</SCRIPT>
+
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI 2610 Discrete Mathematics
+</Title>
+
+</Head>
+
+<Body>
+
+<H1>CSCI 2610 Discrete Mathematics for Computer Science </H1>
+Spring 2011: Tuesdays and Thursdays 12:30pm - 1:45pm,
+Wednesdays 12:20pm - 1:10pm, Boyd GSRC 208</BR> </BR>
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A></BR>
+Telephone: 542-3444</BR>
+Office Hours: Tuesday: 1:50-3pm and Wednesday: 4:35-6:00pm or by email
+appointment</BR>
+Office Location: Room 219B, Boyd GSRC</BR>
+Email: khaled@cs.uga.edu</BR>
+</BR>
+
+Teaching Assistant: Anirban Mukhopadhyay</BR>
+Office Hours: Monday: 12:30-1:30pm</BR>
+Office Location: Room 207A, Boyd GSRC</BR>
+Email: anirban1@uga.edu</BR>
+<Hr>
+
+<H2>Prerequisites:</H2> 
+MATH 1113, CSCI 1301-1301L. (Strictly enforced)
+
+<H2>Topics to be Covered:</H2>
+The fundamental mathematical tools used in computer science: sets,
+relations, and functions; propositional logic, predicate logic, and
+inductive proofs; summations, recurrences, and elementary asymptotics;
+counting and discrete probability; graphs and trees; introductory
+linear algebra, with applications in computer science.
+
+<H2>Expected Work:</H2> 
+Reading; homework assignments; four hourly exams; and final. All
+assignments and all exams must be done entirely on your
+own. Attendance in all lectures is expected. You are responsible for
+all material taught in class even if you are absent and it is not in
+the book. Attendance in the hourly exams is mandatory with no
+possibility for makeup exams.
+
+<H2>Academic Honesty and Integrity:</H2> 
+All academic work must meet the standards contained in <A
+HREF="http://www.uga.edu/honesty/ahpd/culture_honesty.htm">
+"A Culture of Honesty."</A> Students are responsible for informing
+themselves about those standards before performing any academic
+work. The penalties for academic dishonesty are severe and ignorance
+is not an acceptable defence.
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 15% (homeworks and attendance)
+<li>Hourly Examinations: 60% 
+<li>Final Examination: 25%
+
+
+<H2>Assignment Submission Policy</H2> 
+Assignments must be turned in by the assigned deadline in class. Late
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
+
+<H2>Course Home-page</H2> 
+
+The Class Home-page is at <A
+HREF="http://www.cs.uga.edu/~khaled/DMcourse/">
+http://www.cs.uga.edu/~khaled/DMcourse/</a>. Materials including
+announcements, handouts, lecture notes and assignments will be posted
+there. Announcements may be posted between class meetings.  You are
+responsible for being aware of whatever information is posted there.
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore (Required)</H2> 
+
+<strong><a
+href="http://highered.mcgraw-hill.com/sites/0072880082/information_center_view0/">Discrete
+Mathematics and its Applications</a></strong>, by Kenneth
+H. Rosen.<br> McGraw-Hill Science/Engineering/Math<strong>, 6th
+Edition<br></strong><b>ISBN-10:</b> 0073312711<br> <b>ISBN-13:</b>
+978-0073312712.<br> The book has an excellent companion <strong><a
+href="http://highered.mcgraw-hill.com/sites/0072880082/student_view0/">online
+student learning center</a></strong>.
+
+<H2>Announcements:</H2> 
+
+<li> [3-31-2011] The third exam will be on Wednesday April 13th. It
+will cover Chapters 3 and 4. Only the sections and topics disscussed
+in class will be included. The exam is closed book closed notes.
+
+<li> [3-10-2011] The due date for Homework 6 has been extended to
+Thursday 3-24. Your projected letter grades will be emailed to you
+some time next week.
+
+<li> [3-5-2011] The second exam will be on Wednesday March 9th. It
+will cover Chapter 2 and Boolean Algebra (Chapter 11 in the regular
+text and 10 in some international editions. Only the first three
+sections of the Boolean Algebra chapter are covered). The exam is
+closed book closed notes. Please bring a calculator to the exam. Also
+the lecture on Tuesday will include a review of the homework and other
+problems in preparation for the exam.
+
+<li> [3-5-2011] The TA's office hour next week only will be held on
+Wednesday from 2:20pm to 3:20pm.
+
+<li> [3-2-2011] Please note that there is a difference between the
+regular text book and one of the international editions (the black and
+white one). There is one missing chapter in that international
+edition. As a result, Boolean Algebra is chapter 10 rather than 11 in
+that international edition. The sections and the problems are the same
+though.
+
+<li> [2-24-2011] Starting next week, attendance may be taken at any
+lecture and it will affect homework grades.
+
+<H2>Assignments:</H2> 
+<li>
+<A HREF="Homework10.txt">Homework Assignment 10</A>
+
+
+<H2>Lecture Notes:</H2> 
+<li>
+<A HREF="Propositional-Logic.ppt">Lecture Notes 1:Propositional Logic</A>
+<li>
+<A HREF="Predicate-Logic.ppt">Lecture Notes 2:Predicate Logic</A>
+<li>
+<A HREF="Proof-Techniques.ppt">Lecture Notes 3:Proof Techniques</A>
+<li>
+<A HREF="Set-Theory.ppt">Lecture Notes 4:Set Theory</A>
+<li>
+<A HREF="Functions.ppt">Lecture Notes 5:Functions</A>
+<li>
+<A HREF="Sequences-Summations.ppt">Lecture Notes 6:Sequences and
+Summations</A>
+<li>
+<A HREF="Boolean-Algebra.ppt">Lecture Notes 7:Boolean Algebra</A>
+<li>
+<A HREF="Algorithms.ppt">Lecture Notes 8:Algorithms</A>
+<li>
+<A HREF="Number-Theory.ppt">Lecture Notes 9:Number Theory</A>
+<li>
+<A HREF="Mathematical-Induction.ppt">Lecture Notes 10:Mathematical
+<li>
+<A HREF="Recursive-Def.ppt">Lecture Notes 11:Recursive Definitions and
+structural Induction</A>
+<li>
+<A HREF="Counting.ppt">Lecture Notes 12:Counting</A>
+<li>
+<A HREF="Probability.ppt">Lecture Notes 13:Probability</A>
+<li>
+<A HREF="Bayes.ppt">Lecture Notes 14:Bayes' Theorem</A>
+<li>
+<A HREF="Relations.ppt">Lecture Notes 15:Relations</A>
+<Hr>
+
+<strong>The course syllabus is a general plan for the course;
+deviations announced to the class by the instructor may be
+necessary.</strong><BR>
+
+<P>
+
+Last modified: April 21, 2011.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@cs.uga.edu">khaled [at] cs.uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>
+

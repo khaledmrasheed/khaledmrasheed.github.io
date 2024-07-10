@@ -1,0 +1,193 @@
+<Html>
+
+<Head>
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI/PHIL 4550/6550 Artificial Intelligence
+</Title>
+
+<Link Rev="made" Href="mailto:krasheed@cs.rutgers.edu">
+
+</Head>
+
+<Body>
+
+<H1>CSCI/PHIL 4550/6550 Artificial Intelligence</H1>
+Fall 2004: Tuesdays and Thursdays 12:30pm - 1:45pm, Geog-Geol 200D</BR>
+</BR>
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A></BR>
+Telephone: 542-3444</BR>
+Office Hours: Monday: 4:30-6:00pm & Friday: 3-6pm</BR>
+Office Location: Room 219B, Boyd GSRC</BR>
+Email: khaled@cs.uga.edu</BR>
+</BR>
+
+Teaching Assistant: Bo Qian</BR>
+Office Hours: Thursday: 2pm-4pm</BR> 
+Location: Room 307, Boyd GSRC</BR> 
+Email: qian@cs.uga.edu</BR>
+
+
+<Hr>
+
+
+<H2>Objectives:</H2> 
+
+To provide a broad introduction to the field of Artificial
+Intelligence (AI). The course is appropriate both for nonspecialists
+who wish to acquire a general understanding of the field, and for
+students preparing for more advanced courses or research in Artificial
+Intelligence.
+
+<H2>Recommended Background:</H2> 
+
+Familiarity with first-order logic, basic graph representations and
+algorithms, complexity and at least one high level programming
+language.
+
+<H2>Topics to be Covered:</H2> 
+
+Goals of the Artificial Intelligence field; Core topics of AI,
+including search, knowledge representation, reasoning, planning and
+learning; Applications of AI selected from among the following:
+machine vision, natural language processing, robotics and cognitive
+modeling; other advanced topics.
+
+<H2>Expected Work:</H2> 
+
+Reading; problem sets; quizzes, two midterms and a final examination.
+(Unless otherwise announced by the instructor: all problem set
+solutions and all exams must be done entirely on your own.)
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All students are responsible for maintaining the highest standards of
+honesty and integrity in every phase of their academic careers. The
+penalties for academic dishonesty are severe and ignorance is not an
+acceptable defense.
+
+<H2>Grading Policy:</H2> 
+
+<li>Problem Sets:             30 %</a>
+<li>Midterm Examinations:     20+20 %</a>
+<li>Final Examination:        30 %</a><br>
+
+The above distribution is only tentative and may change later. The
+instructor will announce any changes.
+
+<H2>Homework Submission Policy</H2> 
+
+Homework must be turned in by the assigned deadline. Late homework
+will not be accepted. Rare exceptions may be made by the instructor
+only under extenuating circumstances and in accordance with the
+university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the AI Class
+Home-page at <A HREF="http://www.cs.uga.edu/~khaled/AIcourse/">
+http://www.cs.uga.edu/~khaled/AIcourse/</a>, including
+assignments. Announcements may be posted between class meetings.  You
+are responsible for being aware of whatever information is posted
+there.
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> Artificial Intelligence: A Modern Approach, Russell and 
+Norvig, Prentice-Hall, second edition, 2003. (Required.) </a>
+
+<H2>Additional Books</H2> 
+
+<li> Essentials of Artificial Intelligence, Ginsberg, Morgan Kaufmann, 1993.
+
+<li> Artificial Intelligence, Winston, Addison-Wesley, 3rd ed., 1992.</a>
+
+<li> Artificial Intelligence, 2nd Edition, Rich and Knight,
+McGraw-Hill, 1990.
+
+
+<H2>Announcements:</H2>
+
+<li> 12-6-2004: The final will be 12-3pm on Thursday December 16th. It
+will be in the same classroom in which the lectures meet. It will cover
+all the topics discussed in the course. It will be open book and notes
+but no laptops will be allowed. You should bring a calculator to the
+exam. You should also bring your own lecture notes.
+
+<li> 12-1-2004: I decided NOT to allow the use of laptops in the
+second midterm (or the final) as this could lead to considerable
+distraction. Instead, you are encouraged to print the lecture notes
+and bring them with you. I will bring several copies of the lecture
+notes for the lectures covered by the second midterm to the classroom
+tomorrow. If you cannot print your own lecture notes you can borrow
+them from me. From what I observed, most of you already have the
+lecture notes for all the lectures. In preparation for the midterm you
+are encouraged to review the material from the lecture notes and the
+book as well as the homework problems and the problems discussed in
+class. I will be available in my office from 2pm to 4pm today in case
+you have any questions.
+
+<li> 11-18-2004: The second midterm will be on December 2nd. It will
+be open book and open notes. It will cover the parts that were not
+covered by the first midterm up till today's lecture (game playing,
+logic and planning).
+
+<li> 10-14-2004: The projected grades and all scores are posted <A
+HREF="2004_CSCI_6550_4550.txt">HERE</A>. Please make sure that all
+your scores are properly recorded. If your projected grade is C or
+lower, I strongly advise you to come and see me tomorrow or Friday. I
+will be available in my office tomorrow from 2 to 3 p.m. in additional
+to my office hours on Friday.
+
+
+<H2>Homeworks:</H2> 
+<li><A HREF="homework1.ps">Homework 1</A>
+<li><A HREF="homework2.ps">Homework 2</A>
+<li><A HREF="homework3.ps">Homework 3</A>
+<li><A HREF="homework4.ps">Homework 4</A>
+
+<H2>Lecture Notes:</H2> 
+<li>
+<A HREF="chapter02.ps">Chapter 2</A>,<A HREF="chapter02_4.ps">Compressed</A>
+<li>
+<A HREF="chapter03.ps">Chapter 3</A>,<A HREF="chapter03_4.ps">Compressed</A>,<A HREF="chapter03.pdf">PDF</A>
+<li>
+<A HREF="chapter04.ps">Chapter 4</A>,<A HREF="chapter04_4.ps">Compressed</A>,<A HREF="chapter04.pdf">PDF</A>
+<li>
+<A HREF="GA.ps">Chapter 4 (GA part)</A>
+<li>
+<A HREF="chapter05.ps">Chapter 5</A>,<A HREF="chapter05_4.ps">Compressed</A>,<A HREF="chapter05.pdf">PDF</A>
+<li>
+<A HREF="chapter06.ps">Chapter 6</A>,<A HREF="chapter06_4.ps">Compressed</A>,<A HREF="chapter06.pdf">PDF</A>
+<li>
+<A HREF="chapter07.ps">Chapter 7</A>,<A HREF="chapter07_4.ps">Compressed</A>,<A HREF="chapter07.pdf">PDF</A>
+<li>
+<A HREF="chapter08.ps">Chapter 8</A>,<A HREF="chapter08_4.ps">Compressed</A>,<A HREF="chapter08.pdf">PDF</A>
+<li>
+<A HREF="chapter09.ps">Chapter 9</A>,<A HREF="chapter09_4.ps">Compressed</A>,<A HREF="chapter09.pdf">PDF</A>
+<li>
+<A HREF="chapter11.ps">Chapter 11</A>,<A HREF="chapter11_4.ps">Compressed</A>,<A HREF="chapter11.pdf">PDF</A>
+<li>
+<A HREF="MLshort.ps">Machine Learning</A>,<A HREF="MLshort_4.ps">Compressed</A>,<A HREF="MLshort.pdf">PDF</A>
+<Hr>
+
+Last modified: December 6, 2004.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@cs.uga.edu">khaled@cs.uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>

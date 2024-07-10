@@ -1,0 +1,503 @@
+<head>
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>                  
+<title> Khaled Rasheed's Publications </title>
+</head><CENTER>
+<H1> Khaled Rasheed's Publications </H1>
+</CENTER>
+<P>
+<H2>Book Chapters</H2>
+
+<UL>
+
+<LI>
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, Xiao Ni
+and Swaroop Vattam.  "Methods for Using Reduced Models to Speed Up
+Genetic Algorithm Optimization: Informed Operators and Genetic
+Engineering". Submitted under review to <EM>KNOWLEDGE INCORPORATION IN
+EVOLUTIONARY COMPUTATION</EM>, Springer-Verlag.<BR>
+<P>
+</UL>
+
+<H2>Journal articles</H2>
+<UL>
+<LI>
+Bo Qian and Khaled Rasheed. “Foreign Exchange Market Prediction with Multiple Classifiers”, to appear in <EM>The Journal of Forecasting</EM>
+<P>
+<LI>
+Hamid R. Arabnia, Junfeng Qu, Yinglei Song, Khaled Rasheed, and Byron Jeff. “Clustering Time Series Online in a Transformed Space”, to appear in <EM>The Ubiquitous Computing and Communication Journal</EM>.
+<P>
+<LI>
+Jaymin Kessler, <A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A> and Budak Arpinar. “Using Genetic Algorithms to Reorganize Superpeer Structure in Peer to Peer Networks”, <EM>Applied Intelligence: The International Journal of Artificial Intelligence, Neural Networks and Complex Problem-Solving Technologies</EM>, <Strong>26(1)</Strong>, pp. 35 – 52, 2007. 
+<P>
+<LI> 
+Bo Qian and <A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>. "Stock Market Prediction with Multiple Classifiers”, <EM>Applied Intelligence: The International Journal of Artificial Intelligence, Neural Networks and Complex Problem-Solving Technologies</EM>, <Strong>26(1) </Strong>, pp. 25 – 33, 2007.
+<P>
+<LI>
+Deepti Chafekar, Liang Shi, <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A> and Jiang
+Xuan.  "Constrained Multi-objective GA Optimization Using Reduced
+Models". <EM>IEEE Transactions on Systems,
+Man and Cybernetics</EM>, <Strong>35</Strong>(2),2005.<BR>
+<P>
+<LI>
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, Xiao Ni
+and Swaroop Vattam.  "Comparison of Methods for Developing Dynamic
+Reduced Models for Design Optimization". <EM>The Soft
+Computing Journal</EM>, (online) 2003, (in print)<Strong>9</Strong>(1),2005 .<BR>
+<P>
+<LI>
+Jack Smith, Doyle Knight, Joachim Kohn, <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A> and Norbert
+Weber.  "Using Surrogate Modeling in the Prediction of Fibrinogen
+Adsorption onto Polymer Surfaces". <EM>Journal of Chemical Information and Computer Sciences</EM>, <Strong>44</Strong>:1088--1097,2004.<BR>
+<P>
+<LI>
+L. Wu, W. D. Potter, <A HREF="http://www.cs.uga.edu/~khaled">K.
+Rasheed</A>, J. Ghent, D. Twardus, H. Thistle and M. Teske.  "Nature
+Inspired Heuristics in Aerial Spray Deposition Managment". <EM>The Journal of Applied Systems Studies </EM>>, <Strong>4</Strong>(2),2003.<BR>
+<P>
+<LI>
+Anil Bahuman, <A HREF="http://www.cs.uga.edu/~khaled">Khaled
+Rasheed</A>, and Benjamin Bishop.  "Evolutionary Design Automation of
+VLSI Standard Cells". <EM>The Journal of Applied Systems
+Studies </EM>, <Strong>4</Strong>(2),2003.<BR>
+<P>
+<LI> 
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, <A
+HREF="http://www.cs.rutgers.edu/~hirsh">Haym Hirsh</A>. Learning to be
+Selective in Genetic-Algorithm-Based Design
+Optimization. <EM>Artificial Intelligence for Engineering Design,
+Analysis and Manufacturing</EM>,<Strong>13</Strong>, 1999.<BR><A
+HREF="http://www.cs.uga.edu/~khaled/sm.ps">full paper
+(Postscript, 2.2 Mb)</A>
+<P> 
+<LI>
+Michael Blaize, Doyle Knight, and <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>.
+Automated Optimal Design of Two dimensional Supersonic Missile Inlets.
+<EM>The Journal of Propulsion and Power</EM>,<Strong>14</Strong>(6),
+1998.<BR> <A
+HREF="http://www.cs.uga.edu/~khaled/jpp_blaize.ps">full paper
+(Postscript, 4.4 Mb)</A>
+
+<P>
+<LI>
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>,
+<A HREF="http://www.cs.rutgers.edu/~hirsh">Haym Hirsh</A>,
+Andrew Gelsey. A Genetic Algorithm for Continuous Design
+Space Search. <EM>Artificial Intelligence in Engineering</EM>,
+<Strong>11</Strong>(3), 1997.<BR> <A
+HREF="http://www.cs.uga.edu/~khaled/aiengJga.ps">full paper
+(Postscript, 0.43 Mb)</A>
+
+<P>
+<LI>
+
+G.-C. Zha, <A HREF="http://www.cs.rutgers.edu/~dsmith">D. Smith</A>,
+<A HREF="http://www.cs.rutgers.edu/~schwabac">M. Schwabacher</A>, <A
+HREF="http://www.cs.uga.edu/~khaled">K. Rasheed</A>, A. Gelsey,
+D.Knight and Martin Haas. High Performance Supersonic Missile Inlet
+Design Using Automated Optimization. <EM>Journal of
+Aircraft</EM>, <Strong>34</Strong>(6), 1997.<BR>
+<A HREF="http://www.cs.uga.edu/~khaled/AIAA96JA.ps">full paper
+(Postscript, 3.2 Mb)</A>
+
+<P>
+<LI>
+
+A. Gelsey, <A HREF="http://www.cs.rutgers.edu/~dsmith">D. Smith</A>,
+<A HREF="http://www.cs.rutgers.edu/~schwabac">M. Schwabacher</A>,<A HREF="http://www.cs.uga.edu/~khaled">K. Rasheed</A>, and K. Miyake. A
+Search Space Toolkit. <EM>Decision Support Systems</EM>,
+18:341-356, 1996.<BR>
+
+<P> 
+
+</UL>
+<H2>Conference articles</H2>
+<UL>
+
+<LI>
+Liang Shi and Khaled Rasheed, “ASAGA: An Adaptive Surrogate-Assisted Genetic Algorithm”, to appear in Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’2008), 2008.
+<P>
+<LI>
+Glenn F. Matthews and Khaled Rasheed, “Temporal Difference Learning for Nondeterministic Board Games”, to appear in Proceedings of the Int’l Conf. on Machine Learning; Models, Technologies and Applications (MLMTA’08), USA, 2008.
+<P>
+<LI>
+David Luper, Muthukumaran Chandrasekaran, Khaled Rasheed, and Hamid Arabnia, “Path Normalcy Analysis Using Nearest Neighbor Outlier Detection”, to appear in Proceedings of the Int’l Conf. on Machine Learning; Models, Technologies and Applications (MLMTA’08), USA, 2008.
+<P>
+<LI>
+Boseon Byeon, Khaled Rasheed, and Prashant Doshi “Enhancing the Quality of Noisy Training Data Using a Genetic Algorithm and Prototype Selection”, to appear in Proceedings of the Int’l Conf. on Machine Learning; Models, Technologies and Applications (MLMTA’08), USA, 2008.
+<P>
+<LI>
+Junfeng Qu, Hamid R. Arabnia, Yinglei Song, Khaled Rasheed, and Jack E. Houston, “Time Series Similarity Matching with a New Distance Measure”, Proceedings of 2007 Int'l. Conf. on Information and Knowledge Engineering (IKE'07), pp. 183 – 189 (Paper Acceptance Rate: 46/152: 30%), 2007.
+<P>
+<LI>
+Chongshan Zhang and Kahled Rasheed, “Improving GA Performance Using Relative Fitness”, in Proceedings of the 2007 Int’l. Conf. on Genetic and Evolutionary Methods (GEM’07), USA, pp. 31 – 37, 2007.
+<P>
+<LI>
+Sergey Fogelson, Khaled Rasheed, Xiangxue Guo, and Jan Mrazek, “Comparing Machine Learning Techniques in Predicting Translation Start Sites in Prokaryotic Genomes”, in Proceedings of the Int’l Conf. on Machine Learning; Models, Technologies and Applications (MLMTA’07), USA, pp. 85 – 89, 2007.
+<P>
+<LI>
+Chongshan Zhang and Khaled Rasheed, “Improving GA Search Reliability Using Maximal Hyper-Rectangle Analysis”, in The Genetic and Evolutionary Computation Conference (GECCO’2005), pp. 1185 – 1192, 2005. (Acceptance rate 46.1%) [nominated for a best paper award]
+<P>
+<LI>
+Dongsheng Chi, Yinglei Song and Khaled Rasheed, “MDGA: Motif Discovery Using a Genetic Algorithm”, in The Genetic and Evolutionary Computation Conference (GECCO’2005), pp. 447 – 452, 2005. (Acceptance rate 46.1%)
+<P>
+
+<LI>
+Bo Qian and <A HREF="http://www.cs.uga.edu/~khaled">Khaled
+Rasheed</A>. "HURST EXPONENT AND FINANCIAL MARKET PREDICTABILITY". <EM>IASTED conference on "Financial Engineering and
+Applications"(FEA 2004)</EM>, pp. 203 – 209, 2004.<BR>
+<P>
+
+<LI>
+Jack Smith, Doyle Knight, Joachim Kohn, Norbert Weber, <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, Sascha
+Abramson.  "Molecular-Scale Properties of Biomaterials Relevant to
+Protein Adsorption and Cell Growth Using Data Mining of Combinatorial
+Libraries of Polymers". <EM>The 7th World Biomaterials
+Congress, 2004</EM>.<BR>
+<P>
+
+<LI>
+Doyle Knight, Jack Smith, Norbert Weber, Joachim Kohn, <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>.  "Prediction
+of Fibrinogen Adsorption on Polymer Surfaces Using an Artificial
+Neural Network". <EM>The 7th World Biomaterials Congress,
+2004</EM>.(poster)<BR>
+<P>
+
+<LI>Ramyaa, Congzhou He,and <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>.  " Using
+Machine Learning Techniques for Stylometry".
+<EM>International Conference on Machine Learning; Models, Technologies
+and Applications (MLMTA'2004)</EM><BR>
+<P>
+
+<LI>Ning Suo, <A HREF="http://www.cs.uga.edu/~khaled">Khaled
+Rasheed</A>, Don Potter and Dennis Aron. "Machine Learning Techniques
+for the Evaluation of External Skeletal Fixation
+Structures". <EM>International Conference on Mathematics and
+Engineering Techniques in Medicine and Biological Sciences (METMBS
+'2004)</EM><BR>
+<P>
+
+<LI>
+Jack Smith, Doyle Knight, Joachim Kohn, <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, Norbert Weber
+and Sascha Abramson.  "Biopolymer Reverse Engineering: Correlating
+Molecular Structure and Cell Response in a Combinatorial Library of
+Biodegradable Polymers Using Non-linear Optimization".
+<EM>Proceedings of the Material Research Society Fall Meeting
+2003</EM>.<BR>
+<P>
+
+<LI>
+Jacob Martin and <A HREF="http://www.cs.uga.edu/~khaled">Khaled
+Rasheed</A>.  "Using Singular Value Decomposition to Improve a Genetic
+Algorithm's Performance". <EM>The Congress on
+Evolutionary Computation (CEC'2003)</EM><BR><A
+HREF="papers/1318.pdf">full paper (PDF, 0.1 Mb)</A> <BR>
+<P>
+
+<LI>
+Deepti Chafekar, Jiang Xuan and <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>.  "Constrained
+Multi-objective Optimization Using Steady State Genetic
+Algorithms". <EM>The Genetic and
+Evolutionary Computation Conference (GECCO'2003)</EM>.<BR><A
+HREF="papers/385.pdf">full paper (PDF, 0.23 Mb)</A> <BR>
+<P>
+
+<LI>
+D. Knight, G. Elliot, Y. Jaluria, N. Langrana and <A
+HREF="http://www.cs.uga.edu/~khaled">K. Rasheed</A>. "Automated
+Optimal Design Using Concurrent Intagrated Experiment and
+Simulation". <EM> AIAA/ISSMO Symposium on Multidisciplinary Analysis
+and Optimization </EM>, AIAA Paper No. 2002-5636, 2002.<BR>
+
+<P>
+
+<LI>
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, Swaroop
+Vattam and Xiao Ni.  "Comparison of Methods for Using Reduced Models
+to Speed Up Design Optimization". <EM>The Genetic and Evolutionary
+Computation Conference (GECCO'2002) </EM>, 2002.<BR> <A
+HREF="papers/RWA231.ps">full paper (Postscript, 0.17 Mb)</A> <BR>
+<P>
+
+<LI>
+L. Wu, W. D. Potter, <A HREF="http://www.cs.uga.edu/~khaled">K.
+Rasheed</A>, J. Ghent, D. Twardus, H. Thistle and M. Teske.  "A
+comparison of Genetic Algorithm Methods in Aerial Spray Deposition
+Managment". <EM>The Genetic and Evolutionary Computation Conference
+(GECCO'2002) </EM>, 2002.<BR> <A HREF="papers/RWA232.pdf">Poster paper
+(PDF, 0.13 Mb)</A>
+<P>
+
+<LI>
+Anil Bahuman, Benjamin Bishop, and <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>.  "Automated
+Standard Cell Synthesis Using Genetic Algorithms". <EM>The
+IEEE Computer Society Annual Symposium on VLSI</EM>, 2002.<BR>
+<A HREF="papers/IS-vlsi.pdf">full paper (PDF, 0.54 Mb)</A> <BR>
+<P>
+
+<LI>
+L. Wu, W. D. Potter, <A HREF="http://www.cs.uga.edu/~khaled">K.
+Rasheed</A>, J. Ghent, D. Twardus, H. Thistle and M. Teske.
+"Improving the Genetic Algorithm Performance in Aerial Spray
+Deposition Managment". <EM>The IEEE Southeast
+Conference</EM>, 2002.<BR>
+<A HREF="papers/SEC111.DOC">full paper (MSWord, 3.4 Mb)</A> <BR>
+<P>
+
+<LI>
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, Xiao Ni
+and Swaroop Vattam.  "Comparison of Methods for Developing Dynamic
+Reduced Models for Design Optimization". <EM>The Congress on
+Evolutionary Computation (CEC'2002)</EM>, 2002.<BR> <A
+HREF="papers/cec2002.ps">full paper (Postscript, 0.16 Mb)</A> <BR> <A
+HREF="papers/cec2002.pdf">full paper (PDF, 0.16 Mb)</A> <BR>
+<P>
+
+<LI>
+Anil Bahuman, <A HREF="http://www.cs.uga.edu/~khaled">Khaled
+Rasheed</A>, and Benjamin Bishop.  "An Evolutionary Approach for VLSI
+Standard Cell Design". <EM>The Congress on Evolutionary Computation
+(CEC'2002)</EM>, 2002.<BR>
+<A HREF="papers/cec.doc">full paper (MSWord, 0.44 Mb)</A> <BR>
+<P>
+
+<LI>
+Benjamin Bishop, <A HREF="http://www.cs.uga.edu/~khaled">Khaled
+Rasheed</A>, and Anil Bahuman.  "VLSI Standard Cell Design Using
+Genetic Algorithms".  <EM>The 39th Annual ACM Southeast
+Conference</EM>, 2001.<BR>
+<P>
+
+<LI>
+
+Gerald Carrier, Doyle Knight, <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, and
+Xavier Montazel.  "Multi-criteria Design Optimization of a Two
+dimensional Supersonic Inlet". <EM>The 39th
+AIAA Aerospace Sciences Meeting and Exhibit</EM>, 2001.<BR>
+<P>
+
+<LI>
+
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, <A
+HREF="http://www.cs.rutgers.edu/~hirsh">Haym Hirsh</A>. "Informed
+operators: Speeding up genetic-algorithm-based design optimization
+using reduced models". <EM>Genetic and
+Evolutionary Computation Conference (GECCO'2000)</EM>, 2000.<BR>
+<A
+HREF="papers/RW164.ps">full paper
+(Postscript, 0.55 Mb)</A> <BR>
+<P>
+
+<LI>
+
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>. "An
+Incremental-Approximate-Clustering Approach for Developing Dynamic
+Reduced Models for Design Optimization". <EM>Congress
+on Evolutionary Computation (CEC'2000)</EM>.<BR>
+<A
+HREF="papers/c216.ps">full paper
+(Postscript, 0.5 Mb)</A> <BR>
+<P>
+
+<LI>
+
+<A HREF="http://www.cs.rutgers.edu/~lou">Louis Steinberg</A>, <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled
+Rasheed</A>. "Optimization by Searching a Tree of
+Populations". <EM>Genetic and Evolutionary Computation Conference
+(GECCO'99)</EM>, 1999.<BR> 
+<A
+HREF="papers/hufs-gado.ps">full paper
+(Postscript, 0.76 Mb)</A> <BR>
+<A
+HREF="papers/hufs-gado.pdf">full paper
+(PDF, 0.22 Mb)</A> <BR>
+<P>
+
+<LI>
+
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, <A
+HREF="http://www.cs.rutgers.edu/~davison">Brian Davison</A>. "Effect
+of Global Parallelism on the Behavior of a Steady State Genetic
+Algorithm for Design Optimization". <EM>Congress on
+Evolutionary Computation (CEC'99)</EM>, 1999.<BR>
+<A HREF="papers/pgado.ps">full paper
+(Postscript, 0.54 Mb)</A>
+<P>
+
+<LI>
+
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled
+Rasheed</A>. "Guided Crossover: A New Operator for
+Genetic-Algorithm-Based Optimization". <EM>Congress
+on Evolutionary Computation (CEC'99)</EM>, 1999.<BR>
+<A HREF="http://www.cs.uga.edu/~khaled/gccec99.ps">full paper
+(Postscript, 0.48 Mb)</A>
+<P>
+
+<LI>
+
+Christophe Bourdeau, Gerald Carrier, Doyle Knight, <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>.
+"Three-dimensional Optimization of Supersonic Inlets". 
+<EM>The 35th AIAA/ASME/SAE/ASEE Joint Propulsion Conference</EM>,1999.<BR>
+<A HREF="http://www.cs.uga.edu/~khaled/JPC_Paper.ps">full paper
+(Postscript, 2.6 Mb)</A>
+<P>
+
+<LI> 
+
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>. "An
+Adaptive Penalty Approach for Constrained Genetic Algorithm
+Optimization". <EM>The Third Annual Conference on Genetic
+Programming (GP-98):Symposium on Genetic Algorithms (SGA-98)</EM>,
+1998.<BR><A HREF="http://www.cs.uga.edu/~khaled/ap.ps">full paper
+(Postscript, 0.1 Mb)</A>
+<P>
+
+<LI>
+
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled
+Rasheed</A>. "Improving Genetic Algorithm Convergence Using Guided
+Crossover". <EM>The Third Annual Conference on Genetic
+Programming (GP-98):Symposium on Genetic Algorithms (SGA-98)</EM>,
+1998.<BR>
+<A HREF="http://www.cs.uga.edu/~khaled/gc1.ps">short paper
+(Postscript, 0.04 Mb)</A>
+<P>
+
+<LI> 
+Michael Blaize, Doyle Knight, and <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>.
+Automated Optimal Design of Two dimensional High Speed Missile Inlets.
+<EM>The 36th AIAA Aerospace Sciences Meeting</EM>, 1998.<BR> <A
+HREF="http://www.cs.uga.edu/~khaled/blaize.ps">full paper
+(Postscript, 1.8 Mb)</A>
+<P>
+
+<LI>
+
+B. Chernyavsky, V. Stepanov, <A
+HREF="http://www.cs.uga.edu/~khaled">K. Rasheed</A>, M. Blaize
+and D. Knight.  3-D Hypersonic Inlet Optimization Using Genetic
+Algorithms. <EM>The 34th AIAA/ASME/ASEE Joint Propulsion
+Conference</EM>, 1998.
+<P>
+
+<LI>
+
+Michael Blaize, Doyle Knight, <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, Xavier
+Montazel, Yan Kergaravat. Optimal Missile Inlet Design by Means of
+Automated Numerical Optimization. <EM>The NATO RTO/AVT Symposium on
+Missile Aerodynamics</EM>, 1998.
+<P>
+
+<LI> 
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>,
+<A HREF="http://www.cs.rutgers.edu/~hirsh">Haym Hirsh</A>. Using Case
+Based Learning to Improve Genetic Algorithm Based Design
+Optimization. <EM>The Seventh International Conference on Genetic
+Algorithms (ICGA'97)</EM>, 1997.<BR><A
+HREF="http://www.cs.uga.edu/~khaled/icga97.ps">full paper
+(Postscript, 0.15 Mb)</A>
+<P>
+
+<LI> 
+
+G.-C. Zha, <A HREF="http://www.cs.rutgers.edu/~dsmith">D. Smith</A>,
+<A HREF="http://www.cs.rutgers.edu/~schwabac">M. Schwabacher</A>, <A
+HREF="http://www.cs.uga.edu/~khaled">K. Rasheed</A>, A. Gelsey,
+and D. Knight.  High Performance Supersonic Missile Inlet Design Using
+Automated Optimization.  <EM>AIAA Symposium on Multidisciplinary Analysis
+and Optimization</EM>, 1996.<BR> 
+<A HREF="papers/cheapshot.ps">full paper
+(Postscript, 3.1 Mb)</A>
+<P>
+
+</UL>
+<H2>Workshop articles</H2>
+<UL>
+
+<LI>
+Jiang Xuan, Deepti Chafekar and <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>.  "Constrained
+Multi-objective GA Optimization Using Reduced Models". To appear in
+<EM>The Genetic and Evolutionary Computation Conference
+(GECCO'2003)</EM> workshop on learning and adaptation in evolutionary
+computation.<BR><A
+HREF="papers/workshp_paper.pdf">full paper (PDF, 0.18 Mb)</A>
+<P>
+
+<LI>
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>, Swaroop
+Vattam and Xiao Ni.  "Comparison of Methods for Using Reduced Models
+to Speed Up Design Optimization". <EM>The Genetic and Evolutionary
+Computation Conference (GECCO'2002) </EM> workshop on approximation
+and learning in evolutionary computation, 2002.<BR> <A
+HREF="papers/comp.ps">full paper (Postscript, 0.1 Mb)</A>
+
+<P>
+
+<LI>
+<A HREF="http://www.cs.rutgers.edu/~davison">Brian Davison</A>, <A
+HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>. "Effect
+of Global Parallelism on a Steady State Genetic
+Algorithm". <EM>Evolutionary Computing and Parallel Processing
+workshop at the Genetic and Evolutionary Computation Conference
+(GECCO'99)</EM>, 1999.<BR> <A
+HREF="papers/pgado_ws.ps">full paper
+(Postscript, 0.3 Mb)</A><P>
+
+<LI>
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled Rasheed</A>,
+Andrew Gelsey. Adaptation of Genetic Algorithms for Engineering Design
+Optimization. <EM>Artificial Intelligence in Design (AID'96)</EM>
+Workshop on Evolutionary Systems in Design, 1996.<BR> <A
+HREF="papers/aid96ga.ps">full paper
+(Postscript, 0.16 Mb)</A><P>
+
+</UL>
+<H2>Technical reports</H2> 
+<UL> 
+<LI> 
+
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled
+Rasheed</A>. "GADO: A Genetic Algorithm for Continuous Design
+Optimization". Technical Report DCS-TR-352, Department of Computer
+Science, Rutgers University, New Brunswick, NJ,
+1998. Ph.D. Thesis.<BR> <A
+HREF="http://www.cs.uga.edu/~khaled/thesis-abstract.txt">Thesis
+abstract (text)</A><BR> <A
+HREF="http://www.cs.uga.edu/~khaled/thesis.ps">full thesis
+(Postscript, 2.3 Mb)</A><P>
+
+<LI> 
+<A HREF="http://www.cs.uga.edu/~khaled">Khaled
+Rasheed</A>, <A HREF="http://www.cs.rutgers.edu/~hirsh">Haym
+Hirsh</A>. Guided Crossover: A New Operator for
+Genetic Algorithm Based Optimization. Technical Report HPCD-TR-50,
+Department of Computer Science, Rutgers University, New Brunswick, NJ,
+1997.<BR>
+<A HREF="http://www.cs.uga.edu/~khaled/ga2.ps">full paper
+(Postscript, 0.13 Mb)</A><P>
+</UL>
+
+<HR>
+<EM>Note: Only draft versions of journal articles are available
+online.</EM>
+
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A>
+(<A Href="mailto:khaled@cs.uga.edu">khaled@cs.uga.edu</A>)
+
+</ADDRESS>

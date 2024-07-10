@@ -1,0 +1,340 @@
+<Html>
+
+<Head>
+
+
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI/ARTI 8950 Machine Learning
+</Title>
+
+</Head>
+
+<Body>
+
+<H1>CSCI/ARTI 8950 Machine Learning</H1>
+
+Spring 2021: Mondays 3:00pm - 3:50pm & Tuesdays
+and Thursdays 2:20pm - 3:35pm, Boyd GSRC Room 208</BR>
+
+</BR>
+
+<A HREF="http://cobweb.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A> </BR>
+Telephone: (706)542-0881</BR>
+Office Hours: Monday 4:00-6:00pm or by email
+appointment</BR>
+Office Location: Room 518, Boyd GSRC</BR>
+Email: khaled@uga.edu</BR>
+</BR>
+<Hr>
+
+<H2>COVID-19 Note:</H2> 
+
+Due to COVID-19, the following is the format I am planning to use
+unless the situation changes. I will do the lecture in person in room
+208 and up to 15 of you can attend in person with your masks
+on. Please check your email and reply to my request for your
+preference of attendance day (Monday or Tuesday or Thursday). The
+lecture will simultaneously be a Zoom meeting and will be recorded and
+posted online in eLC on the same day. Those who do not attend in person can
+join the zoom meeting (i.e. synchronously), which will enable them to
+ask questions and participate in the discussions or wait and review
+the recording later (i.e. asynchronously). Attendance in class will
+not be mandatory.</BR>
+
+<H2>Zoom meeting information:</H2> 
+
+Topic: Khaled Rasheed's Personal Meeting Room</BR>
+</BR>
+Join Zoom Meeting</BR>
+https://zoom.us/j/4449516499</BR>
+</BR>
+Meeting ID: 444 951 6499</BR>
+
+<H2>Objectives:</H2> 
+
+Machine learning is a sub-field of artificial intelligence which is
+concerned with computer programs that can automatically improve their
+capabilities and/or performance by acquiring (learning) experience.
+The main objectives of this course are to provide students with an
+in-depth introduction to machine learning theory and methods
+and an exploration of research problems in machine learning and its
+applications which may lead to work on a project or a dissertation.
+
+The course is intended primarily for computer science and artificial
+intelligence graduate students. Graduate students from other
+departments who have a strong interest and sufficient experience in
+artificial intelligence may also find the course interesting.
+
+<H2>Recommended Background:</H2> 
+
+CSCI 4380/6380 Data Mining or CSCI/PHIL 4550/6550 Artificial
+Intelligence or CSCI 4560/6560 Evolutionary Computation (or permission
+of the instructor).  Familiarity with basic computer algorithms and
+data structures and at least one high level programming language.
+
+<H2>Topics to be Covered:</H2> 
+
+<li>Part I: Machine learning techniques: Selected from inductive
+learning, decision trees, neural network approaches, evolutionary
+computation approaches and classifier systems, statistical and
+Bayesian learning, instance-based learning, feature selction and
+extraction, ensemble learning and computational learning theory.
+
+<li>Part II: Machine learning applications: Selected from data mining,
+bioinformatics, biomedical modeling, medical diagnosis, text
+classification, visual pattern recognition and/or other contemporary
+applications.
+
+
+<H2>Expected Work:</H2> 
+
+Attendance; reading; assignments (some include programming and/or
+running existing programs); midterm exam; and term project and paper.
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All academic work must meet the standards contained in <A
+HREF="https://honesty.uga.edu/Academic-Honesty-Policy/">
+"A Culture of Honesty."</A> Students are responsible for informing
+themselves about those standards before performing any academic
+work. The penalties for academic dishonesty are severe and ignorance
+is not an acceptable defense.
+
+<H2>Group Study Policy:</H2>
+
+Group study is a powerful resource for graduate students and is
+therefore encouraged. During group study, you may discuss in detail
+any homework problems.  However, you must write or type your
+homework on your own. Furthermore, you should never look at or copy
+a complete solution to a problem from another student's homework or
+allow another student to look at or copy a complete problem solution
+from your homework.  Finally, you should acknowledge group study by
+listing the names of the students you studied with at the beginning or
+end of your homework. <Strong>Participation in group study is
+optional and will not affect your grade in any way.</Strong>
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 20% (includes homeworks, programming or using packages)
+<li>Paper presentation: 10%
+<li>Paper reviews: 10%
+<li>Midterm Examination: 20%   
+<li>Term Project: 40% (includes term paper and presentation)
+<br>
+
+Students may work on their term projects in groups of up to
+<strong>four</strong> students each. The above distribution is only
+tentative and may change later. The instructor will announce any
+changes.
+
+<H2>Assignment Submission Policy</H2> 
+
+Assignments must be turned in through eLC by the assigned deadline. Late
+assignments will loose 10% for every calendar day. Rare exceptions may
+be made by the instructor only under extenuating circumstances and in
+accordance with the university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the ML Class
+Home-page at <A HREF="http://cobweb.cs.uga.edu/~khaled/MLcourse/">
+http://cobweb.cs.uga.edu/~khaled/MLcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there.
+
+<H2>Lecture Notes</H2>
+
+Copies of Dr. Rasheed's lecture notes and Zoom lectures will be
+available at the course eLC page.
+
+<H2>Textbook available for free on the web</H2> 
+<li> "A Course in Machine Learning" by Hal Daumé III   http://ciml.info/
+
+<H2>Additional Books</H2> 
+<li> "Machine Learning", Tom Mitchell.  McGraw-Hill, 1997.
+  
+<li> "Pattern Recognition and Machine Learning", Christopher Bishop, 2006.
+  
+<li> "Data Mining: Practical Machine Learning Tools and Techniques
+(4th edition)", Ian Witten , Eibe Frank, Mark Hall & Christopher
+Pal. Morgan Kaufmann, 2017.
+
+<li> "Evolutionary Computation : Towards a New Philosophy of Machine
+Intelligence", David Fogel. IEEE press, 1999.
+
+
+<H2>Web Resources</H2> 
+
+<li> <A HREF="http://archive.ics.uci.edu/ml/">
+University of California at Irvine ML Repository</a>
+
+<li> <A HREF="http://www.cs.waikato.ac.nz/~ml">
+The WEKA Machine Learning Project</a>
+
+<li> <A HREF="http://www.kaggle.com">
+The Kaggle data science home</a>
+
+
+
+
+<H2>Announcements:</H2>
+
+<li> [3-16-2021] The midterm exam will be this Thursday 3-18-2021
+during lecture time. It will be online using the quiz function of
+eLC. It will cover all the topics discussed in the course except for
+Deep Learning which we started today. It will be open book, notes and
+Zoom lectures. However, you are not allowed to contact anyone by any
+means except to call me if you have a clarification question. You
+should not do any internet search or run any ML package or code during
+the exam. The exam is 75 minutes with a 10 minute grace period. You can
+answer each question using the eLC editor or write the answers on a
+piece of paper, scan it and upload the file. If you encounter a
+problem with eLC please email me your answers before the end of the
+  grace period.
+
+<li>[3-21-2021] When you prepare your paper presentation, please refer
+to the first set of lecture notes which can be found on eLC, file
+name: CSCI_8950_Lec1_Course_Overview, Slide #16 for instructions. In
+addition, please remember to cite any sources from which you obtained
+slides, figures or any other material for the presentation. Doing so
+will not decrease your grade in any way. However, not reporting your
+sources will be a violation. You can refer to any of the lecture notes
+to see how I cited sources. You can acknowledge all sources on the
+title slide or at the bottom of specific slides. Finally, your
+presentation should be 25 minutes except when given permission to
+exceed that. A presentation that is too short or too long will loose
+points. If your paper is short you can augment it with useful
+background/related information or discussions.
+
+<H2>Papers</H2>
+
+
+<li> "Model-Free IRL Using Maximum Likelihood Estimation" 2019. [Suresh][3-22]
+  {<A HREF="https://ojs.aaai.org/index.php/AAAI/article/view/4286">download</A>}
+
+  <li> "A Survey on Deep Transfer Learning" 2018. [Campos][3-23]
+{<A HREF="https://arxiv.org/pdf/1808.01974.pdf">download</A>}
+
+
+<li> "Going deeper with convolutions" 2014. [Alsubhi][3-23]
+  {<A HREF="https://arxiv.org/pdf/1409.4842.pdf">download</A>}
+
+ <li> "ImageNet Classification with Deep Convolutional
+Neural Networks" 2013. [Wei][3-25]
+{<A HREF="https://kr.nvidia.com/content/tesla/pdf/machine-learning/imagenet-classification-with-deep-convolutional-nn.pdf">download</A>} 
+
+ <li> "Comparison of Deep Learning and the Classical Machine Learning
+   Algorithm for the Malware Detection" 2018. [Dunagan][3-25]
+   {<A HREF="https://arxiv.org/pdf/1809.05889.pdf">download</A>}
+   
+
+<li> "U-Net: Convolutional Networks for Biomedical Image Segmentation"
+2015. [Islam][4-1]
+{<A HREF="https://arxiv.org/pdf/1505.04597.pdf">download</A>}
+
+<li> "Densely Connected Convolutional Networks" 2018. [Gharawi][4-1]
+{<A HREF="https://arxiv.org/pdf/1608.06993.pdf">download</A>}
+   
+  <li> "DysLexML: Screening Tool for Dyslexia Using
+Machine Learning"
+2019. [Magnotta][4-5]
+    {<A HREF="https://arxiv.org/pdf/1903.06274.pdf">download</A>}
+
+   <li> "Automated Classification of Text Sentiment" 2018. [Lillian][4-6]
+{<A HREF="https://arxiv.org/abs/1804.01963">download</A>}
+
+ <li> "Inductive Representation Learning on Large Graphs" 2018. [Pulagam][4-6]
+   {<A HREF="https://arxiv.org/pdf/1706.02216.pdf">download</A>}
+   
+<li> <Strong>April 8th is an instructional break day</strong>
+  
+<li> "A survey on feature selection methods"
+2014. [Wang][4-12]
+  {<A HREF="https://romisatriawahono.net/lecture/rm/survey/machine%20learning/Chandrashekar%20-%20Feature%20Selection%20Methods%20-%202014.pdf">download</A>}
+  
+<li> <Strong>April 13th and 15th are reserved for Project status reports</strong>
+  
+  <li> "Text Similarity in Vector Space Models: A Comparative Study"
+2019. [Alqaaidi][4-19]
+{<A HREF="https://ieeexplore.ieee.org/abstract/document/8999168">download</A>}
+
+<li> "Adversarial Multiple Source Domain Adaptation" 2018. [Vance][4-19]
+   {<A HREF="http://www.cs.cmu.edu/~hzhao1/papers/NIPS2018/nips2018_main.pdf">download</A>}
+
+<li> "Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers" 2018. [Hemadri][4-20]
+  {<A HREF="https://arxiv.org/pdf/1801.06889.pdf">download</A>}
+
+  <li> "Artificial Intelligence and Digital Pathology: Challenges and Opportunities" 2018. [Yassin][4-20]
+{<A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6289004/">download</A>}
+
+    
+<li> "Edge Machine Learning: Enabling Smart Internet of Things
+Applications" 2018. [Alshehri][4-22]
+  {<A HREF="https://www.mdpi.com/2504-2289/2/3/26">download</A>}
+
+  
+
+   <li> "Prediction and Prioritization of Rare Oncogenic Mutations in the
+Cancer Kinome Using Novel Features and Multiple Classifiers"
+     2014. [Basting][4-22]{<A HREF="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003545">download</A>}
+
+     <li> "Cartel: A System for Collaborative Transfer Learning at the Edge" 2019. [Vaezi][4-26]
+{<A HREF="https://dl.acm.org/doi/pdf/10.1145/3357223.3362708">download</A>}
+     
+  <li> "AutoML: A survey of the state-of-the-art" 2013. [Samiyuru][4-27]
+  {<A HREF="https://www.sciencedirect.com/science/article/pii/S0950705120307516">download</A>}
+
+   <li> "Use of a machine learning framework to predict substance use
+disorder treatment success" 2017. [Pozorski][4-27]
+     {<A HREF="http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0175383&type=printable">download</A>}
+
+     <li> "Analysis of Online Consumer Behavior - Design of CRISP-DM Process
+Model" 2020. [Dastjerdi][4-29]
+{<A HREF="https://online.agris.cz/download-paper/92af21a4edc69934bac408f6970612be">download</A>}
+
+     <li>Spectral clustering. [Shams][4-29]
+
+<li> "A Tutorial on Spectral Clustering" 2007. [Zhang][5-3]
+{<A HREF="https://arxiv.org/pdf/0711.0189.pdf">download</A>}
+   
+     
+<!----
+
+<li> "" 2013. [][]
+{<A HREF="">download</A>}
+--->
+
+
+<H2>Assignments:</H2> 
+
+<li> <A HREF="homework1.pdf">Assignment 1</A>
+<li> <A HREF="homework2.pdf">Assignment 2</A>
+<li> <A HREF="homework3.pdf">Assignment 3</A>
+<li> <A HREF="homework4.pdf">Assignment 4</A>
+<!----
+<li> <A HREF="homework5.pdf">Assignment 5</A>
+<li> <A HREF="homework6.pdf">Assignment 6</A>
+--->
+
+<Hr>
+
+<strong>The course syllabus is a general plan for the course;
+deviations announced to the class by the instructor may be
+necessary.</strong><BR>
+
+<P>
+
+Last modified: April 2, 2021.
+<ADDRESS>
+<A Href="http://cobweb.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@uga.edu">khaled@uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>

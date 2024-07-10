@@ -1,0 +1,1083 @@
+<!--
+
+    By Haosha (Elsa) Wang  -  Feb. 2014
+
+    Updated by Haosha (Elsa) Wang on July. 24th 2014 5:19pm EST
+
+//-->
+
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 9]>
+<html id="ie9" class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if gt IE 9]>
+<html class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !IE]>
+<html dir="ltr" lang="en-US">
+<![endif]-->
+    
+    <!-- START HEAD -->
+    <head>
+        
+        <meta charset="UTF-8" />
+        <!-- this line will appear only if the website is visited with an iPad -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
+        
+         <title>ECML Lab | Evolution Computation and Machine Learning Lab</title>
+        
+        <!-- [favicon] begin -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <!-- Touch icons more info: http://mathiasbynens.be/notes/touch-icons -->
+        <!-- For iPad3 with retina display: -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x.png" />
+        <!-- For first- and second-generation iPad: -->
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x.png" />
+        <!-- For first- and second-generation iPad: -->
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x.png" />
+        <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x.png" />
+        <!-- [favicon] end -->
+        
+        <!-- CSSs -->
+        <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" /> <!-- RESET STYLESHEET -->
+        <link rel="stylesheet" type="text/css" media="all" href="style.css" /> <!-- MAIN THEME STYLESHEET -->
+        <link rel="stylesheet" id="max-width-1024-css" href="css/max-width-1024.css" type="text/css" media="screen and (max-width: 1240px)" />
+        <link rel="stylesheet" id="max-width-768-css" href="css/max-width-768.css" type="text/css" media="screen and (max-width: 987px)" />
+        <link rel="stylesheet" id="max-width-480-css" href="css/max-width-480.css" type="text/css" media="screen and (max-width: 480px)" />
+        <link rel="stylesheet" id="max-width-320-css" href="css/max-width-320.css" type="text/css" media="screen and (max-width: 320px)" />
+        
+        <!-- CSSs Plugin -->
+        <link rel="stylesheet" id="thickbox-css" href="css/thickbox.css" type="text/css" media="all" />
+        <link rel="stylesheet" id="styles-minified-css" href="css/style-minifield.css" type="text/css" media="all" />
+        <link rel="stylesheet" id="buttons" href="css/buttons.css" type="text/css" media="all" />
+        <link rel="stylesheet" id="cache-custom-css" href="css/cache-custom.css" type="text/css" media="all" />
+        <link rel="stylesheet" id="custom-css" href="css/custom.css" type="text/css" media="all" />
+	    
+        <!-- FONTs -->
+        <link rel="stylesheet" id="google-fonts-css" href="http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed%3A300%7CRokkitt%7CShadows+Into+Light%7CAbel%7CDamion%7CMontez&amp;ver=3.4.2" type="text/css" media="all" />
+        <link rel='stylesheet' href='css/font-awesome.css' type='text/css' media='all' />
+        
+        <!-- JAVASCRIPTs -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/comment-reply.js"></script>
+        <script type="text/javascript" src="js/jquery.quicksand.js"></script>
+        <script type="text/javascript" src="js/jquery.tipsy.js"></script>
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="js/jquery.cycle.min.js"></script>
+        <script type="text/javascript" src="js/jquery.anythingslider.js"></script>
+        <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.js"></script>
+        <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+        <script type="text/javascript" src="js/jquery.aw-showcase.js"></script>
+        <script type="text/javascript" src="js/layerslider.kreaturamedia.jquery-min.js"></script>
+        <script type="text/javascript" src="js/shortcodes.js"></script>
+		<script type="text/javascript" src="js/jquery.colorbox-min.js"></script> 
+		<script type="text/javascript" src="js/jquery.tweetable.js"></script>
+        
+    </head>
+    <!-- END HEAD -->
+    
+    <!-- START BODY -->
+    <body class="no_js responsive stretched">
+        
+        <!-- START BG SHADOW -->
+        <div class="bg-shadow">
+            
+            <!-- START WRAPPER -->
+            <div id="wrapper" class="group">
+                
+              <!-- START HEADER -->
+                <div id="header" class="group">
+                    
+                    <div class="group inner">
+                        
+                        <!-- START LOGO -->
+                        <div id="logo" class="group">
+                            <a href="index.html" title="">
+                                <img src="images/ugalogo.jpg" style="width:80px" title="UGA" alt="UGA" />
+                                <img src="images/logo.png" title="ECML Lab" alt="ECML Lab" />
+                            </a>
+                        </div>
+                        <!-- END LOGO -->
+                        
+                        <div id="sidebar-header" class="group">
+                            <div class="widget-first widget yit_text_quote">
+                                <blockquote class="text-quote-quote">Welcome to Evolutionary Computation and Machine Learning Lab.</blockquote>
+                                
+                            </div>
+                        </div>
+                        <div class="clearer"></div>
+                        
+                        <hr />
+                        
+                        <!-- START MAIN NAVIGATION -->
+                        <div class="menu classic">
+                            <ul id="nav" class="menu">
+                                
+                                <li> <a href="index.html">HOME</a> </li>
+                                <li><a href="People.html">PEOPLE</a> </li>
+                                <li> <a href="Research.html">RESEARCH</a>  </li>
+                                <li> <a href="Publication.html">PUBLICATIONS</a> </li>
+
+                                <li>
+                                    <a href="#">SOURCE</a>
+                                    <ul class="sub-menu">
+                                        <li> <a href="http://www.uga.edu">University of Georgia</a> </li>
+                                <li> <a href="http://cs.uga.edu">Computer Science Department</a> </li>
+                                <li> <a href="http://www.ai.uga.edu">Institute for Artificial Intelligence</a> </li>
+                                    </ul>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <!-- END MAIN NAVIGATION -->
+                        <div id="header-shadow"></div>
+                        <div id="menu-shadow"></div>
+                    </div>
+                    
+                </div>
+                <!-- END HEADER -->
+                
+                <!-- START PAGE META -->
+				<div id="page-meta">
+				    <div class="inner group">
+				        <h3>We do amazing things.</h3>
+				    </div>
+				</div>
+				<!-- END PAGE META -->
+				<!-- START PRIMARY -->
+				<div id="primary" class="sidebar-no">
+				    <div class="inner group">
+				        <!-- START CONTENT -->
+				        <div id="content-page" class="content group">
+				            <div class="hentry group">
+                                  <div>  <h3 class="accordion-title"><span class=""></span>Director</h3> 
+				               <div class="testimonial">
+                                    <div class="thumbnail">
+                                            <a href="http://www.cs.uga.edu/~khaled"> <img src="images/people/khaled9.jpg" alt="Rasheed, Khaled" /></a>
+
+                                        </div>
+
+                                    <div class="testimonial-text">
+
+                                         <div class="accordion-item-content" style="margin-left: 15px;">
+
+                                            <a href="http://www.cs.uga.edu/~khaled" title="HomePage"><h2>Dr. Rasheed, Khaled</h2></a>
+                                           
+
+                                            <b>Position: </b>
+                                            <ul>
+                                                <li>Associate Professor in the Department of Computer Science
+                                                <li>Director of the UGA Institute for Artificial Intelligence,
+                                                <li>Member of the Georgia Informatics Institutes.
+                                                <li>UGA Faculty of Robotics
+                                             </ul>
+                                        </li>
+                                        <br>
+                                        <li>                                            
+                                            <b>Research Interest:</b>
+                                            <ul>
+                                                <li>Genetic Algorithms
+                                                <li>Evolutionary Computation
+                                                <li>Machine Learning
+                                                <li>Engineering Design Optimization
+                                                <li>Computational Biology
+                                             </ul>
+                                        </li>
+                                        <br>
+                                        <li> 
+                                            <b>Tel. :</b> +1-(706)-542-3444  
+                                           <li> Email :<a href="mailto:khaled@cs.uga.edu?subject=Query%20from%20Homepage">  khaled(AT)cs(DOT)uga(DOT)edu </a>
+                                            <li><a href="http://www.linkedin.com/pub/khaled-rasheed/6/248/a33" class="socials-small linkedin-small" title="Linkedin">linkedin</a>
+                                        </li> </div>
+                                      <div class="testimonial-name"><a href="http://cobweb.cs.uga.edu/~khaled/" class="name" >Dr.Rasheed, Khaled</a></div>
+                                    
+				                </div>
+
+                            </div>
+
+                             <div class="hentry group">
+                                 <div>  <h3 class="accordion-title"><span class=""></span>Current Ph.D Students</h3> 
+                                    
+									
+									<div class="testimonial two-fourth">
+                                    <div class="thumbnail">
+                                       <!--<a href="">   <img src="images/people/" alt="" title="Alkhoshi, Enas" />  </a>-->
+                                         
+                                    </div>
+                                    <div class="testimonial-text">
+                                        <h2>Alkhoshi, Enas </h2>
+                                         <ul> 
+                                        <li> 
+                                            <b>Research Interest: </b>
+                                            <ul>
+                                                <li>Artificial intelligent</li>
+                                                 <li>Machine Learning </li> 
+                                                 <li>Deep Learning </li> 
+                                            </ul>                        
+                                                                                        
+                                            </li>  
+                                            <li>
+                                            <br>
+                                                <b>Ongoing Projects:</b>
+                                                <ul>
+                                                    <li>proposes a multi-level meta-classifier for identifying human activities based on accelerometer data (pseudo-free-living dataset) </li>
+                                                    <li>Appling Deep learning with Human activity recognition on pseudo-free-living dataset and public data (WISDOM)</li>
+                                                    <li>Appling Transfer learning to improve the prediction of Human activity recognition </li>
+                                                    
+                                                </ul>
+                                            </li>                                       
+                                        
+                                        <li> Email :<a href="mailto:enas.alkhoshi25@uga.edu?subject=Query%20from%20Homepage"> eea71052(AT)uga(DOT)edu </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="testimonial-name"><a href="" class="name"> Alkhoshi, Enas</a></div>
+                                </div>
+	
+								<div class="testimonial two-fourth last">
+				                    <div class="thumbnail">
+				                     <!--<a href="">   <img src="images/people/" alt="" title="Vance, Jonathan" /> </a>-->
+                                       
+				                    </div>
+				                    <div class="testimonial-text">
+				                        <h2><a href="">Vance, Jonathan</a></h2>
+                                           
+                                            <li>
+                                            <b>Research Interest: </b>
+                                            <ul>
+                                                <li>Artificial Intelligence in Agriculture 
+                                                <li>Machine Learning</li>
+                                                <li>Deep Learning </li> 
+                                                <li>Climate Science</li>
+                                                <li> Image Processing </li>
+                                                <li> Audio Processing</li>
+
+                                                
+                                    
+                                            </ul>
+                                        </li>
+                                        <br>
+                                        <li> 
+                                            <b>Ongoing Projects: </b>
+                                            <ul>
+                                                <li> Apply time-series based forecasting techniques to our alfalfa and weather data with the goal of discovering or developing such a technique that helps with our prediciton problem</li>
+                                                <li>Contribute to sustainability research by using weather data patterns from previous years to predict crop yields in subsequent years</li>
+                                                <li>Propose a system where farmers can plan crops under "what if" scenarios, making predictions based on variables adjusted by users</li>
+                                                
+                                          </ul>
+                                        </li> 
+                                        <li> Email :<a href="mailto:jmvance@uga.edu?subject=Query%20from%20Homepage"> jmvance(AT)uga(DOT)edu</a>
+                                           
+				                    </div>
+				                    <div class="testimonial-name"><a href="" class="name">Vance, Jonathan </a></div>
+				                </div>
+		
+						
+				                
+                            </div>
+                        </div>
+                         <div class="hentry group">
+
+                                  <div>  <h3 class="accordion-title"><span class=""></span>Current Master Students</h3> 
+
+                                   
+                                   
+                              
+                                <div class="testimonial two-fourth">
+                                    <div class="thumbnail">
+                                   <!-- <a href="">   <img src="images/people/" alt="" title="title="Howard, Bradly" /> -->
+                                         
+                                    </div>
+                                    <div class="testimonial-text">
+                                        <h2> Howard, Bradly</h2>
+                                           
+                                        <li> 
+                                            <b>Research Interest: </b>
+                                            <ul>
+                                                 <li> Artificial Intelligence                       
+                                                                                       
+                                                                                       
+                                        </ul>
+                                      </li>
+                                        <br>
+                                        <li> 
+                                            <b>Ongoing Projects: </b>
+                                           
+                                      <ul>
+                                        <li> Appling Genetic Algorithms for congressional redistricting in Georgia</li>
+                                          </ul>
+                                        </li> 
+                                        <li> Email :<a href="mailto:bjh80559@uga.edu?subject=Query%20from%20Homepage"> bjh80559(AT)uga(DOT)edu</a>
+                                    </div>
+                                    <div class="testimonial-name"><a href="" class="name">Howard, Bradly</a></div>
+                                </div>
+
+
+                                </div>
+
+                                  
+
+                                </div>
+
+                            </div>
+
+                             <div class="hentry group">
+                                
+                                  <div>  <h3 class="accordion-title"><span class=""></span>Ph.D Alumni</h3> 
+
+                                    <div class="testimonial two-fourth ">
+                                        <div class="thumbnail">
+                                           <!--<a href="">   <img src="images/people/" alt="" title="Dr.Yaghoobian, Hamed" /> -->                                   
+                                        </div>
+                                        <div class="testimonial-text">
+                                             <h2>Dr.Yaghoobian, Hamed </h2>
+                                               <li> 
+                                                        Desseration Title: Structure- and Context-aware NLP Approaches to Emotion and Subjectivity
+                                                        
+                                                    </li> 
+                                                    <li>Graduation Date: Summer 2021</li> 
+                                                    <!--<li>Current Affiliation:  <a </a> 
+                                                    <li><a href="http://www.</a>-->
+                                        </div>
+                                        <div class="testimonial-name"><a href="" class="name">Dr.Yaghoobian, Hamed</a></div>
+                                    </div>
+                                    
+                                    
+    
+
+                                    
+                                 
+                                  
+							  <div class="testimonial two-fourth ">
+
+				                    <div class="thumbnail">
+				                        <img src="images/people/amna9.jpg" alt="" title=" Dr.Basharat, Amna" /> 
+				                    </div>
+				                    <div class="testimonial-text">
+                                        <h2>Dr. Basharat, Amna</h2>
+                                          <li> 
+                                                   Desseration Title: Semantics Driven Human-Machine Computation Framework for Linked Islamic Knowledge Engineering
+                                            
+                                               </li> 
+                                               <li>Graduation Date: Fall 2016</li>
+                                               <li> Email :<a href="mailto:mailto:manchonu@uga.edu?subject=Query%20from%20Homepage"> amnabash (AT) uga (DOT)edu</a>
+                                               <!--<li>Current Affiliation:  <a </a> 
+                                                    <li><a href="http://www.</a>-->
+                                        </div>
+
+				                    <div class="testimonial-name"><a class="name">Dr. Basharat, Amna</a></div>
+				                </div>
+								
+                             <div class="testimonial two-fourth last ">
+                                    <div class="thumbnail">
+                                        <a href="http://www.cs.uga.edu/~manchonu"><img src="images/people/kevin9.jpg" alt="" title="U, Man Chon (Kevin)" />  </a>
+                                        
+                                    </div>
+                                
+                                    <div class="testimonial-text">
+                                        <h2><a href="http://www.cs.uga.edu/~manchonu"> Dr. U, Man Chon (Kevin) </a></h2>
+                                           
+                                         <li> 
+                                                    Desseration Title: Improving Learning Outcomes by Using Clustering Validity Analysis to Reduce Label Uncertainty
+                                                </li> 
+                                                <li>Graduation Date: 08/2013</li> 
+                                                <li>Current Affiliation:  <a href="http://www.sands.com/" target="_blank">Las Vegas Sands Corp.</a> 
+                                                <li> Email :<a href="mailto:mailto:manchonu@uga.edu?subject=Query%20from%20Homepage"> manchonu (AT) uga (DOT)edu</a>
+                                                <li><a href="http://www.linkedin.com/in/manchonu" class="socials-small linkedin-small" title="Linkedin">linkedin</a>
+
+                                    </div>
+                                    <div class="testimonial-name"><a href="http://www.cs.uga.edu/~manchonu" class="name" >Dr. U, Man Chon (Kevin)</a></div>
+                                </div>
+								
+								<div class="testimonial two-fourth ">
+                                    <div class="thumbnail">
+                                        <img src="images/people/shi9.jpg" alt="Shi, Liang" title="Shi, Liang" />                                    
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Dr. Shi, Liang</h2>
+                                           <li> 
+                                                    Desseration Title: Adaptive Surrogate-Assisted Evolution
+                                                </li> 
+                                                <li>Graduation Date: 12/2008</li> 
+                                                <li>Current Affiliation:  <a href="http://www.gopivotal.com/" target="_blank">Pivotal</a> 
+                                                <li><a href="http://www.linkedin.com/pub/liang-shi/23/45a/a20" class="socials-small linkedin-small" title="Linkedin">linkedin</a>
+                                    </div>
+                                    <div class="testimonial-name"><a href="" class="name">Dr. Shi, Liang</a></div>
+                                </div>
+                                <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                        <a href="http://ttic.uchicago.edu/~oliwa/"><img src="images/people/tom9.jpg" alt="Oliwa, Tomasz" title="Oliwa, Tomasz" /></a>
+                                           
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2><a href="http://ttic.uchicago.edu/~oliwa/"> Dr. Oliwa, Tomasz </a></h2> 
+                                            <li> 
+                                                    Desseration Title: Learning, Exploiting and Benchmarking Problem Structures in Real-Valued Evolutionary Optimization
+                                              </li> 
+                                                <li>Graduation Date: 05/2013</li> 
+                                                <li>Current Affiliation: <a href="http://www.ttic.edu/" target="_blank">Toyota Technological Institute at Chicago</a>
+                                    </div>
+                                    <div class="testimonial-name"><a href="http://ttic.uchicago.edu/~oliwa/" class="name">Dr. Oliwa, Tomasz</a></div>
+                                </div>
+                                
+
+                                
+                                
+
+                                <div class="testimonial two-fourth ">
+                                    <div class="thumbnail">
+                                        <a href=""><img src="images/people/bo9.jpg" alt="" title="Qian, Bo" />  </a>
+                                        
+                                    </div>
+                                
+                                    <div class="testimonial-text">
+                                        <h2>Dr. Qian, Bo</h2>
+                                           
+                                          <li> 
+                                                    Desseration Title: Enhancing the Quality of High Dimensional Noisy Data for Classification and Regression Problems
+                                                </li> 
+                                                <li>Graduation Date: 05/2009</li> 
+                                                <li>Current Affiliation: <a href="https://www.rbccm.com/" target="_blank">RBC Capital Markets</a>
+                                                 <li><a href="http://www.linkedin.com/pub/bo-qian/18/7a2/56" class="socials-small linkedin-small" title="Linkedin">linkedin</a>
+                                                
+                                    </div>
+                                    <div class="testimonial-name"><a href="" class="name" >Dr. Qian, Bo</a></div>
+                                </div>
+								<div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                        <a href=""><img src="images/people/byeon9.jpg" alt="" title="Byeon, Boseon" />  </a>
+                                        
+                                    </div>
+                                
+                                    <div class="testimonial-text" >
+                                        <h2>Dr. Byeon, Boseon</h2>
+                                           
+                                          <li> 
+                                                    Desseration Title: Enhancing the Quality of High Dimensional Noisy Data for Classification and Regression Problems
+                                                </li> 
+                                                <li>Graduation Date: 05/2009</li> 
+                                                <li>Current Affiliation: Georgia Health Sciences University</li> 
+                                    </div>
+                                    <div class="testimonial-name"><a href="http://www.cs.uga.edu/~manchonu" class="name" >Dr. Byeon, Boseon</a></div>
+                                </div>
+                                </div>
+                                  </div>
+
+                                   <div class="hentry group">
+                                
+                                  <div>  <h3 class="accordion-title"><span class=""></span>Masters Alumni</h3> 
+
+
+                                    <div class="testimonial two-fourth ">
+                                        <div class="thumbnail">
+                                           <!-- <a> <img src="images/people/" alt="" title="Kunchalal, Vikas" />  -->
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a >Kunchalal, Vikas</a></h2>
+                                               
+                                           <li>Thesis Title:Predicting Undergraduate Student Dropout Using Artificial Intelligence, Big Data and Machine Learning </li> 
+                                                    <li>Graduation Date: Summer 2021 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/akuldewan89/" class="name" >Kunchalal, Vikas</a></div>
+                                    </div>
+
+                                    <div class="testimonial two-fourth last ">
+                                        <div class="thumbnail">
+                                          <!--  <a> <img src="images/people/" alt="" title="Christopher, Whitmire" />  -->
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a >Christopher, Whitmire</a></h2>
+                                               
+                                           <li>Thesis Title: Machine learning and feature selection for biomass yield prediction using weather and planting data </li> 
+                                                    <li>Graduation Date: Summer 2019 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/" class="name" >Christopher, Whitmire</a></div>
+                                    </div>
+                                    <div class="testimonial two-fourth ">
+                                        <div class="thumbnail">
+                                          <!--  <a> <img src="images/people/" alt="" title="Kincaid, Chandler" />  -->
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a >Kincaid, Chandler </a></h2>
+                                               
+                                           <li>Thesis Title:Genetic Sequence Classification And Phylogenetic Construction With N-Gram Methods” </li> 
+                                                    <li>Graduation Date: Fall 2018 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/" class="name" > Kincaid, Chandler </a></div>
+                                    </div>
+                                    <div class="testimonial two-fourth last">
+                                        <div class="thumbnail">
+                                          <!--  <a> <img src="images/people/" alt="" title="Wang, Liang" />  -->
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a > Wang, Liang</a></h2>
+                                               
+                                           <li>Thesis Title:Stock Ranking with Market Microstructure, News and Technical Indicators </li> 
+                                                    <li>Graduation Date: Spring 2018 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/" class="name" >Wang, Liang</a></div>
+                                    </div>
+
+                                    <div class="testimonial two-fourth">
+                                        <div class="thumbnail">
+                                           <!-- <a> <img src="images/people/" alt="" title="Lippert, Brent" />  -->
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a > Lippert, Brent</a></h2>
+                                               
+                                           <li>Thesis Title:Prediction Of Cancer-Related Mutation Impact On Protein Activity Using Machine Learning </li> 
+                                                    <li>Graduation Date: Spring 2018 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/" class="name" >Lippert, Brent</a></div>
+                                    </div>
+
+                                    <div class="testimonial two-fourth last">
+                                        <div class="thumbnail">
+                                          <!--  <a> <img src="images/people/" alt="" title="Hao, Qiang" />  -->
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a > Hao, Qiang</a></h2>
+                                               
+                                           <li>Thesis Title:Feature Selection and Classification of Post- Graduation Income of College Students in the United States </li> 
+                                                    <li>Graduation Date: Spring 2017 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/" class="name" >Hao, Qiang</a></div>
+                                    </div>
+
+                                    <div class="testimonial two-fourth ">
+                                        <div class="thumbnail">
+                                           <!-- <a> <img src="images/people/" alt="" title="Norman, Brittany" />  -->
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a >Norman, Brittany </a></h2>
+                                               
+                                           <li>Thesis Title:Computational Methods for Categorizing Unstructured Data Related to Pediatric Appendicitis within Electronic Medical Records </li> 
+                                                    <li>Graduation Date: Spring 2017 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/" class="name" >Norman, Brittany</a></div>
+                                    </div>
+
+                                    <div class="testimonial two-fourth last">
+                                        <div class="thumbnail">
+                                            <a> <img src="images/people/shubham9.jpg" alt="" title="Jindal, Shubham" />  
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a > Jindal, Shubham</a></h2>
+                                               
+                                           <li>Thesis Title: Short Text Classification of Clinical Questions </li> 
+                                                    <li>Graduation Date: Summer 2016 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/" class="name" >Jindal, Shubham</a></div>
+                                    </div>
+
+                                    <div class="testimonial two-fourth ">
+                                        <div class="thumbnail">
+                                           <!-- <a> <img src="images/people/" alt="" title="Niazi, Anzah" /> -->
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a > Niazi, Anzah</a></h2>
+                                               
+                                           <li>Thesis Title:A Study in Human Activity Recognition: Hierarchical Classification and Statistical Analysis </li> 
+                                                    <li>Graduation Date: Summer 2016 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/" class="name" >Niazi, Anzah</a></div>
+                                    </div>
+
+                                    <div class="testimonial two-fourth last">
+                                        <div class="thumbnail">
+                                          <!--  <a> <img src="images/people/" alt="" title="Shi, Guangjie" />  -->
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a > Shi, Guangjie</a></h2>
+                                               
+                                           <li>Thesis Title: Application of machine learning in malware file classification </li> 
+                                                    <li>Graduation Date: Summer 2016 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/" class="name" >Shi, Guangjie</a></div>
+                                    </div>
+
+                                    <div class="testimonial two-fourth ">
+                                        <div class="thumbnail">
+                                          <!--  <a> <img src="images/people/" alt="" title="Huang, Pan" />  -->
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a >Huang, Pan </a></h2>
+                                               
+                                           <li>Thesis Title:Multilingual Text Similarity Analysis in Islamic Texts </li> 
+                                                    <li>Graduation Date: Spring 2016 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/" class="name" >Huang, Pan</a></div>
+                                    </div>
+
+
+                                    <div class="testimonial two-fourth last">
+                                        <div class="thumbnail">
+                                          <!--  <a> <img src="images/people/" alt="" title="Ambili, Aardra " />  -->
+                                            
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <h2><a >Ambili, Aardra </a></h2>
+                                               
+                                           <li>Thesis Title:Automated Scoring of Integrative Complexity using Machine Learning and Natural Language Processing </li> 
+                                                    <li>Graduation Date: Fall 2014 </li>
+                                                    <!--<li> Email :<a href="mailto:"> </a>
+                                                    <li>Current Affiliation:</a>    
+                                                <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>-->
+                                        </div>
+                                        
+                                         <div class="testimonial-name" ><a href="https://sites.google.com/site/" class="name" >Ambili, Aardra </a></div>
+                                    </div>
+
+
+									<div class="testimonial two-fourth ">
+                                    <div class="thumbnail">
+                                        <a href="https://sites.google.com/site/akuldewan89/"> <img src="images/people/akul9.jpg" alt="" title="Dewan, Akul" />  
+                                        
+                                    </div>
+                                    <div class="testimonial-text">
+                                        <h2><a href="https://sites.google.com/site/akuldewan89/">Dewan, Akul</a></h2>
+                                           
+                           			<li>Thesis Title: Predicting Protein stability Change Upon Single Point Mutation Using Multi-Instance Regression: A Local Conformational Analysis Approach </li> 
+                                                <li>Graduation Date: Fall 2014 </li>
+                                                <li> Email :<a href="mailto:"> </a>
+                                                <li>Current Affiliation:</a>    
+                                            <li><a href="" class="socials-small linkedin-small" title="Linkedin">linkedin</a>
+                                    </div>
+                                    
+                                     <div class="testimonial-name" ><a href="https://sites.google.com/site/akuldewan89/" class="name" >Dewan, Akul</a></div>
+                                </div>
+
+
+
+
+
+                                    <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                        <img src="images/people/hswang.jpg" alt="Wang, Haosha" title="Wang, Haosha" />
+                                           
+                                    </div>
+
+                                    <div class="testimonial-text"><a href="http://www.haoshawang.com" class="name" >
+                                         <h2>Wang, Haosha(Elsa)</h2>
+                                           <li>Thesis Title: Machine Fashion: An Artificial Intelligence Based Clothing Fashion Stylist</li> 
+                                                <li>Graduation Date: 08/2014</li>
+                                                <li> Email :<a href="mailto:hswangelsa@gmail.com?subject=Query%20from%20Homepage"> hswangelsa (AT) gmail (DOT) com</a>
+                                                <li>Current Affiliation: <a href="http://www.momentumcc.com/" target="_blank"> Momentum Consulting Corporation</a>    
+                                            <li><a href="http://www.linkedin.com/in/haoshawang" class="socials-small linkedin-small" title="Linkedin">linkedin</a>
+                                    </div>
+
+                                    <div class="testimonial-name"><a href="" class="name">Wang, Haosha (Sha)</a></div> 
+                                </div>
+
+
+                                    <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                        <img src="images/people/lim9.jpg" alt="Lim, ChulWoo" title="Lim, ChulWoo" />
+                                           
+                                    </div>
+
+                                    <div class="testimonial-text">
+                                         <h2>Lim, ChulWoo</h2>
+                                           <li>Thesis Title: Biological Circuit Reconstruction by Massively Parallel Evolutionary Computation On GPUs:
+   An Application to the Biological Clock System in Neurospora Crassa</li> 
+                                                <li>Graduation Date: 12/2013</li>
+                                    </div>
+
+                                    <div class="testimonial-name"><a href="" class="name">Lim, ChulWoo</a></div> 
+                                </div>
+
+                                <div class="testimonial two-fourth ">
+                                    <div class="thumbnail">
+                                        <a href=""><img src="images/people/william9.png" alt="" title="Richardson, William Dale" />  </a>
+                                        
+                                    </div>
+                                
+                                    <div class="testimonial-text">
+                                        <h2>Richardson, William Dale</h2>
+                                           
+                                         <li>Thesis Title: Evolutionary Instance Resampling for Difficult Data Sets</li> 
+                                                <li>Graduation Date: 12/2013</li> 
+                                                <li>Current Affiliation: PhD Student, Department of Computer Science in University of Georgia</li> 
+                                    </div>
+                                    <div class="testimonial-name"><a href="" class="name" >Richardson, William Dale</a></div>
+                                </div>
+
+                                <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                       <a href="http://shuzhang-uga.daportfolio.com/"> <img src="images/people/szhang9.jpg" alt="Zhang, Shu" title="Zhang, Shu" /> </a>
+                                           
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Zhang, Shu</h2>
+                                           <li>Thesis Title: Evolutionary Accompaniment Systems for Creative Music Generation</li> 
+                                                <li>Graduation Date: 08/2013</li> 
+                                                <li>Current Affiliation: Master program in Dramatic Media, Department of Theatre and film in University of Georgia</li> 
+                                    </div>
+                                    <div class="testimonial-name"><a href="http://shuzhang-uga.daportfolio.com/" class="name">Zhang, Shu</a></div>
+                                </div>
+
+                                <div class="testimonial two-fourth ">
+                                    <div class="thumbnail">
+                                        <a href=""><img src="images/people/ganesh9.jpg" alt="" title="Bonde, Ganesh" />  </a>
+                                        
+                                    </div>
+                                
+                                    <div class="testimonial-text">
+                                        <h2>Bonde, Ganesh</h2>
+                                         <li>Thesis Title: Extracting the Best Features From Multi-company Stock Data to Improve Stock Price Prediction</li> 
+                                                <li>Graduation Date: 08/2012</li> 
+                                                <li>Current Affiliation: InfoSys</li>  
+                                    </div>
+                                    <div class="testimonial-name"><a href="" class="name" >Bonde, Ganesh</a></div>
+                                </div>
+
+                                <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                        <a href="http://www.physast.uga.edu/people/meng_meng"><img src="images/people/meng9.jpg" alt="Meng, Meng" title="Meng, Meng" /> </a>
+                                           
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Meng, Meng</h2>
+                                           <li>Thesis Title: Automated MRI Prediction of Alzheimer's Disease Development by Machine Learning Methods</li> 
+                                                <li>Graduation Date: 12/2011</li> 
+                                                <li>Current Affiliation: <a href="http://www.simplyhired.com/"> SimplyHired </a></li> 
+                                            </div>
+                                    <div class="testimonial-name"><a href="http://www.physast.uga.edu/people/meng_meng" class="name">Meng, Meng</a></div>
+                                </div>
+
+                                <div class="testimonial two-fourth ">
+                                    <div class="thumbnail">
+                                        <a href=""><img src="images/people/rahila9.jpg" alt="" title="Umer, Rahila" />  </a>
+                                        
+                                    </div>
+                                
+                                    <div class="testimonial-text">
+                                        <h2>Umer, Rahila</h2>
+                                         <li>Thesis Title: Machine Learning Approaches for The Computer Aided Diagnosis and Prediction of Alzheimer's Disease based on Clinical Data</li> 
+                                                <li>Graduation Date: 08/2011</li> 
+                                                <li>Current Affiliation:</li> 
+                                    </div>
+                                    <div class="testimonial-name"><a href="" class="name" >Umer, Rahila</a></div>
+                                </div>
+
+                                 <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Mahamuda, Vasim </h2>
+                                            <li> 
+                                            Thesis Title: Analyzing the Performance of Machine Learning Algorithms on Metagenomic data
+                                        </li> 
+                                        <li>Graduation Date: 08/2010</li> 
+                                        <li>Current Affiliation:</li> 
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Mahamuda, Vasim</a></div>
+                                </div>
+
+                            <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                      
+                                           
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Koirala, Cesar </h2>
+                                           <li> 
+                                            Thesis Title: Comparison of the Effects of Morphological and Lexical Information on Text
+                                        </li> 
+                                        <li>Graduation Date: 08/2008</li> 
+                                        <li>Current Affiliation:</li>  
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Koirala, Cesar </a></div>
+                                </div>
+
+                                 <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Lyle, Arlo Morrison  </h2>
+                                             <li> 
+                                            Thesis Title: Baseball Prediction Using Ensemble Learning
+                                        </li> 
+                                        <li>Graduation Date: 05/2007</li> 
+                                        <li>Current Affiliation:</li>  
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Lyle, Arlo Morrison </a></div>
+                                </div>
+
+                            <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                      
+                                           
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Matthews, Glenn Franklin  </h2>
+                                          <li> 
+                                            Thesis Title: Using Temporal Difference Learning to Train Players of Nondeterministic Board Games
+                                        </li> 
+                                        <li>Graduation Date: 12/2006</li> 
+                                        <li>Current Affiliation:</li> 
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Matthews, Glenn Franklin </a></div>
+                                </div>
+
+                                <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Rabbani, Reyman    </h2>
+                                           <li> 
+                                            Thesis Title: Predicting Microbial Activity during Composting using Machine Learning Techniques
+                                        </li> 
+                                        <li>Graduation Date: 08/2006</li> 
+                                        <li>Current Affiliation:</li>  
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Rabbani, Reyman   </a></div>
+                                </div>
+
+                            <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                      
+                                           
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Stiles, Eric   </h2>
+                                          <li> 
+                                            Thesis Title: Bone Desktop: A Visualization Tool for the Evaluation of External Skeletal Fixation Proposals
+                                        </li> 
+                                        <li>Graduation Date: 05/2005</li> 
+                                        <li>Current Affiliation:</li> 
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Stiles, Eric </a></div>
+                                </div>
+
+                                <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Zhang, Congshan    </h2>
+                                          <li> 
+                                            Thesis Title: Improving GA Performance by Using Maximal Hyber-Rectangle Analysis and Relative Fitness
+                                        </li> 
+                                        <li>Graduation Date: 05/2005</li> 
+                                        <li>Current Affiliation:</li> 
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Zhang, Congshan   </a></div>
+                                </div>
+
+                            <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                      
+                                           
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Kessler, Jaymin    </h2>
+                                          <li> 
+                                            Thesis Title: Using Genetic Algorithms to Recognize Superpeer Structure in Peer to Peer Networks
+                                        </li> 
+                                        <li>Graduation Date: 12/2004</li> 
+                                        <li>Current Affiliation:</li>  
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Kessler, Jaymin   </a></div>
+                                </div>
+
+                                <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Chafekar, Deepti     </h2>
+                                         <li> 
+                                            Thesis Title: Constrained Multi-Objective Optimization Using Steady State Genetic Algorithms
+                                        </li> 
+                                        <li>Graduation Date: 12/2004</li> 
+                                        <li>Current Affiliation:</li> 
+                                    </ul> 
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Chafekar, Deepti    </a></div>
+                                </div>
+
+                            <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                      
+                                           
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Mehta, Diptee  </h2>
+                                         <li> 
+                                            Thesis Title: Machine Learning Approaches for Biomaterial Modeling
+                                        </li> 
+                                        <li>Graduation Date: 08/2004</li> 
+                                        <li>Current Affiliation:</li>  
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Mehta, Diptee   </a></div>
+                                </div>
+
+                                <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Suo, Ning        </h2>
+                                        <li> 
+                                            Thesis Title: Machine Learning Techniques for the Evaluation of External Skeletal Fixations Structures
+                                        </li> 
+                                        <li>Graduation Date: 08/2003</li> 
+                                        <li>Current Affiliation:</li> 
+                                    </ul> 
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Suo, Ning       </a></div>
+                                </div>
+
+                            <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                      
+                                           
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Kolychev, Dmitri      </h2>
+                                        <li> 
+                                            Thesis Title: Microsatellite Detection And Consensus Sequence Verification By Virtual PCR And Machine Learning
+                                        </li> 
+                                        <li>Graduation Date: 08/2003</li> 
+                                        <li>Current Affiliation:</li> 
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Kolychev, Dmitri      </a></div>
+                                </div>
+
+                                <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Ni, Xiao   </h2>
+                                        <li> 
+                                            Thesis Title: Comparisons of Methods for Developing and Using Dynamic Reduced Models for Design Optimization
+                                        </li> 
+                                        <li>Graduation Date: 08/2002</li> 
+                                        <li>Current Affiliation:</li>  
+                                    </ul> 
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Ni, Xiao   </a></div>
+                                </div>
+
+                            <div class="testimonial two-fourth last">
+                                    <div class="thumbnail">
+                                      
+                                           
+                                    </div>
+                                    <div class="testimonial-text">
+                                         <h2>Bahuman, Anil   </h2>
+                                        <li> 
+                                            Thesis Title: An Evolutionary Approach to Standard Cell Design Automation
+                                        </li> 
+                                        <li>Graduation Date: 12/2001</li> 
+                                        <li>Current Affiliation:</li> 
+                                            </div>
+                                    <div class="testimonial-name"><a href="" class="name">Bahuman, Anil   </a></div>
+                                </div>
+
+                                  </div>
+                              </div>
+
+				            </div>
+				            <!-- START COMMENTS -->
+				            <div id="comments">
+				            </div>
+				            <!-- END COMMENTS -->
+				        </div>
+				        <!-- END CONTENT -->
+				        <!-- START EXTRA CONTENT -->
+				        <!-- END EXTRA CONTENT -->
+				    </div>
+				</div>
+				<!-- END PRIMARY -->
+				
+				
+				<!-- START COPYRIGHT -->
+                <div id="copyright">
+                    <div class="inner group">
+                        <div class="left">
+                            <a href="http:www.ecml.uga.eud"><strong>Copyright © 2021, ECML Lab. All rights reserved. </strong></a>
+                        </div>
+                        <div class="right">
+                          <a href="http:www.ecml.uga.eud"><strong>Department of Computer Science • The University of Georgia • Athens, GA 30602, USA </strong></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END COPYRIGHT -->
+            </div>
+            <!-- END WRAPPER -->
+        </div>
+        <!-- END BG SHADOW -->
+        
+        <script type="text/javascript" src="js/jquery.custom.js"></script>
+        <script type="text/javascript" src="js/contact.js"></script>
+        <script type="text/javascript" src="js/jquery.mobilemenu.js"></script> 
+        
+    </body>
+    <!-- END BODY -->
+</html>

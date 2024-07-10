@@ -1,0 +1,344 @@
+<Html>
+
+<Head>
+
+
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI/ARTI 8950 Machine Learning
+</Title>
+
+</Head>
+
+<Body>
+
+<H1>CSCI/ARTI 8950 Machine Learning</H1>
+
+Spring 2019: Mondays 2:30pm - 3:20pm & Tuesdays
+and Thursdays 2:00pm - 3:15pm, Boyd GSRC Room 306</BR>
+
+</BR>
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A> </BR>
+Telephone: (706)542-0881</BR>
+Office Hours: Monday 3:30-5:00pm & Thursday 3:30-5:00pm or by email
+appointment</BR>
+Office Location: Room 518, Boyd GSRC</BR>
+Email: khaled@uga.edu</BR>
+</BR>
+<Hr>
+
+<H2>Objectives:</H2> 
+
+Machine learning is a sub-field of artificial intelligence which is
+concerned with computer programs that can automatically improve their
+capabilities and/or performance by acquiring (learning) experience.
+The main objectives of this course are to provide students with an
+in-depth introduction to machine learning theory and methods
+and an exploration of research problems in machine learning and its
+applications which may lead to work on a project or a dissertation.
+
+The course is intended primarily for computer science and artificial
+intelligence graduate students. Graduate students from other
+departments who have a strong interest and sufficient experience in
+artificial intelligence may also find the course interesting.
+
+<H2>Recommended Background:</H2> 
+
+CSCI 4380/6380 Data Mining or CSCI/PHIL 4550/6550 Artificial
+Intelligence or CSCI 4560/6560 Evolutionary Computation (or permission
+of the instructor).  Familiarity with basic computer algorithms and
+data structures and at least one high level programming language.
+
+<H2>Topics to be Covered:</H2> 
+
+<li>Part I: Machine learning techniques: Selected from inductive
+learning, decision trees, neural network approaches, evolutionary
+computation approaches and classifier systems, reinforcement learning,
+statistical and Bayesian learning, instance-based learning, ensemble
+learning and computational learning theory.
+
+<li>Part II: Machine learning applications: Selected from data mining,
+bioinformatics, biomedical modeling, medical diagnosis, text
+classification, pattern recognition and/or other contemporary
+applications.
+
+
+<H2>Expected Work:</H2> 
+
+Attendance; reading; assignments (some include programming and/or
+running existing programs); midterm exam; and term project and paper.
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All academic work must meet the standards contained in <A
+HREF="https://honesty.uga.edu/Academic-Honesty-Policy/">
+"A Culture of Honesty."</A> Students are responsible for informing
+themselves about those standards before performing any academic
+work. The penalties for academic dishonesty are severe and ignorance
+is not an acceptable defense.
+
+<H2>Group Study Policy:</H2>
+
+Group study is a powerful resource for graduate students and is
+therefore encouraged. During group study, you may discuss in detail
+any homework problems.  However, you must write or type your
+homework on your own. Furthermore, you should never look at or copy
+a complete solution to a problem from another student's homework or
+allow another student to look at or copy a complete problem solution
+from your homework.  Finally, you should acknowledge group study by
+listing the names of the students you studied with at the beginning or
+end of your homework. <Strong>Participation in group study is
+optional and will not affect your grade in any way.</Strong>
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 25% (Programs, homeworks, attendance, paper presentation)
+<li>Midterm Examination: 25%   
+<li>Term Project: 50% (includes term paper and presentation)
+<br>
+
+Students may work on their term projects in groups of up to
+<strong>four</strong> students each. The above distribution is only
+tentative and may change later. The instructor will announce any
+changes.
+
+<H2>Assignment Submission Policy</H2> 
+
+Assignments must be turned in by the assigned deadline. Late
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the ML Class
+Home-page at <A HREF="http://cobweb.cs.uga.edu/~khaled/MLcourse/">
+http://cobweb.cs.uga.edu/~khaled/MLcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there.
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> "Machine Learning", Tom Mitchell.  McGraw-Hill, 1997. (Required.) 
+
+<H2>Additional Books</H2> 
+
+<li> "Data Mining: Practical Machine Learning Tools and Techniques
+(3rd edition)", Ian Witten & Eibe Frank. Morgan Kaufmann, 2010.
+
+<li> "Evolutionary Computation : Towards a New Philosophy of Machine
+Intelligence", David Fogel. IEEE press, 1999.
+
+
+<H2>Web Resources</H2> 
+
+<li> <A HREF="http://archive.ics.uci.edu/ml/">
+University of California at Irvine ML Repository</a>
+
+<li> <A HREF="http://www.cs.waikato.ac.nz/~ml">
+The WEKA Machine Learning Project</a>
+
+<li> <A HREF="http://www.kaggle.com">
+The Kaggle data science home</a>
+
+<li> <A HREF="http://home.earthlink.net/~dwaha/research/machine-learning.html">
+David Aha's Machine Learning Resources</a>
+
+
+<H2>Announcements:</H2>
+
+<li> [3-5-2019] The midterm exam will be this Thursday
+3-7-2019 in class. It will cover all the topics discussed
+in the course up to the end of Chapter 5, including all handouts
+related to Chapter 5 or earlier chapters. It will be open notes but
+the use of books or laptops will not be allowed. You should bring your
+lecture notes and all handouts and you are encouraged to also bring
+any additional notes, homeworks etc.
+
+<H2>Papers</H2>
+
+<li> "Protein Secondary Structure Prediction Using Deep Convolutional
+Neural Fields" 2016. [Wayland][3-28]
+{<A HREF="https://www.nature.com/articles/srep18962.pdf">download</A>}
+
+<li> "DeepFace: Closing the Gap to Human-Level Performance in Face Verification" 2013. [Rana][3-28]
+  {<A HREF="https://research.fb.com/wp-content/uploads/2016/11/deepface-closing-the-gap-to-human-level-performance-in-face-verification.pdf">download</A>}
+
+<li> "Where’s The Bear?- Automating Wildlife Image Processing
+Using IoT and Edge Cloud Systems" 2017. [Acharya][4-1]
+  {<A HREF="https://www.cs.ucsb.edu/~ckrintz/papers/iotdi17.pdf">download</A>}
+  
+<li> "7 Types of Regression Techniques you should know!" 2015. [Sayli][4-2]
+  {<A HREF="https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/">download</A>}
+
+<li> "Using clustering analysis to improve semi-supervised classification" 2013. [Karumundi][4-2] {<A HREF="http://www.sciencedirect.com/science/article/pii/S0925231212006601?">download</A>}
+
+<li> "MATRIX FACTORIZATION TECHNIQUES FOR RECOMMENDER SYSTEMS"
+2013. [Joglekar][4-8]
+{<A HREF="https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf">download</A>}
+
+<li> "Using Three Machine Learning Techniques for Predicting Breast
+Cancer Recurrence" 2013. [Ola][4-8]
+{<A HREF="https://www.omicsonline.org/using-three-machine-learning-techniques-for-predicting-breast-cancer-2157-7420.1000124.php?aid=13087">download</A>}
+
+<li> "Neural Turing Machines" 2014. [Cloer][4-11]
+  {<A HREF="https://arxiv.org/pdf/1410.5401.pdf">download</A>}
+
+<li> "Wild patterns: Ten years after the rise of adversarial machine learning" 2018. [Hill][4-11]
+  {<A HREF="https://doi.org/10.1016/j.patcog.2018.07.023">download</A>}
+
+<li> "Font and Turkish Letter Recognition in Images with Deep
+  Learning" 2018. [Shah][4-22]
+  {<A HREF="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8625333">download</A>}
+
+  <li> "Catching free-riders: in-network adblock detection
+with machine learning techniques" 2018. [Seoyoung Kim][4-22]
+{<A HREF="https://ernieapp.com/wp-content/uploads/2018/09/CAMAD2018.pdf">download</A>}
+
+<li> "Web Application Attacks Detection Using Machine Learning
+   Techniques" 2018. [Jagtap][4-22]
+   {<A HREF="https://ieeexplore-ieee-org.proxy-remote.galib.uga.edu/document/8614199">download</A>}
+   
+ <li> "End to End Learning for Self-Driving Cars" 2016. [Agarwal][4-23]
+{<A HREF="https://arxiv.org/pdf/1604.07316.pdf">download</A>} 
+
+<li> "Comparison of Deep Learning and the
+Classical Machine Learning Algorithm for the
+Malware Detection" 2018. [Vaghela][4-23]
+  {<A HREF="https://arxiv.org/pdf/1809.05889.pdf">download</A>}
+
+<li> "Dropout: A Simple Way to Prevent Neural Networks from
+Overfitting" 2014. [Nirmal][4-23]
+  {<A HREF="https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf">download</A>}
+  
+<li> "Large-scale Video Classification with Convolutional Neural Networks" 2014. [Mishra][4-23]
+  {<A HREF="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42455.pdf">download</A>}
+
+<li> "Adaptive Bayesian Linear Regression for
+Automated Machine Learning" 2019. [Parikh][4-25]
+{<A HREF="https://arxiv.org/pdf/1904.00577.pdf">download</A>}
+
+<li> "A Review of Machine Learning Algorithms for
+Text-Documents Classification" 2010. [Nelson][4-25]
+      {<A HREF="http://www.jait.us/uploadfile/2014/1223/20141223050800532.pdf">download</A>}
+
+<li> "Comparison of individual, ensemble and integrated ensemble machine learning methods to predict China’s SME credit risk in supply chain finance" 2017. [Tsao][4-25]
+{<A HREF="https://link.springer.com/article/10.1007/s00521-016-2304-x">download</A>}      
+      
+<li> "Bias Mitigation Post-processing for Individual and Group Fairness" 2013. [Adke][4-25]
+{<A HREF="https://arxiv.org/abs/1812.06135">download</A>}
+
+<li> "Clustering by Passing Messages Between Data Points" Brendan
+J. Frey and Delbert Dueck, 2007. [Bozorgi][4-25]
+{<A HREF="http://www.psi.toronto.edu/affinitypropagation/FreyDueckScience07.pdf"
+>download</A>}
+
+<li> "Dynamic Routing Between Capsules" 2017. [Peck][4-29]
+  {<A HREF="https://arxiv.org/pdf/1710.09829.pdf">download</A>}
+
+<li> "ImageNet Classification with Deep Convolutional
+Neural Networks" 2012. [Rokad][4-29]
+  {<A HREF="http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">download</A>}
+
+<li> "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning" 2015. [Han][4-29]
+{<A HREF="https://www.nature.com/articles/nbt.3300">download</A>}  
+
+<li> "A review of feature selection techniques in bioinformatics"
+2007. [Khetan][4-30]
+{<A HREF="https://academic.oup.com/bioinformatics/article/23/19/2507/185254">download</A>}
+  
+  <li> "A survey on feature selection methods"
+2014. [Kunchala][4-30]
+{<A HREF="http://www.realtechsupport.org/UB/ML+CT/papers/Sahin_FeatureSelectionMethods_2014.pdf">download</A>}
+
+    <li> "Deep Reinforcement Learning
+for General Video Game AI" 2018. [Foss][4-30]
+{<A HREF="https://arxiv.org/pdf/1806.02448.pdf">download</A>}
+
+      <li> "Predicting Post Severity in Mental Health Forums
+" 2016. [Xian][4-30]
+	{<A HREF="https://www.aclweb.org/anthology/W16-0314">download</A>}
+	
+<!----
+
+<li> "" 2013. [][]
+{<A HREF="">download</A>}
+--->
+
+
+<H2>Assignments:</H2> 
+
+<li> <A HREF="homework1.pdf">Assignment 1</A>
+<li> <A HREF="homework2.pdf">Assignment 2</A>
+<li> <A HREF="homework3.pdf">Assignment 3</A>
+<li> <A HREF="homework4.pdf">Assignment 4</A>
+<li> <A HREF="homework5.pdf">Assignment 5</A>
+
+<li> <A HREF="homework6.pdf">Assignment 6</A>
+<!----
+
+--->
+
+<H2>Lecture Notes:</H2> 
+
+<li>
+<A HREF="ML-Intro.pdf">Introduction </A>
+<li>
+<A HREF="ML-C1.pdf">Chapter 1</A>
+<li>
+<A HREF="ML-C2.pdf">Chapter 2</A>
+<li>
+<A HREF="ML-C3.pdf">Chapter 3</A>
+<li>
+<A HREF="ML-C4.pdf">Chapter 4</A>
+<li>
+<A HREF="MlWeka.pptx">Weka Introduction</A>
+<li>
+<A HREF="ML-C5.pdf">Chapter 5</A>
+<li>
+<A HREF="ML-C6.pdf">Chapter 6</A>
+<li>
+<A HREF="ML-C8.pdf">Chapter 8</A>
+<li>
+<A HREF="ML-C7.pdf">Chapter 7</A>
+<li>
+<A HREF="Evolutionary_Computation_short.pptx">Evolutionary Computation</A>
+<!--
+<li>
+<A HREF="Deep_Learning_Lecture.pdf">Deep Learning Lecture</A>
+
+
+<li>
+<A HREF="Challenges_of_Big_Data.pptx">Big Data Guest Lecture</A>
+
+---->
+
+<Hr>
+
+<strong>The course syllabus is a general plan for the course;
+deviations announced to the class by the instructor may be
+necessary.</strong><BR>
+
+<P>
+
+Last modified: April 25, 2019.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@uga.edu">khaled@uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>

@@ -1,0 +1,203 @@
+/*=======================================================
+	Author: U, MAN CHON (Kevin)
+	Latest update: Dec 05, 2008
+=======================================================*/
+
+/*=======================================================
+	Basic Styling
+=======================================================*/
+html, body {
+	height: 100%;
+    background-image:url(pic/back.gif);
+}
+
+/*=======================================================
+	Global Hyperlink Control
+=======================================================*/
+a.aWhite{
+	text-decoration: none;
+	font-family:Arial;
+	font-size:10pt;
+}
+
+a.aWhite:link, a.aWhite:visited {
+	color: #FFFFFF;
+}
+
+a.aWhite:hover {
+	color: #FF0066;
+}
+
+a.aWhite:active {
+    color: #FF0066;
+}
+
+a.aBlack{
+	text-decoration: none;
+	font-family:Arial;
+	font-size:10pt;
+}
+
+a.aBlack:link, a.aBlack:visited {
+	color: #000000;
+}
+
+a.aBlack:hover {
+	color: #FF0066;
+}
+
+a.aBlack:active {
+    color: #FF0066;
+}
+
+a.aBlue{
+	text-decoration: none;
+	font-family:Arial;
+	font-size:10pt;
+}
+
+a.aBlue:link, a.aBlue:visited {
+	color: #3333FF;
+}
+
+a.aBlue:hover {
+	color: #FF0066;
+}
+
+a.aBlue:active {
+    color: #FF0066;
+}
+
+
+/*=======================================================
+	Table
+=======================================================*/
+tr, td
+{
+	font-family:Arial;
+	font-size:10pt;
+}
+
+/*=======================================================
+	Color
+=======================================================*/
+.red{
+    color:red;
+}
+
+.white{
+    color:white;
+}
+
+.black{
+    color:black;
+}
+
+.dBlue{
+	color:#333399;
+}
+
+.bgRed{
+    background-color:red;
+}
+
+.bgWhite{
+    background-color:white;
+}
+
+.bgBlack{
+    background-color:black;
+}
+
+/*=======================================================
+	Position
+=======================================================*/
+.header{
+	font-weight:bold;
+	font-family:Arial;
+	font-size:10pt;
+	background-color:black;
+	color:white;
+}
+
+.headerMsg{
+	font-family:Arial;
+	font-size:8pt;
+	background-color:red;
+	color:white;
+}
+
+.headerTag{
+    font-weight:bold;
+	font-family:Arial;
+	font-size:12pt;
+	background-color:black;
+	color:white;
+}
+
+.headerSubTag, .content{
+	font-family:Arial;
+	font-size:10pt;
+	background-color:white;
+	color:black;
+    background-image:url(pic/strbk.gif);
+}
+
+.footer{
+	background-color:black;
+	color:white;
+	text-align: center;
+}
+
+p
+{
+	font-size:10pt;
+	font-family:Arial;
+	text-align:left;
+}
+
+.center{
+	text-align:center;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.left{
+	text-align:left;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.right{
+	text-align:right;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.topBottom{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.vTop{
+	vertical-align:top;
+}
+/*=======================================================
+	Font Size
+=======================================================*/
+
+.t10{
+    font-size:10pt;
+}
+
+.t12{
+    font-size:12pt;
+}
+
+.tb{
+    font-weight: bold;
+}
+
+.ti{
+    font-style:italic;
+}

@@ -1,0 +1,111 @@
+<HTML>
+
+<HEAD>
+
+<TITLE> The Home Page of Khaled Rasheed </TITLE>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Microsoft Word 2.0z Beta">
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+
+<H1>
+<CENTER>
+The Home Page of Khaled Rasheed
+</CENTER>
+</H1>
+
+
+<table cellpadding=5 border=1>
+<tr align=left>
+<td align=left>
+<IMG SRC="khaled.jpg" HEIGHT=244 WIDTH=171>
+</td>
+
+<td align=left>
+
+I am an associate professor in the <A
+HREF="http://www.cs.uga.edu/">Department of Computer Science</A> at <A
+HREF="http://www.uga.edu/">the University of Georgia</A>. I am also
+the graduate coordinator of the <A HREF="http://www.ai.uga.edu/">UGA
+Institute for Artificial Intelligence</A>, a member of the <A
+HREF="http://www.iob.uga.edu/">UGA Institute of Bioinformatics</A> and the <A HREF="http://www.engr.uga.edu/">UGA Faculty of Engineering</A>.
+
+<p>
+
+<Dt><Strong>Research interests</Strong><br>
+
+Artificial Intelligence Methods including Genetic Algorithms,
+Evolutionary Computation and Machine Learning.<br> 
+
+Artificial Intelligence Applications including Engineering Design
+Optimization, Computational Biology. <br>
+
+<p>
+
+<Dt><Strong>Office Hours:</Strong><br>
+by email appointment</BR>
+
+
+</td>
+<td align=left>
+<Dl>
+<Dt><Strong>Address</Strong>
+<Dd>219B Boyd GSRC<br>
+    Department of Computer Science<br>
+    University of Georgia<br>
+    Athens, GA 30602-7404 <br>
+
+<Dt><Strong>E-mail</Strong>
+<Dd>khaled@cs.uga.edu
+
+<Dt><Strong>Office Telephone</Strong>
+<Dd>(706) 542-3444
+
+
+<Dt><Strong>FAX</Strong>
+<Dd>(706) 542-2966
+</Dl>
+
+</td>
+</tr>
+</table>
+
+<HR><P>
+
+<H2><A HREF="rasheed_vita_current.doc">My Resume</A></H2>
+
+<H2><A HREF="publications.html">My Publications</A></H2>
+
+<H2><A HREF="http://ecml.uga.edu">My Lab</A></H2>
+
+<H2><A HREF="gado.html">GADO</A></H2>
+
+<H2> Course Home Pages</H2>
+
+<li><A HREF="ECcourse/index.html">Fall 2011: CSCI 4560/6560 Evolutionary
+Computation Home Page</A>
+
+<li><A HREF="MLcourse/index.html">Spring 2011: CSCI/ARTI 8950 Machine
+Learning Home Page</A>
+
+<li><A HREF="DMcourse/index.html">Spring 2011: CSCI/MATH 2610 Discrete
+Mathematics Home Page</A>
+
+<li><A HREF="AIcourse/index.html">Fall 2009: CSCI/PHIL 4550/6550
+ Artificial Intelligence Home Page</A>
+
+<li><A HREF="CIcourse/index.html">Spring 2003: CSCI/ENGR 8940 Computational
+Intelligence Home Page</A>
+
+<HR>
+
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A>
+(<A Href="mailto:khaled@cs.uga.edu">khaled (at) cs.uga.edu</A>)
+
+</ADDRESS>
+</BODY>
+
+</HTML>
+

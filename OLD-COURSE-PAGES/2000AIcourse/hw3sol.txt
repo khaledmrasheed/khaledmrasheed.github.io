@@ -1,0 +1,134 @@
+1. (a),(b),(c),(d) are all related to Susan and John.  Since we have
+   Female(Susan) and Male(John), now all the axioms we could use are:
+
+    (1) (Ax,y)Dislikes(x,y)->~OK(x,y)
+    (2) (Ax,y)~Dislikes(x,y)&Female(x)&Male(y)->OK(x,y)
+
+The key point is that Dislike(Susan, John) is true or not.  As to (a)
+and (b), we know nothing about it.  However, under the Closed World
+Assumption which means all positive ground facts are false if we can't
+prove else, we thus get additional fact ~Dislikes(Susan, John).  By
+this additional fact and (2), we get OK(Susan, John).  So we have:
+
+    (a) No
+    (b) No
+    (c) Yes
+    (d) No
+
+We should notice although answer (d) is same as (a) and (b), the
+meaning is different.  Answer (d) means ~OK(Susan, John) is false
+while answers (a) and (b) mean we can't judge OK(Susan, John) or
+~OK(Susan, John) is false or true within our system.
+
+(e)Given Dislikes(...)<=>~Likes(...), when Dislikes(...) is replaced
+by ~Likes(...) in all the axioms, the system itself is equivalent to
+the system after replacement.  However, under the CWA, the additional
+fact is ~Likes(Susan, John) instead of ~Dislikes(Susan, John) which is
+equivalent to Likes(Susan, John).  So answers (c) and (d) will be
+changed to reverse while (a) and (b) are retained.
+
+2.  Let (#M,#C,#B)(0<=#M,#C<=3,0<=#B<=1) describe the number of
+    missionaries, cannibals and boats on the west(starting) side.  We
+    could use this triple to define all preconditions and effects in
+    STRIPS.
+
+(a)
+*The starting state
+    Op(ACTION:Start, EFFECT:(3,3,1))
+*The goal state
+    Op(ACTION:Finish, PRECOND:(0,0,0))
+*Operators
+    (1)Op(ACTION:MoveEast(1M), PRECOND:(M,C,1), EFFECT:(M-1,C,0))
+           2 operators for (M,C) in {(3,2),(1,1)}
+    (2)Op(ACTION:MoveEast(2M), PRECOND:(M,C,1), EFFECT:(M-2,C,0))
+           2 operators for (M,C) in {(3,1),(2,2)}
+    (3)Op(ACTION:MoveEast(1C), PRECOND:(M,C,1), EFFECT:(M,C-1,0))
+           6 operators for (M,C) in {(3,3),(3,2),(3,1),(0,3),(0,2),(0,1)}
+    (4)Op(ACTION:MoveEast(2C), PRECOND:(M,C,1), EFFECT:(M,C-2,0))
+           4 operators for (M,C) in {(3,3),(3,2),(0,3),(0,2)}
+    (5)Op(ACTION:MoveEast(1M,1C), PRECOND:(M,C,1), EFFECT:(M-1,C-1,0))
+           3 operators for (M,C) in {(3,3),(2,2),(1,1)}
+    (6)Op(ACTION:MoveWest(1M), PRECOND:(M,C,0), EFFECT:(M+1,C,1))
+           2 operators for (M,C) in {(2,2),(0,1)}
+    (7)Op(ACTION:MoveWest(2M), PRECOND:(M,C,0), EFFECT:(M+2,C,1))
+           2 operators for (M,C) in {(1,1),(0,2)}
+    (8)Op(ACTION:MoveWest(1C), PRECOND:(M,C,0), EFFECT:(M,C+1,1))
+           6 operators for (M,C) in {(3,2),(3,1),(3,0),(0,2),(0,1),(0,0)}
+    (9)Op(ACTION:MoveWest(2C), PRECOND:(M,C,0), EFFECT:(M,C+2,1))
+           4 operators for (M,C) in {(3,1),(3,0),(0,1),(0,0)}
+    (10)Op(ACTION:MoveWest(1M,1C), PRECOND:(M,C,0), EFFECT:(M+1,C+1,1))
+           3 operators for (M,C) in {(2,2),(1,1),(0,0)}
+
+(b)There are several solutions.  The minimal steps are 11.  Below is
+one solution.
+
+    Finish(0,0,0) | (0,0,0)MoveEast(2C)(0,2,1) |
+    (0,2,1)MoveWest(1C)(0,1,0) | (0,1,0)MoveEast(2C)(0,3,1) |
+    (0,3,1)MoveWest(1C)(0,2,0) | (0,2,0)MoveEast(2M)(2,2,1) |
+    (2,2,1)MoveWest(1M,1C)(1,1,0) | (1,1,0)MoveEast(2M)(3,1,1) |
+    (3,1,1)MoveWest(1C)(3,0,0) | (3,0,0)MoveEast(2C)(3,2,1) |
+    (3,2,1)MoveWest(1M)(2,2,0) | (2,2,0)MoveEast(1M,1C)(3,3,1) |
+    (3,3,1)Start
+
+3. The six axioms are on pages 360-361.
+
+(b) Here is the STRIPS version:
+
+    Op(ACTION:Go(y), PRECOND:At(Shakey,x)&In(x,r)&In(y,r),
+    EFFECT:At(Shakey,y)&~At(Shakey,x))
+    Op(ACTION:Push(b,x,y), PRECOND:At(Shakey,x)&Pushable(b),
+    EFFECT:At(b,y)&At(Shakey,y)&~At(b,x)&~At(Shakey,x))
+    Op(ACTION:Climb(b), PRECOND:At(Shakey,x)&At(b,x)&Climbable(x),
+    EFFECT:On(Shakey,b)&~On(Shakey,Floor))
+    Op(ACTION:Down(b), PRECOND:On(Shakey,b),
+    EFFECT:On(Shakey,Floor)&~On(Shakey,b))
+    Op(ACTION:TurnOn(l), PRECOND:On(Shakey,b)&At(Shakey,x)&At(l,x),
+    EFFECT:TurnedOn(l))
+    Op(ACTION:TurnOff(l), PRECOND:On(Shakey,b)&At(Shakey,x)&At(l,x),
+    EFFECT:~TurnedOn(l))
+
+(c) The plan can be:
+    Start
+    Go(Door3)
+    Go(Door1)
+    Go(Box2_location)
+    Push(Box2,Box2_location,Door1)
+    Push(Box2,Door1,Door2)
+    Push(Box2,Door2,Room2)
+    Finish
+
+    Box2_location is the location of Box2 in the initial configuration.
+
+4. This is a discussion question with no unique answer. The following
+   is just one idea for a solution:
+
+   First, let's assume we are dealing with a nondeterministic version
+of the vacuum world, such as the Murphy's Law version described on
+page 59.  In this world, a such action in an empty square has the
+conditional effect of sometimes depositing dirt, sometimes not.
+Solving a problem in this world involves a branching, conditional tree
+of paths.  If there is a sensing action available that tells if there
+is dirt in a square then there will always be a finite tree of steps
+that solves the problem; if not then there is no guarantee of
+achieving a solution.  Replanning could be used in the Murphy's Law
+vacuum world by ignoring the possibility of the vacuum depositing
+dirt, but always checking preconditions before taking action.  If a
+precondition is violated(e.g., if there is dirt in a position where
+none was expected, then we can replan to correct the problem(in this
+case simply by planning to such up the offending dirt).
+
+   Now let's consider the deterministic vacuum world.  Even here,
+there is a call for conditional planning and/or replanning.  The
+reason is that even though the world is deterministic, it is not fully
+accessible to the agent at the start of execution.  For example, the
+agent does not know what squares contain dirt and what squares are
+clean.  One possibility is to plan a complete tour of the room, with
+no sucking actions, but with a precondition that the current square is
+clean on each Forward action.  Then if by chance the agent ends up in
+a dirty square during execution it can replan to suck up the dirt and
+continue.  Alternately, the agent can compose a conditional plan that
+tests each square for dirt and either sucks or moves depending on the
+outcome of the test.  The wumpus world is deterministic but
+inaccessible, so it is similar to the deterministic vaccum world.
+
+

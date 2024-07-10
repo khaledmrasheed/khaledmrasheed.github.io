@@ -1,0 +1,112 @@
+14.3 We are given the following information:
+         P(Test|Disease) = 0.99
+       P(~Test|~Disease) = 0.99
+              P(Disease) = 0.0001
+     where Test means that the test is positive. What the patient is concerned about is
+P(Disease|Test). Roughly speaking,the reason it is a good thing that disease is rare is
+that P(Disease|Test) is proportional to P(Disease),so a lower prior for Disease will
+mean a lower value for P(Disease|Test). Roughly speaking,if 10,000 people take the test,
+we expect 1 to actually have the disease,and most likely test positive,while the rest do
+not have the disease,but 1% of them(about 100) will test positive anyway, so P(Disease|
+Test) will be about 1 in 100. More precisely,using the normalization equation from page
+428:
+                                    P(Test|Disease)P(Disease)
+     P(Disease|Test) = -----------------------------------------------------
+                       P(Test|Disease)P(Disease)+P(Test|~Disease)P(~Disease)
+                            0.99*0.0001
+                     = -----------------------
+                       0.99*0.0001+0.01*0.9999
+                     = 0.009804
+The moral is that when the disease is much rarer than the test accuracy,a positive test
+result does not mean the disease is likely. A false positive reading remains much more
+likely.
+
+15.3 a. Althought (i) in some sense depicts the "flow of information" during calculation,
+        it is clearly incorrect as a network,since it says that given the measurements M1
+        and M2,the number of stars is independent of the focus. (ii) correctly represents
+        the causal structure:each measurement is influenced by the actual number of stars
+        and the focus,and the two telescopes are independent of each other.  (iii) shows
+        a correct but more complicated network--the one obtained by ordering the nodes M1,
+        M2,N,F1,F2. If you order M2 before M1 you would get the same network except with 
+        the arrow from M1 to M2 reversed.
+     b. (ii) requires fewer parameters and is therefore better than (iii).
+
+16.2 The expected monetary value of the lottery L is
+              1         1
+     EMV(L) = --*$10+-------*$1000000 = $0.70
+              50     2000000
+Although $0.70<$1,it is not necessarily irrational to buy the ticket. First we will consider
+just the utilities of the monetary outcomes,ignoring the utility of actually playing the 
+lottery game. Using U($n) to represent the utility to the agent of having n dollars more
+than the current state,and assuming that utility is linear for small values of money(i.e.,
+     .
+U($n)=n(U($1)-U($0)) for -10<=n<=10),the utility of the lottery is:
+            1           1
+     U(L) = --U($10)+-------U($1000000) 
+            50       2000000
+          . 1         1
+          = -U($1)+-------U($1000000) 
+            5      2000000
+This is more than U($1) when U($1,000,000)>1,6000,000U($1). Thus,for a purchase to be
+rational(when only money is considered),the agent must be quite risk-seeking. This would
+be unusual for low-income individuals,for whom the price of a ticket is non-trivial. It
+is possible that some buyers do not internalize the magnitude of the very low probability
+of winning--to imagine an event is to assign it a "non-trivial" probability,in effect.
+Apparently,these buyers are better at internalizing the large magnitude of the prize. Such
+buyers are clearly acting irrationally.
+     Some people may feel their current situation is intolerable,that is,U($0)=-8(infinity).
+Therefore the situation of having one dollar less would be equally intolerable,and it would
+be rational to gamble on a high payoff,even if one that has low probability.
+     Gamblers also derive pleasure from the excitement of the lottery and the temporary
+possession of at least a non-zero chance of wealth. So we should add to the utility of playing
+the lottery the term t to represent the thrill of participation. Seen this way,the lottery is
+just another form of entertainment,and buying a lottery ticket is no more irrational than
+buying a movie ticket. Either way,you pay your money,you get a small thrill t,and(most likely)
+you walk away empty-handed.(Note that it could be argued that doing this kind of decision-
+theoretic computation decreases the value of t. It is not clear if this is a good thing or
+a bad thing.)
+
+17.1 This question helps to bring home the difference between deterministic and stochastic
+enviroments. Here,even a short sequence spreads the agent all over the place. The easiest
+way to answer the question systematically is to draw a tree showing the states reached after
+each step and the transition probabilities. Then the probability of reaching each leaf is
+the product of the probabilities along the path,because the transition probabilities are
+Markovian. If the same state appears at more than one leaf,the probabilities of the leaves
+are summed because the events corresponding to the two paths are disjoint. The states and
+probabilities are: (3,1),0.01; (3,2),0.08; (3,3),0.09; (4,2),0.18; (4,3),0.64.
+Note above result is from start position (3,2) which is our question asking for(see page
+499 paragraph 4). If you assume start position is (1,1),the answer will be: (1,1),0.09;
+(1,2),0.65; (1,3),0.08; (2,1),0.1; (3,1),0.08. That's also OK. Other start position is 
+not allowed.
+
+18.6 In Exercise 3.16,the algorithm works by enumerating the hypothesis space in order of
+complexity of the expressions. This approach pays no attention to the data except when testing
+the expressions,and can therefore be very inefficient. Something like the current-best-hypothesis
+approach might work better,with the hypothesis being selected and altered as each element of the
+sequence is encountered. Notice that the sequence prediction problem usually involves learning
+an integer function rather than a Boolean function,so that the hypothesis space does not admit
+of a generalization/specialization partial ordering.
+
+19.3 This exercise reinforces the understanding of neural networks as mathematical functions
+that can be analyzed at a level of abstraction above their implementation as a network of 
+computing elements. For simplicity,we will assume that the activation function is the same linear
+function at each node: g(x)=cx+d. (The argument is the same (only messier) if we allow different
+Ci and Di for each node.)
+  a. The outputs of the hidden layer are
+         Hj = g(sum(Wk,j*Ik)) = c*sum(Wk,j*Ik)+d  (k,j are subscripts)
+                 K                 k
+     The final output are
+         Oi = g(sum(Wj,i*Hj)) = c*(sum(Wj,i*(c*sum(Wk,j*Ik)+d)))+d  (i,j,k are subscripts)
+                 j                  j           k
+     Now we just have to see that this is linear in the inputs:
+         Oi = c^2*sum(Ik)*sum(Wk,j*Wj,i)+d*(1+c*sum(Wj,i))  (i,j,k are subscripts)
+                   k       j                     j
+     Thus we can compute the same function as the two-layer network using just a one-layer
+     perceptron that has weights Wk,j = sum(Wk,j*Wj,i) and an activation function
+                                         j
+     g(x) = c^2*x+d*(1+c*sum(Wj,i)).
+                      j
+  b. The above reduction can be used straightforwardly to reduce an n-layer network to an
+     (n-1)-layer network. By induction,the n-layer network can be reduced to a single-layer
+     network. Thus,linear activation function restruct neural networks to represent only
+     linearly functions.

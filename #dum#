@@ -1,0 +1,12 @@
+Title: PARTITIONED SCHEDULING WITH FEWER PROCESSORS
+
+Abstract: We consider the partitioned Earliest Deadline First (EDF)
+scheduling of real time periodic tasks on identical multiprocessors in
+a multiprocessor. We characterize our task sets by two parameters:
+maximum utilization, Umax and the maximum ratio between consecutive
+task utilizations, gamma. For a given Umax and gamma we have a
+developed a novel method for determining the maximum number of
+required processors, M(Umax, gamma).It is guaranteed that any task set
+with maximum utilization <= Umax and utilization ratio <= gamma can be
+portioned on to M(Umax, gamma) processors. Compared to the current
+state of the art, our method requires as much as 35% fewer processors.

@@ -1,0 +1,342 @@
+<Html>
+
+<Head>
+
+<!--
+
+<SCRIPT language="JavaScript">
+var password; var pass1="8950"; password=prompt('Enter Password',' ');
+if (password==pass1) alert('Correct Password! Click OK to Enter!');
+else { window.location="http://www.cs.uga.edu/~khaled/"; } //
+</SCRIPT>
+
+-->
+
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI/ARTI 8950 Machine Learning
+</Title>
+
+</Head>
+
+<Body>
+
+<H1>CSCI/ARTI 8950 Machine Learning</H1>
+
+Spring 2015: Tuesdays and Thursdays 3:30pm - 4:45pm & Wednesdays
+3:35pm - 4:25pm, Boyd GSRC Room 208</BR>
+
+</BR>
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A> </BR>
+Telephone: (706)542-3444</BR> 
+Office Hours: Tuesday: 2:00-3:00pm and Wednesday: 2:00-3:00pm or by email
+appointment</BR>
+Office Location: Room 545, Boyd GSRC</BR> 
+Email: khaled@cs.uga.edu</BR>
+</BR>
+<Hr>
+
+<H2>Objectives:</H2> 
+
+Machine learning is a sub-field of artificial intelligence which is
+concerned with computer programs that can automatically improve their
+capabilities and/or performance by acquiring (learning) experience.
+The main objectives of this course are to provide students with an
+in-depth introduction to machine learning theory and methods
+and an exploration of research problems in machine learning and its
+applications which may lead to work on a project or a dissertation.
+
+The course is intended primarily for computer science and artificial
+intelligence graduate students. Graduate students from other
+departments who have a strong interest and sufficient experience in
+artificial intelligence may also find the course interesting.
+
+<H2>Recommended Background:</H2> 
+
+CSCI/PHIL 4550/6550 Artificial Intelligence or CSCI 4560/6560
+Evolutionary Computation (or permission of the instructor).
+Familiarity with basic computer algorithms and data structures and at
+least one high level programming language.
+
+<H2>Topics to be Covered:</H2> 
+
+<li>Part I: Machine learning techniques: Selected from inductive learning,
+decision trees, neural network approaches, evolutionary computation
+approaches and classifier systems, reinforcement learning, statistical
+and Bayesian learning, instance-based learning, explanation-based
+learning and computational learning theory.
+
+<li>Part II: Machine learning applications: Selected from data mining,
+bioinformatics, biomedical modeling, medical diagnosis, text
+classification, pattern recognition and/or other contemporary
+applications.
+
+
+<H2>Expected Work:</H2> 
+
+Reading; assignments (some include programming and/or running existing
+programs); two midterms; and term project and paper.
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All academic work must meet the standards contained in <A
+HREF="http://www.uga.edu/honesty/ahpd/culture_honesty.htm">
+"A Culture of Honesty."</A> Students are responsible for informing
+themselves about those standards before performing any academic
+work. The penalties for academic dishonesty are severe and ignorance
+is not an acceptable defense.
+
+<H2>Group Study Policy:</H2>
+
+Group study is a powerful resource for graduate students and is
+therefore encouraged. During group study, you may discuss in detail
+any homework problems.  However, you must write or type your
+homework on your own. Furthermore, you should never look at or copy
+a complete solution to a problem from another student's homework or
+allow another student to look at or copy a complete problem solution
+from your homework.  Finally, you should acknowledge group study by
+listing the names of the students you studied with at the beginning or
+end of your homework. <Strong>Participation in group study is
+optional and will not affect your grade in any way.</Strong>
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 20% (Programs, homeworks, attendance, paper presentation)
+<li>Midterm Examinations: 40%   
+<li>Term Project: 40% (includes term paper and presentation)
+<br>
+
+Students may work on their term projects in groups of up to
+<strong>three</strong> students each. The above distribution is only
+tentative and may change later. The instructor will announce any
+changes.
+
+<H2>Assignment Submission Policy</H2> 
+
+Assignments must be turned in by the assigned deadline. Late
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the ML Class
+Home-page at <A HREF="http://cobweb.cs.uga.edu/~khaled/MLcourse/">
+http://cobweb.cs.uga.edu/~khaled/MLcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there.
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> "Machine Learning", Tom Mitchell.  McGraw-Hill, 1997. (Required.) 
+
+<H2>Additional Books</H2> 
+
+<li> "Data Mining: Practical Machine Learning Tools and Techniques
+(3rd edition)", Ian Witten & Eibe Frank. Morgan Kaufmann, 2010.
+
+<li> "Evolutionary Computation : Towards a New Philosophy of Machine
+Intelligence", David Fogel. IEEE press, 1999.
+
+
+<H2>Web Resources</H2> 
+
+<li> <A
+HREF="http://home.earthlink.net/~dwaha/research/machine-learning.html">
+David Aha's Machine Learning Resources</a>
+
+<li> <A HREF="http://archive.ics.uci.edu/ml/">
+University of California at Irvine ML Repository</a>
+
+<li> <A HREF="http://www.cs.waikato.ac.nz/~ml">
+The WEKA Machine Learning Project</a>
+
+<H2>Announcements:</H2>
+
+<li> [3-4-2015] The first midterm will be tomorrow.  The exam will be
+open book and notes. It will cover all the material covered in the
+course including all handouts until Gibbs Algorithm in Chapter 6. You
+should bring your lecture notes, handouts and any books or notes you
+anticipate using in the exam. You should also bring a calculator. The
+use of cell phones, laptops or any communication devices will not be
+allowed in the exam.
+
+<li> [2-5-2015] Some very nice data sets and competitions can be found
+on www.kaggle.com/competitions. Those would make for very nice course
+projects.
+
+<H2>Papers</H2>
+
+<li> "Using Machine Learning on Sensor Data" 2010. [Neda][3-26]
+{<A HREF="http://hrcak.srce.hr/file/95850">download</A>}
+
+<li> "Efficient Clustering of High-Dimensional Data Sets with
+Application to Reference Matching" 2000. [Manish][4-2]
+{<A HREF="http://http://www.kamalnigam.com/papers/canopy-kdd00.pdf">download</A>}
+
+<li> "Dissemination of health information through social networks:
+Twitter and antibiotics" 2013. [Sara][4-8]
+{<A HREF="
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3601456/">download</A>}
+
+<li> "Massively Multitask Networks for Drug Discovery" 2015. [PatricK][4-8]
+{<A HREF="http://arxiv.org/pdf/1502.02072v1.pdf">download</A>}
+
+<li> "Defect characterization in infrared non-destructive testing with
+learning machines" 2009. [Jesse][4-8]
+{<A HREF="http://www.sciencedirect.com/science/article/pii/S0963869509000905#">download</A>}
+
+<li> "Twitter as a Corpus for Sentiment Analysis and Opinion Mining"
+2011. [Clarice][4-9]
+{<A HREF="http://deepthoughtinc.com/wp-content/uploads/2011/01/Twitter-as-a-Corp
+us-for-Sentiment-Analysis-and-Opinion-Mining.pdf">download</A>}
+
+<li> "Predicting Depression via Social Media" 2013. [Ava][4-9]
+{<A HREF="http://research-srv.microsoft.com/pubs/192721/icwsm_13.pdf">download</A>}
+
+<li> "A machine learning approach to web page filtering
+using content and structure analysis" 2008. [SeyedAmin][4-14]
+{<A HREF="http://ai.arizona.edu/intranet/papers/A%20Machine%20Learning%20Approach...etc.pdf">download</A>}
+
+<!----
+<li> "" 2013. [][]
+{<A HREF="">download</A>}
+--->
+
+<li> "Grading Classifiers" 2001. [Shervin, Cameron][4-14]
+{<A HREF="http://www.ofai.at/cgi-bin/get-tr?paper=oefai-tr-2001-01.pdf">download</A>}
+
+<li> "Predicting financial distress and corporate failure: A review
+from the state-of-the-art definitions, modeling, sampling, and
+featuring approaches" 2013. [Yifei][4-14]
+{<A HREF="http://www.sciencedirect.com/science/article/pii/S0950705113003869">download</A>}
+
+
+<li> "GraphLab: A New Framework For Parallel Machine Learning" 2014. [Hao][4-14]
+{<A HREF="http://arxiv.org/ftp/arxiv/papers/1408/1408.2041.pdf">download</A>}
+
+<li> "Deep Learning using Linear Support Vector Machines" 2013. [Bita][4-15]
+{<A HREF="http://deeplearning.net/wp-content/uploads/2013/03/dlsvm.pdf">download</A>}
+
+<li> "A comprehensive comparison of random forests and support vector
+machines for microarray-based cancer classification" 2008. [Yu][4-15]
+{<A HREF="http://www.biomedcentral.com/content/pdf/1471-2105-9-319.pdf">download</A>}
+
+<li> "Comparing image features and machine learning algorithms
+for real-time parking space classification" 2011. [Seyed][4-15]
+{<A HREF="http://www.researchgate.net/profile/Marc_Tschentscher/publication/256505408_Comparing_image_features_and_machine_learning_algorithms_for_real-time_parking_space_classification/links/00b4952330882da3eb000000.pdf">download</A>}
+
+<li> "GloVe: Global Vectors for Word Representation" 2013. [Brittany][4-16]
+{<A HREF="http://nlp.stanford.edu/projects/glove/glove.pdf">download</A>}
+
+<li> "A Survey on Human Activity Recognition using Wearable Sensors"
+2013. [Sahar, Delaram][4-16]
+{<A HREF="http://romisatriawahono.net/lecture/rm/survey/computer%20vision/Lara%20-%20Human%20Activity%20Recognition%20-%202013.pdf">download</A>}
+
+<li> "Clustering by Passing Messages Between Data Points" Brendan
+J. Frey and Delbert Dueck, 2007. [Bahaa][4-16]
+{<A HREF="http://http://www.psi.toronto.edu/affinitypropagation/FreyDueckScience07.pdf">download</A>}
+
+<li> "MATRIX FACTORIZATION TECHNIQUES FOR RECOMMENDER SYSTEMS"
+2013. [Yuanwen][4-16]
+{<A HREF="http://www2.research.att.com/~volinsky/papers/ieeecomputer.pdf">download</A>}
+
+<li> "Man vs. Computer: Benchmarking Machine Learning Algorithms for
+Traffic Sign Recognition" 2012. [Srijita][4-16]
+{<A HREF="http://www.ini.rub.de/data/documents/stallkampetal_gtsrb_nn_si2012.pdf">download</A>}
+
+<li> "Large-scale Privacy Protection in Google Street View" 2009. [Sina][4-21]
+{<A HREF="http://www.australianscience.com.au/research/google/35481.pdf">download</A>}
+
+<li> "Fast Learning for Sentiment Analysis on Bullying" 2012. [Jerrad][4-21]
+{<A HREF="http://pages.cs.wisc.edu/~jerryzhu/pub/wisdom12.pdf">download</A>}
+
+<li> "Earthquake Shakes Twitter Users:
+Real-time Event Detection by Social Sensors" 2010. [Zhaochong][4-21]
+{<A HREF="http://www.ymatsuo.com/papers/www2010.pdf">download</A>}
+
+<li> "Social Spam Detection" 2009. [Rich Dai][4-21] {<A HREF="http://carl.cs.indiana.edu/fil/Papers/social_spam.pdf">download</A>}
+
+<li> "Predicting breast cancer survivability:
+a comparison of three data mining methods" 2004. [Pan][4-21]
+{<A HREF="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCMQFjAA&url=http%3A%2F%2Fwww.researchgate.net%2Fprofile%2FDursun_Delen%2Fpublication%2F7847572_Predicting_breast_cancer_survivability_a_comparison_of_three_data_mining_methods%2Flinks%2F00463526ec180d6b7e000000.pdf&ei=llYtVce-FMa9ggSVwYKYCA&usg=AFQjCNErEmTFYQtcCh42vZwC0SgcmuEOkA&sig2=eJktGHTIcan58FyVcQEzZw&bvm=bv.90790515,d.eXY">download</A>}
+
+<li> "Protein Secondary Structure Prediction based on Neural Network
+Models and Support Vector Machines" 2008. [Yu Zhao][4-21]
+{<A HREF="http://cs229.stanford.edu/proj2008/JaewonYang-ProteinSecondaryStructur
+ePrediction.pdf">download</A>}
+
+<li> "A review of feature selection techniques in bioinformatics" 2013. [Yang][4-21]
+{<A HREF="http://bioinformatics.oxfordjournals.org/content/23/19/2507.full.pdf+html">download</A>}
+
+<li> "Using clustering analysis to improve semi-supervised classification" 2013.
+ [?][?] {<A HREF="http://www.sciencedirect.com/science/article/pii/S09252
+31212006601?">download</A>}
+
+<H2>Assignments:</H2> 
+
+<li> <A HREF="homework1.pdf">Assignment 1</A>
+<li> <A HREF="homework2.pdf">Assignment 2</A>
+<li> <A HREF="homework3.pdf">Assignment 3</A>
+<li> <A HREF="homework4.pdf">Assignment 4</A>
+
+<li> <A HREF="homework5.pdf">Assignment 5</A>
+<li> <A HREF="homework6.pdf">Assignment 6</A>
+
+
+
+<H2>Lecture Notes:</H2> 
+
+<li>
+<A HREF="ML-Intro.pdf">Introduction </A>
+<li>
+<A HREF="ML-C1.pdf">Chapter 1</A>
+<li>
+<A HREF="ML-C2.pdf">Chapter 2</A>
+<li>
+<A HREF="ML-C3.pdf">Chapter 3</A>
+<li>
+<A HREF="ML-C4.pdf">Chapter 4</A>
+<li>
+<A HREF="ML-C5.pdf">Chapter 5</A>
+<li>
+<A HREF="ML-C6.pdf">Chapter 6</A>
+<li>
+<A HREF="ML-C8.pdf">Chapter 8</A>
+<li>
+<A HREF="Evolutionary_Computation_short.pptx">Evolutionary Computation</A>
+<li>
+<A HREF="ML-C7.pdf">Chapter 7</A>
+<!--
+
+---->
+
+<Hr>
+
+<strong>The course syllabus is a general plan for the course;
+deviations announced to the class by the instructor may be
+necessary.</strong><BR>
+
+<P>
+
+Last modified: April 20, 2015.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@cs.uga.edu">khaled[at]cs.uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>

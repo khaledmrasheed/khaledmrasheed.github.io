@@ -1,0 +1,298 @@
+<!--
+
+    By Haosha (Elsa) Wang  -  Feb. 2014
+
+    Updated by Haosha (Elsa) Wang on July. 24th 2014 5:55pm EST
+
+    Updated by Enas Alkhoshi on Oct. 11, 2021 
+
+//-->
+
+<!DOCTYPE html>
+<html>
+<!--[if IE 6]>
+<html id="ie6" class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 9]>
+<html id="ie9" class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if gt IE 9]>
+<html class="ie" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !IE]>
+<html dir="ltr" lang="en-US">
+<![endif]-->
+    
+    <!-- START HEAD -->
+    <head>
+        
+        <meta charset="UTF-8" />
+        <!-- this line will appear only if the website is visited with an iPad -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
+        
+        <title>ECML Lab | Evolutionary Computation and Machine Learning Lab</title>
+        
+        <!-- [favicon] begin -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <!-- Touch icons more info: http://mathiasbynens.be/notes/touch-icons -->
+        
+        <!-- [favicon] end -->
+        
+        <!-- CSSs -->
+        <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" /> <!-- RESET STYLESHEET -->
+        <link rel="stylesheet" type="text/css" media="all" href="style.css" /> <!-- MAIN THEME STYLESHEET -->
+        <link rel="stylesheet" id="max-width-1024-css" href="css/max-width-1024.css" type="text/css" media="screen and (max-width: 1240px)" />
+        <link rel="stylesheet" id="max-width-768-css" href="css/max-width-768.css" type="text/css" media="screen and (max-width: 987px)" />
+        <link rel="stylesheet" id="max-width-480-css" href="css/max-width-480.css" type="text/css" media="screen and (max-width: 480px)" />
+        <link rel="stylesheet" id="max-width-320-css" href="css/max-width-320.css" type="text/css" media="screen and (max-width: 320px)" />
+        
+        <!-- CSSs Plugin -->
+        <link rel="stylesheet" id="thickbox-css" href="css/thickbox.css" type="text/css" media="all" />
+        <link rel="stylesheet" id="styles-minified-css" href="css/style-minifield.css" type="text/css" media="all" />
+        <link rel="stylesheet" id="buttons" href="css/buttons.css" type="text/css" media="all" />
+        <link rel="stylesheet" id="cache-custom-css" href="css/cache-custom.css" type="text/css" media="all" />
+        <link rel="stylesheet" id="custom-css" href="css/custom.css" type="text/css" media="all" />
+	    
+        <!-- FONTs -->
+        <link rel="stylesheet" id="google-fonts-css" href="http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed%3A300%7CRokkitt%7CShadows+Into+Light%7CAbel%7CDamion%7CMontez&amp;ver=3.4.2" type="text/css" media="all" />
+        <link rel='stylesheet' href='css/font-awesome.css' type='text/css' media='all' />
+        
+        <!-- JAVASCRIPTs -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/comment-reply.js"></script>
+        <script type="text/javascript" src="js/jquery.quicksand.js"></script>
+        <script type="text/javascript" src="js/jquery.tipsy.js"></script>
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="js/jquery.cycle.min.js"></script>
+        <script type="text/javascript" src="js/jquery.anythingslider.js"></script>
+        <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.js"></script>
+        <script type="text/javascript" src="js/jquery.aw-showcase.js"></script>
+        <script type="text/javascript" src="js/layerslider.kreaturamedia.jquery-min.js"></script>
+        <script type="text/javascript" src="js/shortcodes.js"></script>
+		<script type="text/javascript" src="js/jquery.colorbox-min.js"></script> <!-- nav -->
+		<script type="text/javascript" src="js/jquery.tweetable.js"></script>
+
+    </head>
+    <!-- END HEAD -->
+    
+    <!-- START BODY -->
+    <body class="no_js responsive page-template-home-php stretched">
+        
+        <!-- START BG SHADOW -->
+        <div class="bg-shadow">
+            
+            <!-- START WRAPPER -->
+            <div id="wrapper" class="group">
+                
+                <!-- START HEADER -->
+                <div id="header" class="group">
+                    
+                    <div class="group inner">
+                        
+                        <!-- START LOGO -->
+                        <div id="logo" class="group">
+                            <a href="index.html" title="">
+                                <img src="images/ugalogo.jpg" style="width:80px" title="UGA" alt="UGA" />
+                                <img src="images/logo.png" title="ECML Lab" alt="ECML Lab" />
+                            </a>
+                        </div>
+                        <!-- END LOGO -->
+                        
+                        <div id="sidebar-header" class="group">
+                            <div class="widget-first widget yit_text_quote">
+                                <blockquote class="text-quote-quote">Welcome to Evolutionary Computation and Machine Learning Lab.</blockquote>
+                                
+                            </div>
+                        </div>
+                        <div class="clearer"></div>
+                        
+                        <hr />
+                        
+                        <!-- START MAIN NAVIGATION -->
+                        <div class="menu classic">
+                            <ul id="nav" class="menu">
+                                
+                                <li> <a href="index.html">HOME</a> </li>
+                                <li><a href="People.html">PEOPLE</a> </li>
+                                <li> <a href="Research.html">RESEARCH</a>  </li>
+                                <li> <a href="Publication.html">PUBLICATIONS</a> </li>
+
+                                <li>
+                                    <a href="#">SOURCE</a>
+                                    <ul class="sub-menu">
+                                        <li> <a href="http://www.uga.edu">University of Georgia</a> </li>
+                                <li> <a href="http://cs.uga.edu">Computer Science Department</a> </li>
+                                <li> <a href="http://www.ai.uga.edu">Institute for Artificial Intelligence</a> </li>
+                                    </ul>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <!-- END MAIN NAVIGATION -->
+                        <div id="header-shadow"></div>
+                        <div id="menu-shadow"></div>
+                    </div>
+                    
+                </div>
+                <!-- END HEADER -->
+                
+                <!-- Header Image -->
+              
+<!--
+                    <div style="text-align:center;">
+                        <img src="images/people/Header.jpg"/>
+                    </div> 
+-->
+                <!-- END Header Image -->
+
+
+                <!-- START SLIDER -->
+                <div id="slider-layer-slider" class="slider layer-slider no-responsive">
+                    <div class="shadowWrapper">
+                        <div id="layerslider_1" style="margin: 0px auto;  width: 100%; height: 337px; ">
+                            <div class="ls-layer" style="background-image: url('images/slider-layer/bg.jpg');slidedirection: right; slidedelay: 4000; durationin: 2000; durationout: 2500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;">
+                                
+                                
+
+                                <div class="inner ls-s1" style="position:absolute; left:50%; slidedirection : left; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 0;">
+                                    <h2 style="position: absolute; top:94px; left: 30px; font-size: 30px; color: #2e2d2d; font-family: Rokkitt,Georgia,serif;"> Welcome to the website of the Evolutionary Computation and Machine Learning (ECML) Lab in the Computer Science department of the University of Georgia. The ECML lab was founded and is directed by Professor Khaled Rasheed since August 2000. </h2>
+
+                                </div>
+                                <div class="inner ls-s1" style="position:absolute; left:50%; slidedirection : left; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 0;"></div>
+                            </div>
+                           
+                           <div class="ls-layer" style="background-image: url('images/slider-layer/bg.jpg');slidedirection: right; slidedelay: 4000; durationin: 1000; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;">
+
+                              <div class="inner ls-s3" style="position:absolute; left:50%; slidedirection : top;  parallaxin : .45; parallaxout : .45; durationin : 5000; durationout : 1500; easingin : easeOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;"><img src="images/slider-layer/5.JPG" alt="sublayer" style="position: absolute; top: 30px; right: 30px; ; " /></div>
+                               
+                                <div class="inner ls-s1" style="position:absolute; left:50%; slidedirection : right; slideoutdirection : right; parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 0;">
+                                    <h2 style="position: absolute; top:94px; left: 30px; right:40%; font-size: 30px; color: #2e2d2d; font-family: Rokkitt,Georgia,serif;"> Research in the Evolutionary Computation & Machine Learning (ECML) Lab is centered around Genetic and Evolutionary Algorithms, Machine Learning and the intersection/ cross-fertilization of the two fields.   </h2>
+
+                                </div>
+                            </div>
+                                   <div class="ls-layer" style="background-image: url('images/slider-layer/bg.jpg');slidedirection: right; slidedelay: 4000; durationin: 1000; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;">
+
+                              <div class="inner ls-s3" style="position:absolute; left:50%; slidedirection : right;  parallaxin : .45; parallaxout : .45; durationin : 5000; durationout : 1500; easingin : easeOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;"><img src="images/slider-layer/02.png" alt="sublayer" style="position: absolute; top: 30px; right: 30px; ; " /></div>
+                               
+                                <div class="inner ls-s1" style="position:absolute; left:50%; slidedirection : right; slideoutdirection : right; parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 0;">
+                                    <h2 style="position: absolute; top:94px; left: 30px; right:40%; font-size: 30px; color: #2e2d2d; font-family: Rokkitt,Georgia,serif;"> We conduct research in genetic algorithm methodologies and applications in science and engineering with emphasis on using machine learning approaches to enhance evolutionary optimization.  </h2>
+
+                                </div>
+                            </div>
+
+                                 <div class="ls-layer" style="background-image: url('images/slider-layer/bg.png');slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;">
+                                 <div class="inner ls-s3" style="position:absolute; left:50%; slidedirection : top; slideoutdirection : right; parallaxin : .45; parallaxout : 0; durationin : 600; durationout : 1500; easingin : easeOutExpo; easingout : easeInOutQuint; delayin : 2000; delayout : 0;"><img src="images/slider-layer/01.png" alt="sublayer" style="position: absolute; top: 30px; right: 30px; ; " /></div>
+
+                                        <div class="inner ls-s1" style="position:absolute; left:50%; slidedirection : right; slideoutdirection : right; parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 0;">
+                                    <h2 style="position: absolute; top:94px; left: 30px; right:40%; font-size: 30px; color: #2e2d2d; font-family: Rokkitt,Georgia,serif;">
+                                          We also develop, apply and analyze machine learning approaches for numerous Bioinformatics and computational biology domains.
+                                    </h2>
+                                </div>
+                                <div class="inner ls-s2" style="position:absolute; left:50%; slidedirection : left; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 1600; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 200; delayout : 0;">
+                                    
+                                </div>
+                            </div>
+                            
+                               
+                              
+                        </div>
+                        <script type="text/javascript" src="js/slider-layer.js"></script>
+                        <div class="shadow-left"></div>
+                        <div class="shadow-right"></div>
+                    </div>
+                </div>
+                <!-- END SLIDER -->
+                <div class="mobile-slider">
+                    <div class="slider fixed-image inner"><img src="images/slider-layer/layer-fixed.jpg" alt="" /></div>
+                </div>
+                
+				<!-- START PRIMARY -->
+				<div id="primary" class="sidebar-no">
+				    <div class="inner group">
+                        <div class="clear"></div>
+                                <div class="border-line"></div>  
+				    	<!-- START CONTENT -->
+
+						        <div >
+						            <img src="images/icons/set_icons/mphone32.png" alt="News" class="icon" />
+						            <h3><span style="line-height:32px">News</span></h3>
+						            <li>Summer,2021 congratulations to Hamed, Yaghoobian for successfully defending his PhD Dissertation entitled "Structure- and Context-aware NLP Approaches to Emotion and Subjectivity".</li> <p>
+                                    <li>Summer,2021 Congratulations to Vikas Kunchala for successfully defending his M.S. in AI, entitled  "Predicting Undergraduate Student Dropout Using Artificial Intelligence, Big Data and Machine Learning".</li> <p>
+                                    <li>[2021] Publication [J]: Christopher D Whitmire, Jonathan M Vance, Hend K Rasheed, Ali Missaoui, Khaled M Rasheed, Frederick W Maier, “Using Machine Learning and Feature Selection for Alfalfa Yield Prediction”, AI 2.1, PP 71-88, 2021</li> <p>
+                                    <li> [2020] Publication [J]: Soheyla Amirian, Khaled Rasheed, Thiab Taha and Hamid Arabnia, “Automatic Image and Video Caption Generation with Deep Learning: A Concise Review and Algorithmic Overlap”, IEEE Access, 2020. </li><p>
+                                                            
+                                    <li> [2020] Publication [J]: Liang-Chin Huang, Wayland Yeung, Ye Wang, Huimin Cheng, Aarya Venkat, Sheng Li, Ping Ma, Khaled Rasheed, Natarajan Kannan, “Quantitative Structure-Mutation-Activity Relationship Tests (QSMART) model for protein kinase inhibitor response prediction”, in BMC Bioinformatics. 2020. </li> <p>
+                                    <li> [2020] Publication [J]: Rahil Taujale, Aarya Venkat, Liang-Chin Huang, Zhongliang Zhang, Wayland Yeung, Khaled Rasheed, Sheng Li, Arthur S. Edison, Kelley W. Moremen, Natarajan Kannan. Deep evolutionary analysis reveals the design principles of fold A glycosyltransferases.  2020.</li><p>
+
+    
+    
+   <!--
+    <li>[05/18/2016] Graduation: Congratulations to Pan Huang who successfully defended his Master thesis entitled, "Multilingual Text Similarity Analysis in Islamic Texts". Congratulaions Pan! </li><p>
+
+ <li>[10/05/2015] Congratulations to Haosha Wang for joining American Express as Project Analyst - Business Intelligence. </li><p>
+  <li>[07/25/2015] Publication [C]: Amna Basharat, Delaram Yazdansepas and Khaled Rasheed, Comparative Study of Verse Similarity for Multi-lingual Representations of the Qur'an”, in Proceedings of the 2015 Int’l. Conf. on Artificial Intelligence (ICAI’2015)</li> <p>
+
+ <li>[05/05/2015] Congratulations to ManChon (Kevin) U for being promoted as Global Director, Data Science in Las Vegas Sands Corp.  </li><p>
+  <li>[03/01/2015] Congratulations to Akul Dewan for joining Intradiem as Software Engineer. </li><p>
+ <li>[11/01/2014] Congratulations to Shi Liang for joining Alibaba Group as Principal Expert, Data Science.  </li><p>
+     --> 
+
+                            
+
+                            
+
+                           
+                           
+                           
+                           
+                       
+						        </div>
+						        
+						        
+						      
+						    </div>
+						    <!-- START COMMENTS -->
+						    <div id="comments">
+						    </div>
+						    <!-- END COMMENTS -->
+						</div>
+						<!-- END CONTENT -->
+					<!-- START EXTRA CONTENT -->
+					<!-- END EXTRA CONTENT -->
+					</div>
+				</div>
+				<!-- END PRIMARY -->
+                				
+				<!-- START COPYRIGHT -->
+                <div id="copyright">
+                    <div class="inner group">
+                        <div class="left">
+                            <a href="http:www.ecml.uga.eud"><strong>Copyright © 2021, ECML Lab. All rights reserved. </strong></a>
+                        </div>
+                        <div class="right">
+                          <a href="http:www.ecml.uga.eud"><strong>Department of Computer Science • The University of Georgia • Athens, GA 30602, USA </strong></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END COPYRIGHT -->
+            </div>
+            <!-- END WRAPPER -->
+        </div>
+        <!-- END BG SHADOW -->
+        
+        <script type="text/javascript" src="js/jquery.custom.js"></script>
+        <script type="text/javascript" src="js/contact.js"></script>
+        <script type="text/javascript" src="js/jquery.mobilemenu.js"></script> 
+        
+    </body>
+    <!-- END BODY -->
+</html>

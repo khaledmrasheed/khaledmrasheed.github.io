@@ -1,0 +1,296 @@
+<Html>
+
+<Head>
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI/ARTI 8950 Machine Learning
+</Title>
+
+<Link Rev="made" Href="mailto:krasheed@cs.rutgers.edu">
+
+</Head>
+
+<Body>
+
+<H1>CSCI/ARTI 8950 Machine Learning</H1>
+
+Spring 2005: Tuesdays and Thursdays 3:30pm - 4:45pm, Life Sciences
+C114 & Mondays 3:35pm - 4:20pm, Life Sciences C120</BR>
+
+</BR>
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A> </BR>
+Telephone: (706)542-3444</BR> 
+Office Hours: Monday: 4:30-6:00pm & Thursday: 12:30-2:30pm</BR> 
+Office Location: Room 219B, Boyd GSRC</BR> 
+Email: khaled@cs.uga.edu</BR>
+</BR>
+<Hr>
+
+<H2>Objectives:</H2> 
+
+Machine learning is a sub-field of artificial intelligence which is
+concerned with computer programs that can automatically improve their
+capabilities and/or performance by acquiring (learning) experience.
+The main objectives of this course are to provide students with an
+in-depth introduction to machine learning theory and methods
+and an exploration of research problems in machine learning and its
+applications which may lead to work on a project or a dissertation.
+
+The course is intended primarily for computer science and artificial
+intelligence graduate students. Graduate students from other
+departments who have a strong interest and sufficient experience in
+artificial intelligence may also find the course interesting.
+
+<H2>Recommended Background:</H2> 
+
+CSCI/PHIL 4550/6550 Artificial Intelligence or CSCI 4560/6560
+Evolutionary Computation (or permission of the instructor).
+Familiarity with basic computer algorithms and data structures and at
+least one high level programming language.
+
+<H2>Topics to be Covered:</H2> 
+
+<li>Part I: Machine learning techniques: Selected from inductive learning,
+decision trees, neural network approaches, evolutionary computation
+approaches and classifier systems, reinforcement learning, statistical
+and Bayesian learning, instance-based learning, explanation-based
+learning and computational learning theory.
+
+<li>Part II: Machine learning applications: Selected from data mining,
+biomedical modelling, medical diagnosis, fraud detection, pattern
+recognition and/or other contemporary applications.
+
+
+<H2>Expected Work:</H2> 
+
+Reading; assignments (may include programming and/or running existing
+programs); midterm; final and term project and paper.  (Unless
+otherwise announced by the instructor: all assignments and all exams
+must be done entirely on your own.)
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All students are responsible for maintaining the highest standards of
+honesty and integrity in every phase of their academic careers. The
+penalties for academic dishonesty are severe and ignorance is not an
+acceptable defense.
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 30% (Programs, homeworks, attendance, paper presentation)
+<li>Midterm Examination: 20%  
+<li>Final Examination: 20% 
+<li>Term Project: 30% (includes term paper and presentation)
+<br>
+
+Students may work on their term projects in groups of up to
+<strong>three</strong> students each. The above distribution is only
+tentative and may change later. The instructor will announce any
+changes.
+
+<H2>Assignment Submission Policy</H2> 
+
+Assignments must be turned in by the assigned deadline. Late
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the ML Class
+Home-page at <A HREF="http://www.cs.uga.edu/~khaled/MLcourse/">
+http://www.cs.uga.edu/~khaled/MLcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there.
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> "Machine Learning", Tom Mitchell.  McGraw-Hill, 1997. (Required.) 
+
+<H2>Additional Books</H2> 
+
+<li> "Data Mining", Ian Witten & Eibe Frank. Morgan Kaufmann, 2000.
+
+<li> "Evolutionary Computation : Towards a New Philosophy of Machine
+Intelligence", David Fogel. IEEE press, 1999.
+
+
+<H2>Web Resources</H2> 
+
+<li> <A
+HREF="http://www.aic.nrl.navy.mil/~aha/research/machine-learning.html">
+David Aha's Machine Learning Web page</a>
+
+<li> <A HREF="http://www1.ics.uci.edu/~mlearn/MLRepository.html">
+University of California at Irvine ML repository</a>
+
+<li> <A HREF="http://www.ai.univie.ac.at/oefai/ml/ml-resources.html">
+Austrian Research Institute online ML resources page</a>
+
+<H2>Announcements:</H2> 
+
+<li>5-3-2005: For the project report please write it as a conference
+paper of about 8 pages (there is no restiction on size though). You
+should include an introduction, a mention of related work, a
+description of your experiments and results and a conclusion. In the
+introduction or elsewhere in the paper you should describe the domain
+that you applied your ML technique(s) to, in enough detail for the
+reader to appreciate the significance and difficulty of the
+problem. The reports are due during the final exam. Please bring a
+hard copy to the final and followup by email so I can post it on this
+page for your fellow students.
+
+<li>4-20-2004: For the first problem in assignment 5, note that the
+hypthesis space is infinit and thus not all the formulas apply. I
+propose using the VC dimension.
+
+<li>4-13-2004: Assignment 5 is posted below and is due on Thursday,
+April 21st in class.
+
+<li>3-22-2005: For those who are interested in a UNIX environment
+simulator under windows, you can get information from
+http://www.cygwin.com and you can download the codes from
+http://www.cygwin.com/mirrors.html. This may be useful for the fourth
+programming assignment.
+
+<li>3-9-2005: The projected grades and all scores are posted <A
+HREF="2005_CSCI_ARTI_8950.txt">HERE</A>. Please make sure that all
+your scores are properly recorded.
+
+<H2>Papers</H2>
+
+<li> "In search of the Horowitz factor" G. Widmer et al., 2003. [Daniel
+Tuohy][3-21]{<A
+HREF="http://www.cp.jku.at/people/widmer/papers/AIMag24-03-010.pdf">download</A>}
+
+<li> "Learning to Decode Cognitive States from Brain Images" Tom
+Mitchell et al., 2004. [Josh Griffin,Chris Taylor][3-21]{<A
+HREF="http://www-2.cs.cmu.edu/%7Etom/mlj04-final-published.pdf">download</A>}
+
+<li> "A Bayesian approach to filtering junk e-mail" T. Meyer and
+B. Whateley. [Kun Huang,Zak Ray][4-4]{<A
+HREF="http://www.ceas.cc/papers-2004/136.pdf">download</A>}
+
+<li> "Genetic Algorithms as a Tool for Feature Selection in Machine
+Learning" Haleh Vafaie and Kenneth De Jong. AND "Feature Selection for
+Machine Learning: Comparing a Correlation-based Filter Approach to the
+Wrapper" Mark A. Hall, Lloyd A. Smith.[Gopika,Fisher][4-11]{<A
+HREF="http://cs.gmu.edu/~eclab/papers/TAI92.pdf">download1</A>} AND
+{<A HREF="http://www.cs.waikato.ac.nz/~mhall/Flairs.ps">download2</A>}
+
+<li> "Mining oblique data with XCS" S. Wilson, 2001.[Julian
+Bishop,Brian Smith][4-11]{<A
+HREF="http://www.boston.quik.com/sw/pd/ps/oblique.ps">download</A>}
+
+<li> "Mining Skewed and Sparse Transaction Data for Personalized
+Shopping Recommendation" CHUN-NAN HSU et al.,2004.[Rucen Deng, Zhiyuan
+Cheng][4-14]{<A
+HREF="http://www.iis.sinica.edu.tw/~chunnan/DOWNLOADS/chunnan_DMLL.pdf">download</A>}
+
+<li>"Computational Prediction of Operons in Synechococcus sp. WH8102"
+Xin Chen et al., 2004.[Dongsheng Che,Zhiming Wang][4-14]{<A
+HREF="http://www.jsbi.org/journal/GIW04/GIW04F022.pdf">download</A>}
+
+<li> "An Application of Machine Learning to Anomaly Detection" Terran
+Lane and Carla Brodley, 1997. [Darren Casella,Steve Cheng][4-18]{<A
+HREF="http://sunsite.rediris.es/sites/ftp.cerias.purdue.edu/pub/papers/carla-brodley/brodley-lane-nissc97_paper.pdf">download</A>}
+
+<li> "Automatic Extraction of Eye and Mouth Fields from a Face Image
+Using Eigenfeatures and Ensemble Networks" Yeon-Sik Ryu and Se-Young
+Oh, 2002. [Daniel Shank,Ruby][4-18]{<A
+HREF="http://www.springerlink.com/media/F016VGTQMH2T73YYRQAU/Contributions/0/E/C/E/0ECEWQY2B587FVX8_html/fulltext.html">download</A>}
+
+<li> "Learning to Detect Objects in Images via a Sparse, Part-Based
+Representation" S. Agarwal et al.,2004.  [Ananda
+Chowdhury,Sidartha][4-19] {<A
+HREF="http://l2r.cs.uiuc.edu/~danr/Papers/AgarwalAwRo04.pdf">download</A>}
+
+<li> "Style-Based Inverse Kinematics" K. Grochow et al., 2004.[Stephan
+Palmer,EriK Dennis][4-19] {<A
+HREF="http://grail.cs.washington.edu/projects/styleik/styleik.pdf">download</A>}
+
+<li> "Face Recognition: A Convolutional Neural Network Approach"
+S. Lawrence et al., 1997. [Stanford Jones,Daniel Dejuan][4-19] {<A
+HREF="http://citeseer.ist.psu.edu/cache/papers/cs/35/http:zSzzSzwww.neci.nj.nec.comzSzhomepageszSzlawrencezSzpaperszSzface-tnn97zSzface-tnn97-letter.pdf/lawrence97face.pdf">download</A>}
+
+<H2>Assignments:</H2> 
+<li>
+<A HREF="homework1.ps">Assignment 1</A>
+<li>
+<A HREF="homework2.ps">Assignment 2</A>
+<li>
+<A HREF="homework3.ps">Assignment 3</A>
+<li>
+<A HREF="homework4.ps">Assignment 4</A>
+<li>
+<A HREF="homework5.ps">Assignment 5</A>
+
+
+<H2>Lecture Notes:</H2> 
+<li>
+<A HREF="ML.ps">Introduction </A>,<A
+HREF="ML_4.ps">Compressed</A>
+<li>
+<A HREF="ML-C1.ps">Chapter 1</A>,<A
+HREF="ML-C1_4.ps">Compressed</A>,<A 
+HREF="ML-C1_4.pdf">PDF</A>
+<li>
+<A HREF="ML-C2.ps">Chapter 2</A>,<A
+HREF="ML-C2_4.ps">Compressed</A>,<A 
+HREF="ML-C2_4.pdf">PDF</A>
+<li>
+<A HREF="ML-C3.ps">Chapter 3</A>,<A
+HREF="ML-C3_4.ps">Compressed</A>,<A 
+HREF="ML-C3_4.pdf">PDF</A>
+<li>
+<A HREF="ML-C4.ps">Chapter 4</A>,<A
+HREF="ML-C4_4.ps">Compressed</A>,<A 
+HREF="ML-C4_4.pdf">PDF</A>
+<li>
+<A HREF="ML-C5.ps">Chapter 5</A>,<A
+HREF="ML-C5_4.ps">Compressed</A>,<A 
+HREF="ML-C5_4.pdf">PDF</A>
+<li>
+<A HREF="ML-C6.ps">Chapter 6</A>,<A
+HREF="ML-C6_4.ps">Compressed</A>,<A 
+HREF="ML-C6_4.pdf">PDF</A>
+<li>
+<A HREF="ML-C8.ps">Chapter 8</A>,<A
+HREF="ML-C8_4.ps">Compressed</A>,<A 
+HREF="ML-C8_4.pdf">PDF</A>
+<li>
+<A HREF="EC.ps">Evolutionary Computation</A>,<A
+HREF="EC_4.ps">Compressed</A>,<A 
+HREF="EC_4.pdf">PDF</A>
+<li>
+<A HREF="ML-C7.ps">Chapter 7</A>,<A
+HREF="ML-C7_4.ps">Compressed</A>,<A 
+HREF="ML-C7_4.pdf">PDF</A>
+<li>
+<A HREF="ML-C10.ps">Chapter 10</A>,<A
+HREF="ML-C10_4.ps">Compressed</A>,<A 
+HREF="ML-C10_4.pdf">PDF</A>
+
+<P>
+
+Last modified: April 20, 2005.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@cs.uga.edu">khaled@cs.uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>

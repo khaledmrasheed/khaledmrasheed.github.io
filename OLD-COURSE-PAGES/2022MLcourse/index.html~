@@ -1,0 +1,369 @@
+<Html>
+
+<Head>
+
+
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI/ARTI 8950 Machine Learning
+</Title>
+
+</Head>
+
+<Body>
+
+<H1>CSCI/ARTI 8950 Machine Learning</H1>
+
+Spring 2022: Mondays 4:10pm - 5:00pm & Tuesdays
+and Thursdays 3:55pm - 5:10pm, Boyd GSRC Room 208</BR>
+
+</BR>
+
+<A HREF="http://cobweb.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A> </BR>
+Telephone: (706)542-0881</BR>
+Office Hours: Monday & Thursday 5:15-6:15pm or by email
+appointment</BR>
+Office Location: Room 518, Boyd GSRC</BR>
+Email: khaled@uga.edu</BR>
+</BR>
+<Hr>
+
+<H2>COVID-19 Note:</H2> 
+
+I will do the lecture in person (face to face) in room 208 and all
+students are expected to attend unless you are sick or under
+quarantine. In such cases please email me and I can work with you by
+zoom to catch up.</BR>
+ <p>
+Face coverings: Following guidance from the University System of
+Georgia, face coverings are recommended for all individuals while
+inside campus facilities.</BR>
+<p>
+How can I obtain the COVID-19 vaccine?  University Health Center is
+scheduling appointments for students through the UHC Patient Portal
+(https://patientportal.uhs.uga.edu/login_dualauthentication.aspx).
+Learn more here https://www.uhs.uga.edu/healthtopics/covid-vaccine.</BR>
+<p>
+The Georgia Department of Health, pharmacy chains and local providers
+also offer the COVID-19 vaccine at no cost to you. To find a COVID-19
+vaccination location near you, please go to:
+https://georgia.gov/covid-vaccine.</BR>
+<p>
+In addition, the University System of Georgia has made COVID-19 vaccines available at 15 campuses statewide and you can locate one here: https://www.usg.edu/vaccination</BR>
+<p>
+What do I do if I have COVID-19 symptoms?  Students showing COVID-19
+symptoms should self-isolate and schedule an appointment with the
+University Health Center by calling 706-542-1162 (Monday-Friday, 8
+a.m.-5p.m.). Please DO NOT walk-in. For emergencies and after-hours
+care, see, https://www.uhs.uga.edu/info/emergencies.</BR>
+<p>
+What do I do if I test positive for COVID-19? (Isolation
+Guidance)  If you test positive for COVID-19 at any time, either
+through a PCR test, an Antigen test, or a home test kit, you are
+required to report it through the DawgCheck Test Reporting
+Survey. Follow the instructions provided to you when you report your
+positive test result in DawgCheck.
+<p>
+As of December 29, 2021, when an individual receives a positive
+COVID-19 test: Everyone, regardless of vaccination status, should:
+<li> Stay home for 5 days.
+<li> If you have no symptoms or your symptoms are resolving after 5
+days, you can leave your house and return to class.
+<li>Continue to wear a mask around others for 5 additional days.
+<p>
+What do I do if I have been exposed to COVID-19? (Quarantine guidance)
+If you have been exposed (within 6 feet for a cumulative total of 15
+minutes or more over a 24-hour period unmasked.) to someone with
+COVID-19 or to someone with a positive COVID-19 test and you are:</br>
+
+<li>Boosted, or have become fully vaccinated within the last 6 months
+  (Moderna or Pfizer vaccine) or within the last 2 months (J&J
+  vaccine):</br> You do not need to quarantine at home and may come to
+  class. You should wear a mask around others for 10 days. If
+  possible, get tested on day 5. If you develop symptoms, get tested
+  and isolate at home until test results are received, then proceed in
+  accordance with the test results.
+
+<li>Unvaccinated, or became fully vaccinated more than
+6 months ago (Moderna or Pfizer vaccine) or more than 2 months ago
+  (J&J vaccine) and have not received a booster:</br>
+You must quarantine at home for 5 days. After that you may return to class but continue to wear a mask around others for 5 additional days. If possible, get
+tested on day 5. If you develop symptoms, get tested and isolate at
+home until test results are received, then proceed in accordance with
+  the test results.</br>
+
+** “Masked-to-masked” encounters are not currently
+considered an exposure; this type of interaction would not warrant
+quarantine.</br>
+ <p>
+You should report the need to quarantine on DawgCheck
+(https://dawgcheck.uga.edu/), and communicate directly with your
+faculty to coordinate your coursework while in quarantine. If you need
+additional help, reach out to Student Care and Outreach (sco@uga.edu)
+for assistance.  
+<p>
+
+<H2>Objectives:</H2> 
+
+Machine learning is a sub-field of artificial intelligence which is
+concerned with computer programs that can automatically improve their
+capabilities and/or performance by acquiring (learning) experience.
+The main objectives of this course are to provide students with an
+in-depth introduction to machine learning methods
+and an exploration of research problems in machine learning and its
+applications which may lead to work on a project or a dissertation.
+
+The course is intended primarily for computer science and artificial
+intelligence graduate students. Graduate students from other
+departments who have a strong interest and sufficient experience in
+artificial intelligence may also find the course interesting.
+
+<H2>Recommended Background:</H2> 
+
+CSCI 4380/6380 Data Mining or CSCI/PHIL 4550/6550 Artificial
+Intelligence or CSCI 4560/6560 Evolutionary Computation (or permission
+of the instructor).  Familiarity with basic computer algorithms and
+data structures and at least one high level programming language.
+
+<H2>Topics to be Covered:</H2> 
+
+<li>Part I: Machine learning techniques: Selected from inductive
+learning, decision trees, neural network approaches, evolutionary
+computation approaches and classifier systems, statistical and
+Bayesian learning, instance-based learning, feature selction and
+extraction, ensemble learning and deep learning.
+
+<li>Part II: Machine learning applications: Selected from data mining,
+bioinformatics, biomedical modeling, medical diagnosis, text
+classification, visual pattern recognition and/or other contemporary
+applications.
+
+
+<H2>Expected Work:</H2> 
+
+Attendance; reading; assignments (some include programming and/or
+running existing programs); midterm exam; and term project and paper.
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All academic work must meet the standards contained in <A
+HREF="https://honesty.uga.edu/Academic-Honesty-Policy/">
+"A Culture of Honesty."</A> Students are responsible for informing
+themselves about those standards before performing any academic
+work. The penalties for academic dishonesty are severe and ignorance
+is not an acceptable defense.
+
+<H2>Group Study Policy:</H2>
+
+Group study is a powerful resource for graduate students and is
+therefore encouraged. During group study, you may discuss in detail
+any homework problems.  However, you must write or type your
+homework on your own. Furthermore, you should never look at or copy
+a complete solution to a problem from another student's homework or
+allow another student to look at or copy a complete problem solution
+from your homework.  Finally, you should acknowledge group study by
+listing the names of the students you studied with at the beginning or
+end of your homework. <Strong>Participation in group study is
+optional and will not affect your grade in any way.</Strong>
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 20% (includes homeworks, programming or using packages)
+<li>Paper presentation: 10%
+<li>Paper reviews: 10%
+<li>Midterm Examination: 20%   
+<li>Term Project: 40% (includes term paper and presentation)
+<br>
+
+Students may work on their term projects in groups of up to
+<strong>four</strong> students each. The above distribution is only
+tentative and may change later. The instructor will announce any
+changes.
+
+<H2>Assignment Submission Policy</H2> 
+
+Assignments must be turned in through eLC by the assigned deadline. Late
+assignments will loose 10% for every calendar day. Rare exceptions may
+be made by the instructor only under extenuating circumstances and in
+accordance with the university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the ML Class
+Home-page at <A HREF="http://cobweb.cs.uga.edu/~khaled/MLcourse/">
+http://cobweb.cs.uga.edu/~khaled/MLcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there.
+
+<H2>Lecture Notes</H2>
+
+Copies of Dr. Rasheed's lecture notes will be available at the course eLC page.
+
+<H2>Textbook available for free on the web</H2> 
+<li> "A Course in Machine Learning" by Hal Daumé III, (Free) http://ciml.info/
+
+<H2>Additional Books</H2> 
+<li> "Machine Learning", Tom Mitchell.  McGraw-Hill, 1997.
+  
+<li> "Pattern Recognition and Machine Learning", Christopher Bishop, 2006.(free)
+  
+<li> "Data Mining: Practical Machine Learning Tools and Techniques
+(4th edition)", Ian Witten , Eibe Frank, Mark Hall & Christopher
+Pal. Morgan Kaufmann, 2017.
+
+<H2>Web Resources</H2> 
+
+<li> <A HREF="http://archive.ics.uci.edu/ml/">
+University of California at Irvine ML Repository</a>
+
+<li> <A HREF="http://www.cs.waikato.ac.nz/~ml">
+The WEKA Machine Learning Project</a>
+
+<li> <A HREF="http://www.kaggle.com">
+The Kaggle data science home</a>
+
+<H2>Announcements:</H2>
+
+<H2>Papers</H2>  
+
+<li> "A Machine Learning Approach to Study Demographic Alterations in
+Honeybee Colonies Using SDSPAGE Fingerprinting" 2021. [Bryan
+Smith][4-4]
+{<A HREF="https://www.mdpi.com/2076-2615/11/6/1823">download</A>}
+
+<li> "Cyclical Learning Rates for Training Neural Networks" 2017. [Chintan B. Maniyar][4-4]
+{<A HREF="https://arxiv.org/pdf/1506.01186.pdf">download</A>}
+
+<li> "Toddler-Inspired Visual Object Learning" 2018. [Luke][4-7]
+{<A HREF="https://papers.nips.cc/paper/2018/file/48ab2f9b45957ab574cf005eb8a76760-Paper.pdf">download</A>}
+  
+<li> "Merging computational fluid dynamics and machine learning
+to reveal animal migration strategies" 2020. [Rosemary][4-7]
+{<A HREF="https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.13604">download</A>}
+
+<li> "Territorial control in civil wars: Theory and measurement using machine learning" 2020. [Jason Lian][4-11]
+{<A HREF="https://journals.sagepub.com/doi/full/10.1177/0022343320959687">download</A>}
+
+<li> "k-Shape: Efficient and Accurate Clustering of Time Series"
+2015. [Zaid Pitafi][4-11]
+  {<A HREF="http://www1.cs.columbia.edu/~jopa/Papers/PaparrizosSIGMOD2015.pdf">download</A>}
+  
+<li> "An Empirical Evaluation of Generic Convolutional and Recurrent Networks
+for Sequence Modeling" 2018. [Song][4-12]
+  {<A HREF="https://arxiv.org/pdf/1803.01271.pdf">download</A>}
+
+<li> "Generative Adversarial Nets" 2014. [Anil][4-12]
+{<A HREF="https://arxiv.org/pdf/1406.2661.pdf">download</A>}
+    
+<li> "Learning Deep Features for Scene Recognition using Places
+Databas" 2014. [Subas Rana][4-14]
+  {<A HREF="http://places.csail.mit.edu/places_NIPS14.pdf">download</A>}
+
+ <li> "Smart at what cost? Characterising Mobile
+Deep Neural Networks in the wild" 2021. [Mohd][4-14]
+{<A HREF="https://dl.acm.org/doi/10.1145/3487552.3487863">download</A>}
+
+<li> "scPred: accurate supervised method for celltype classification
+from single-cell RNA-seq data" 2013. [Yan][4-14] {<A HREF="https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1862-5.pdf">download</A>}
+
+<li> "Self-supervised learning: The dark matter of intelligence " 2021. [Praveen][4-18]
+  {<A HREF="https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence">download</A>}
+
+<li> "FaceForensics++: Learning to Detect Manipulated Facial Images" 2019. [Wynn][4-18]
+{<A HREF="https://arxiv.org/pdf/1901.08971.pdf">download</A>}
+  
+  <li> "Attention Is All You Need" 2017. [Bathula][4-19]
+    {<A HREF="https://arxiv.org/abs/1706.03762">download</A>}
+
+<li> "Artificial intelligence versus natural selection: using computer
+vision techniques to classify bees and bee mimics" 2021. [Rex][4-19]
+  {<A HREF="SSRN-id4035857.pdf">download</A>}
+
+  <li> "ABenchmark for Interpretability Methods in Deep Neural Networks" 2019. [Lakshmita][4-19]
+    {<A HREF="https://arxiv.org/abs/1806.10758">download</A>}
+    
+  <li> "Routine Inspection: A playbook for corner kicks" 2013. [Basu][4-21]
+{<A HREF="https://www.sloansportsconference.com/research-papers/routine-inspection-a-playbook-for-corner-kicks">download</A>}
+  
+<li> "ON CONVERGENCE AND STABILITY OF GANS" 2017. [Bradley Howard][4-21]
+  {<A HREF="https://arxiv.org/pdf/1705.07215.pdf">download</A>}
+
+  <li> "Howtransferable are features in deep neural networks?" 2014. [Sanika][4-21]
+    {<A HREF="https://arxiv.org/abs/1411.1792">download</A>}
+
+ <li> "DeCAF: A Deep Convolutional Activation Feature
+for Generic Visual Recognition" 2014. [Aiman Munir][4-25]
+   {<A HREF="http://proceedings.mlr.press/v32/donahue14.pdf">download</A>}
+
+<li> "solo-learn: A Library of Self-supervised Methods
+for Visual Representation Learning" 2013. [Bitchala][4-25]
+{<A HREF="https://arxiv.org/pdf/2108.01775.pdf">download</A>}
+  
+<li> "A survey on feature selection methods" 2014. [Amanda][4-26]
+  {<A HREF="https://www.sciencedirect.com/science/article/pii/S0045790613003066">download</A>}
+
+  <li> "Deep Learning with Differential Privacy" 2016. [Mounika][4-26]
+    {<A HREF="https://arxiv.org/pdf/1607.00133.pdf">download</A>}
+
+ <li> "Microsoft COCO: Common Objects in Context" 2015. [Katamreddy][4-26]
+{<A HREF="https://arxiv.org/pdf/1405.0312.pdf">download</A>}
+
+  <li> "Learning with Opponent-Learning Awareness" 2018. [Odum][4-28]
+    {<A HREF="https://dl.acm.org/doi/10.5555/3237383.3237408">download</A>}
+
+<li> "SynSys: A Synthetic Data Generation System for Healthcare Applications" 2019. [Buggineni][4-28]
+  {<A HREF="https://www.mdpi.com/1424-8220/19/5/1181">download</A>}
+
+<li> " Zero-Shot Text-to-Image Generation" 2021. [Jammula][4-28]
+{<A HREF="https://arxiv.org/pdf/2102.12092.pdf">download</A>}
+    
+<li> "Prediction and Prioritization of Rare Oncogenic Mutations in
+the Cancer Kinome Using Novel Features and Multiple Classifiers"
+2014. [?][?]{<A HREF="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003545">download</A>}
+
+<li> "Wild patterns: Ten years after the rise of adversarial machine learning" 2018. [?][?]
+  {<A HREF="https://doi.org/10.1016/j.patcog.2018.07.023">download</A>
+
+
+
+  
+<!----
+
+<li> "" 2013. [][]
+{<A HREF="">download</A>}
+--->
+
+
+<H2>Assignments:</H2> 
+
+<li> <A HREF="homework1.pdf">Assignment 1</A>
+<li> <A HREF="homework2.pdf">Assignment 2</A>
+<li> <A HREF="homework3.pdf">Assignment 3</A>
+<li> <A HREF="homework4.pdf">Assignment 4</A>
+<!----
+
+<li> <A HREF="homework5.pdf">Assignment 5</A>
+<li> <A HREF="homework6.pdf">Assignment 6</A>
+--->
+
+<Hr>
+
+<strong>The course syllabus is a general plan for the course;
+deviations announced to the class by the instructor may be
+necessary.</strong><BR>
+
+<P>
+
+Last modified: March 30, 2022.
+<ADDRESS>
+<A Href="http://cobweb.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@uga.edu">khaled@uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>

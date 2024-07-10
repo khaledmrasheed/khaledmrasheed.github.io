@@ -1,0 +1,131 @@
+<Html>
+
+<Head>
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI 2610 Discrete Mathematics
+</Title>
+
+<Link Rev="made" Href="mailto:khaled@cs.uga.edu">
+
+</Head>
+
+<Body>
+
+<H1>CSCI 2610 Discrete Mathematics for Computer Science </H1>
+Spring 2004: Tuesdays and Thursdays 2:00pm - 3:15pm, Boyd GSRC 222;
+Mondays 2:30pm - 3:20pm, Boyd GSRC 303</BR> </BR>
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A></BR>
+Telephone: 542-3444</BR>
+Office Hours: Monday: 3:45-5:45pm & Friday: 3-5pm</BR>
+Office Location: Room 219B, Boyd GSRC</BR>
+Email: khaled@cs.uga.edu</BR>
+</BR>
+
+Teaching Assistant: Boseon Byeon</BR>
+Office Hours: Monday: 10:00am-12:00pm</BR>
+Office Location: Room 301, Boyd GSRC</BR>
+Email: bbyeon@uga.edu</BR>
+<Hr>
+
+<H2>Prerequisite:</H2> 
+Prerequisite: CSCI 1301-1301L. (Strickly enforced)
+
+<H2>Topics to be Covered:</H2>
+The fundamental mathematical tools used in computer science: sets,
+relations, and functions; propositional logic, predicate logic, and
+inductive proofs; summations, recurrences, and elementary asymptotics;
+counting and discrete probability; graphs and trees; introductory
+linear algebra, with applications in computer science.
+
+<H2>Expected Work:</H2> 
+Reading; homework assignments; two midterm exams; and final. All
+assignments and all exams must be done entirely on your
+own. Attendance in all lectures is expected. You are responsible for
+all material taught in class even if you are absent and it is not in
+the book. Attendance in the two midterms is mandatory with no
+possibility for makeup exams.
+
+<H2>Academic Honesty and Integrity:</H2> 
+All students are responsible for maintaining the highest standards of
+honesty and integrity in every phase of their academic careers. The
+penalties for academic dishonesty are severe and ignorance is not an
+acceptable defense.
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 30%
+<li>Midterm Examinations: 20% each
+<li>Undergraduates: Final Examination: 30%
+
+
+<H2>Assignment Submission Policy</H2> 
+Assignments must be turned in by the assigned deadline in class. Late
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
+
+<H2>Course Home-page</H2> 
+
+The Class Home-page is at <A
+HREF="http://www.cs.uga.edu/~khaled/DMcourse/">
+http://www.cs.uga.edu/~khaled/DMcourse/</a>. Materials including
+announcements and assignments will be posted there. Announcements may
+be posted between class meetings.  You are responsible for being aware
+of whatever information is posted there.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> "Discrete Mathematics and Its Applications" - Kenneth H. Rosen,
+Fifth Edition (Required)
+
+<H2>Announcements:</H2>
+
+<li> 4-23-2004: Your final exam will be on Tuesday May 4th 3:30 to
+6:30 PM in GSRC 222 (our usual Tuesday meeting room). I will talk more
+about it on Monday but please let me know ASAP if you have another
+exam that conflicts with it. You are also entitled to relief if you
+have three final exams scheduled for the same day.
+
+<li> 4-22-2004: The last homework (homework 6) is due next Monday and
+must be delivered to me in the beginning of class to be accepted. We
+will finish our discussions on counting and probability next Monday
+and then start our review. Tuesday and Thursday will be review
+lectures.
+
+<li> 4-20-2004: Your scores so far as well as your projected grades
+are posted <A HREF="results.txt">HERE</A>. Your old projected grades
+are included as well.
+
+<li> 4-19-2004: Homework 6 is posted below and is due next Monday in
+class.
+
+<H2>Assignments:</H2> 
+<li>
+<A HREF="homework1.ps">Assignment 1</A>
+<li>
+<A HREF="homework2.txt">Assignment 2</A>
+<li>
+<A HREF="homework3.txt">Assignment 3</A>
+<li>
+<A HREF="homework4.txt">Assignment 4</A>
+<li>
+<A HREF="homework5.txt">Assignment 5</A>
+<li>
+<A HREF="homework6.txt">Assignment 6</A>
+<Hr>
+
+Last modified: April 23, 2004.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@cs.uga.edu">khaled@cs.uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>
+

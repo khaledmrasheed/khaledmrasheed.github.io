@@ -1,0 +1,279 @@
+<Html>
+
+<Head>
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI 4560/6560 Evolutionary Computation and Its Applications
+</Title>
+
+<Link Rev="made" Href="mailto:khaled@cs.uga.edu">
+
+</Head>
+
+<Body>
+
+<H1>CSCI 4560/6560 Evolutionary Computation and Its Applications</H1>
+Fall 2005: Tuesdays and Thursdays 3:30pm - 4:45pm, Mondays 3:35pm -
+4:25pm, Boyd GSRC 306</BR> </BR>
+
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A></BR>
+Telephone: 542-3444</BR>
+Office Hours: Monday: 4:35-6:00pm & Friday: 3-5pm or by email
+appointment</BR>
+Office Location: Room 219B, Boyd GSRC</BR>
+Email: khaled@cs.uga.edu</BR>
+</BR>
+
+Teaching Assistant: Liang Shi</BR>
+Office Hours: Wednesday: 2pm-3pm or by email appointment</BR>
+Office Location: Room 538, Boyd GSRC</BR>
+Email: shi@cs.uga.edu</BR>
+
+
+<Hr>
+
+<H2>Objectives:</H2> 
+
+To provide a broad introduction to the field of Genetic Algorithms and
+other fields of Evolutionary Computation and global optimization. To
+teach students how to apply these methods to solve problems in complex
+domains.
+
+The course is appropriate both for students preparing for research in
+Evolutionary Computation, as well as Science and Engineering students
+who want to apply Evolutionary Computation techniques to solve
+problems in their fields of study.
+
+<H2>Recommended Background:</H2> 
+
+CSCI 2720 Data Structures (or permission of the instructor).
+Familiarity with basic computer algorithms and data structures and at
+least one high level programming language.
+
+<H2>Topics to be Covered:</H2> 
+
+Genetic Algorithm core topics including representation, operators and
+architectures. Other fields of evolutionary computation including
+Genetic Programming, Evolution Strategies, Evolutionary Programming
+and Classifier Systems. Evolutionary Computation applications in
+science and Engineering. Other global optimization techniques such as
+simulated annealing.
+
+<H2>Expected Work:</H2> 
+
+Reading; assignments (including programming); midterm; final; and term
+project and paper.  (Unless otherwise announced by the instructor: all
+assignments and all exams must be done entirely on your own.)
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All academic work must meet the standards contained in <A
+HREF="http://www.uga.edu/ovpi/academic_honesty/culture_honesty.htm"> "A
+Culture of Honesty."</A> Students are responsible for informing
+themselves about those standards before performing any academic
+work. The penalties for academic dishonesty are severe and ignorance
+is not an acceptable defense.
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 30% (Programs, questions, paper presentations)
+<li>Midterm Examination: 20%
+<li>Final Examination: 25%
+<li>Term Project: 25% (includes term paper and presentation)
+
+<br>
+
+Students may work on their term projects individually or in groups of
+up to THREE students each. The above distribution is only tentative
+and may change later. The instructor will announce any changes.
+
+<H2>Assignment Submission Policy</H2> 
+
+Assignments must be turned in by the assigned deadline. Late
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the EC Class
+Home-page at <A HREF="http://www.cs.uga.edu/~khaled/ECcourse/">
+http://www.cs.uga.edu/~khaled/ECcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there. 
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> "Introduction to Evolutionary Computing", Eiben and
+Smith. Springer-Verlag, New York, 2003. (Required)
+
+<H2>Additional Books</H2> 
+
+<li> "Genetic Algorithms in Search, Optimization, and Machine
+Learning", David Goldberg. Addison-Wesley, 1989.
+
+<li> "An Introduction to Genetic Algorithms", Melanie Mitchell. MIT
+Press, 1996.
+ 
+<li> "Genetic Algorithms + Data Structures = Evolution Programs",
+Zbigniew Michalewicz. Springer-Verlag, New York,1996.
+
+<li> "Evolutionary Computation", D. Dumitrescu et al. CRC Press,
+2000. 
+
+<li> "Evolutionary Computation 1", Thomas Back et al. IOP Publishing,
+2000.  
+
+<H2>Announcements:</H2>
+
+<li>[11-30-2005] The last homework assignment is due next Monday. I
+appoloize for the typo in the assignment. It will be graded and
+returned to you next Tursday. Also my office hours this Friday will be
+from 11:30am to 1:30pm instead of the regular time as I will be
+participating in a defense at 3pm.
+
+<li>[10-14-2005] The projected grades and all scores are posted <A
+HREF="2005_CSCI_6560_4560.txt">HERE</A>. Please make sure that all
+your scores are properly recorded.
+
+<H2>Papers:</H2> 
+
+<li> "Evolving Neural Networks Through Augmenting Topologies". [Joe
+McFall][11-14]{<A
+HREF="http://nn.cs.utexas.edu/pub-view.php?RECORD_KEY(Pubs)=PubID&PubID(Pubs)=116">download</A>}{<A
+HREF="presentations/application.vnd.ppt">presentation</A>}<p>
+
+<li> "Evolutionary Detection of Rules for Test Categorization:
+Application to Spam Filtering". [Arlo Lyle][11-14]{<A
+HREF="http://ls11-www.cs.uni-dortmund.de/people/preuss/pages/publications/SGPD04.pdf">download</A>}{<A
+HREF="presentations/GA.ppt">presentation</A>}<p>
+
+<li> "An Evolutionary Algorithm Based Approach for Dynamic
+Thresholding in Multimodal Biometrics". [Jaim Ahmed][11-14]{<A
+HREF="http://citeseer.ist.psu.edu/649069.html">download</A>}<p>
+
+<li> "Interactive Evolutionary Computation: Fusion of the Capabilities
+of EC Optimization and Human Evaluation". [Job Key][11-21]{<A
+HREF="http://prism.asu.edu/research/data/seminars/ProcIEEE_3.pdf">download</A>}{<A
+HREF="presentations/Interactive_Evolutionary_Computation2.ppt">presentation</A>}<p>
+
+<li> "Strength and Money: An LCS Approach to Increasing
+Returns". [Chenyao Zhang][11-21]{<A
+HREF="http://homepages.informatics.ed.ac.uk/v1sschul/LCSbookII.pdf">download</A>}<p>
+
+<li> "Island Model Cooperating with Speciation for Multimodal
+Optimization". [Osama Hassan][11-21]{<A
+HREF="http://citeseer.ist.psu.edu/cache/papers/cs/19049/http:zSzzSzwww-inf.int-evry.frzSz~apzSzEC-pubzSzpszSzPPSN2000.pdf/bessaou00island.pdf">download</A>}{<A
+HREF="presentations/Paper_Presentation.ppt">presentation</A>}<p>
+
+<li> "Ant Colony System: A Cooperative Learning Approach to the
+Traveling Salesman Problem". [Augustin Bralley][11-22]{<A
+HREF="http://www.idsia.ch/~luca/acs-ec97.pdf">download</A>}{<A
+HREF="presentations/Ant_Colony_System.ppt">presentation</A>}<p>
+
+<li> "Tournament Selection: Stable Fitness Pressure in XCS". [Julian
+Bishop][11-22]{<A
+HREF="http://www.springerlink.com/media/7ped0nwqvj3yrcuq9evl/contributions/y/e/1/t/ye1tpekxb0ve0nyk.pdf">download</A>}<p>
+
+<li> "GP-Gammon: Using Genetic Programming to Evolve Backgammon
+Players". [Glenn Matthews][11-28]{<A
+HREF="http://www.cs.bgu.ac.il/~sipper/papabs/eurogpgammon-final.pdf">download</A>}{<A
+HREF="presentations/GPGammon-short.ppt">presentation</A>}<p>
+
+<li> "Anaconda Defeats Hoyle 6-0: A Case Study Competing an Evolved
+Checkers Program against Commercially Available Software". [Bobby
+McKnight][11-28]{<A
+HREF="http://www.cs.nott.ac.uk/~gxk/courses/g5baim/papers/checkers-001.pdf">download</A>}{<A
+HREF="presentations/paper.ppt">presentation</A>}<p>
+
+<li> "Evolutionary Computation in Medicine: An Overview". [Stephen
+Hanek][11-28]{<A
+HREF="http://citeseer.ist.psu.edu/pena-reyes00evolutionary.html">download</A>}{<A
+HREF="http://www.cs.uga.edu/~hanek/evoinmedicine.ppt">presentation</A>}<p>
+
+<li> "MOBILE ROBOT PATH PLANNING USING GENETIC ALGORITHMS". [Joseph
+Kirk][11-29]{<A
+HREF="http://www.ica.ele.puc-rio.br/publicacoes/download/cnf_0106.pdf">download</A>}<p>
+
+<li> "A Genetic Algorithm for the Generation of Jazz Melodies".[Hoon
+Choi][11-29]{<A
+HREF="http://www.soi.city.ac.uk/~geraint/papers/STeP98.pdf">download</A>}{<A
+HREF="presentations/GAforJazz.ppt">presentation</A>}<p>
+
+
+<li> "Co-Evolving Soccer Softbot Team Coordination with Genetic
+Programming".[Thomas Drazdowski][11-29]{<A
+HREF="http://citeseer.ist.psu.edu/cache/papers/cs/2021/http:zSzzSzwww.cs.umd.eduzSzuserszSzseanlzSzpaperszSzrobocupc.pdf/luke97coevolving.pdf">download</A>}{<A
+HREF="presentations/Co-Evolving_Soccer_Softbot_Team_CoordinationwithGeneticProgramming.ppt">presentation</A>}
+<p>
+
+<li> "The Evolution of Secondary Organization in Immune System Gene
+Libraries". [Christopher Peterson][11-29]{<A
+HREF="http://citeseer.ist.psu.edu/27805.html">download</A>}{<A
+HREF="presentations/evo_paper.ppt">presentation</A>}<p>
+
+<li> "Evolutionary computation systems for musical composition". [Sally Murphy][11-29]{<A
+HREF="http://www.hybridsociety.net/pdf_files/evolutionary_computation_systems.pdf">download</A>}<p>
+
+<H2>Assignments:</H2> 
+<li><A HREF="homework1.ps">Homework 1</A>,<A HREF="homework1.pdf">PDF</A>
+<li><A HREF="homework2.ps">Homework 2</A>,<A HREF="homework2.pdf">PDF</A>
+<li><A HREF="homework3.ps">Homework 3</A>,<A HREF="homework3.pdf">PDF</A>
+<li><A HREF="homework4.ps">Homework 4</A>,<A HREF="homework4.pdf">PDF</A>
+<li><A HREF="homework5.ps">Homework 5</A>,<A HREF="homework5.pdf">PDF</A>
+<li><A HREF="homework6.ps">Homework 6</A>,<A HREF="homework6.pdf">PDF</A>
+
+<H2>Lecture Notes:</H2> 
+<li>
+<A HREF="EC.ps">Introduction</A>,<A HREF="EC_4.ps">Compressed</A>,<A
+HREF="EC.pdf">PDF</A>
+<li>
+<A HREF="chapter01.ppt">Chapter 1</A>
+<li>
+<A HREF="chapter02.ppt">Chapter 2</A>
+<li>
+<A HREF="chapter03.ppt">Chapter 3</A>
+<li>
+<A HREF="../gado.ps">GADO</A>,<A HREF="../temp.ps">Compressed</A>,<A
+HREF="../gado.pdf">PDF</A>
+<li>
+<A HREF="chapter04.ppt">Chapter 4</A>
+<li>
+<A HREF="chapter05.ppt">Chapter 5</A>
+<li>
+<A HREF="chapter06.ppt">Chapter 6</A>
+<li>
+<A HREF="chapter14.ppt">Chapter 14</A>
+<li>
+<A HREF="chapter08.ppt">Chapter 8</A>
+<li>
+<A HREF="chapter09.ppt">Chapter 9</A>
+<Hr>
+
+
+<strong>The course syllabus is a general plan for the course; deviations
+announced to the class by the instructor may be necessary.</strong><BR>
+
+<Hr>
+Last modified: December 5, 2005.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@cs.uga.edu">khaled (at) cs.uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>
+

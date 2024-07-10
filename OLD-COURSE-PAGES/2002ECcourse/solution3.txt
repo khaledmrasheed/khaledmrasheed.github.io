@@ -1,0 +1,143 @@
+1.  
+There can be many possible representations in this question.  A
+natural representation is to use a vector of integers with
+each integer representing the position of the queen of respective
+column for each column.  These integers are permutation of integers
+from 1 to 8.  If we restrict the result of our operators to still be
+a permutation of 1 to 8, we need only check for attacks in two diagnals.
+
+*Fitness function.
+Fitness function is the count of pairs of queens attacking each
+other.  Suppose an individual <X1 X2 X3 X4 X5 X6 X7 X8>, to check
+if two queens Xi and Xj (j>=i) attack each other, just to calculate
+if abs(Xj-Xi)=j-i.  Below is a snippet code for fitness calculation:
+    fitness = 0
+    for(int i=0; i<8; i++)
+      for(int j=i+1; j<8; j++)
+        if(abs(X[j]-X[i])==j-i)
+          fitness++;
+*Termination criterion.
+With above fitness function, a termination criterion is clearly fitness
+equal 0.
+*3 examples of individuals and their fitness value
+   X 0 0 0 0 0 0 0
+   0 0 0 0 X 0 0 0    Representation: <1 5 2 6 3 7 4 8>
+   0 X 0 0 0 0 0 0    Fitness value: 1
+   0 0 0 0 0 X 0 0
+   0 0 X 0 0 0 0 0
+   0 0 0 0 0 0 X 0
+   0 0 0 X 0 0 0 0
+   0 0 0 0 0 0 0 X
+
+   X 0 0 0 0 0 0 0
+   0 X 0 0 0 0 0 0    Representation: <1 2 3 4 5 6 7 8>
+   0 0 X 0 0 0 0 0    Fitness value: 28 (Maximum value)
+   0 0 0 X 0 0 0 0
+   0 0 0 0 X 0 0 0
+   0 0 0 0 0 X 0 0
+   0 0 0 0 0 0 X 0
+   0 0 0 0 0 0 0 X
+
+   0 0 0 0 X 0 0 0
+   X 0 0 0 0 0 0 0    Representation: <5 1 8 4 2 7 3 6>
+   0 0 0 0 0 0 0 X    Fitness value: 0
+   0 0 0 X 0 0 0 0
+   0 X 0 0 0 0 0 0
+   0 0 0 0 0 0 X 0
+   0 0 X 0 0 0 0 0
+   0 0 0 0 0 X 0 0
+*Operators
+There can be various operators.  Below just shows one sample.
+Mutation: Randomly choose two integers and swap them, e.g.
+  <5 4 8 1 2 7 3 6> -> <5 1 8 4 2 7 3 6>
+     ^   ^
+Crossover: We can use simple n-point crossover or a crossover operator
+which keeps attribute of permutation.  If we use simple crossover, we
+need to use a repair operator to deal with possible duplicate integers in
+offspring.
+
+We can for example use Davis's order crossover which keeps permutation
+attribute.  In this crossover, select two crossover points and copy
+string between two points from parent 1.  For remaining positions, we
+select from parent 2 starting from the second point and choose that
+not appeared in offspring, 
+
+Example:
+  Parent 1: <1 2 3 4 5 6 7 8>
+                 ^   ^           => Offspring: 1 2 3 4 5 8 6 7
+             point1 point2                     _ _       _ _ _
+  Parent 2: <3 4 7 1 2 8 6 5>
+                       ^
+                       start point
+
+2.
+In this question, the attributes with their domains are:
+  X1: 0, 1
+  X2: 0, 1
+The following is a chromosome for XOR function:
+  (<X1=0>^<X2=1>)V(<X1=1>^<X2=0)
+In classifier systems, the chromosome describing XOR function is represented
+as <01 V 10>.
+In GIL program, it's represented as <10|01 V 01|10>.  Here, bars separate
+selectors.  For each selector, a binary 1 at position i implies the inclusion
+of the i-th domain value.  Hence, X1=0 in this question is represented as 10.
+
+3.
+P1 computes 3*X+1.
+P2 computes 2*(X*X).
+(a)
+  X  F(X)    P1 Square Error P2 Square Error
+  1  2       4  4            2  0
+  2  5       7  4            8  9            
+  3  10      10 0            18 64
+  4  15      13 4            32 289
+  P1 and P2 both match F(X) once, so fitness is 1 for P1 and P2.
+(b)
+  P1: sum of square error = 4+4+0+4 = 12
+  P2: sum of square error = 0+9+64+289 = 362
+  So fitness for P1 is 12 and fitness for P2 is 362.
+(c)
+  You can swap any nodes in P1 and P2 to get offsprings.  Below are 4 examples
+  of individuals:
+     P1               P2                 Offspring1          Offspring2
+      |                |                    |                     |
+      +                *                    +                     * 
+     / \              / \                  / \                   / \ 
+  ->*   1          ->2   *     =>         2   1                 *   *
+   / \                  / \                                    / \ /  \
+  3   X                X   X                                  3  X X   X
+
+     P1               P2                 Offspring3          Offspring4
+      |                |                    |                     |
+      +                *                    +                     * 
+     / \              / \                  / \                   / \ 
+    * ->1            2   *     =>         *   X                 2   *
+   / \                  / \              / \                       / \
+  3   X              ->X   X            3   X                     1   X
+
+4.
+(a)
+  Causality means that small changes of genotype only cause small changes of
+  phenotype (fitness).
+
+  In this question, one bit mutation (small changes) causes F1(X) to
+  change by 1 while such mutation causes F2(X) to change by at most 1,
+  so F2 exhibits better causality.
+
+(b) 
+
+  Epistasis means strong interactions among the genes. The effect of
+  changing the value of one gene on fitness depends on the values of
+  one or more other genes.
+
+  In this question, for F1, if gene i has value 0, it'll contribute
+  nothing to fitness value; if gene i has value 1, it'll contribute 1
+  to fitness value.  The effect on fitness value of each gene is
+  totally independent from the values of the other genes.
+
+  This is different for F2.  For F2, one can't asses the contribution
+  to fitness of one gene without information about the other genes.
+  For example, each 0 in string <00011> contributes 1 to F2(x) but
+  contributes nothing in string <00111>.  This means in F2, the
+  influence on fitness value of single gene depends on other genes.
+  So F2 suffers from more epistasis.

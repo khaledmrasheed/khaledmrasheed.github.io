@@ -1,0 +1,229 @@
+<Html>
+
+<Head>
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI/ENGR 8940 Computational Intelligence
+</Title>
+
+<Link Rev="made" Href="mailto:krasheed@cs.rutgers.edu">
+
+</Head>
+
+<Body>
+
+<H1>CSCI/ENGR 8940 Computational Intelligence (GA part)</H1>
+Spring 2001: Wednesdays and Fridays 11:15am - 12:05pm, Driftmier-601</BR>
+</BR>
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A> (Prof. Ron McClendon will teach the Neural Networks
+portion of the course)</BR>
+Telephone: (706)542-3444</BR> 
+Office Hours: Wednesday: 12:30pm-2:30pm</BR> 
+Office Location: Room 422, Boyd GSRC</BR> 
+Email: khaled@cs.uga.edu</BR>
+</BR>
+<Hr>
+
+<H2>Objectives:</H2> 
+
+To provide a broad introduction to the field of Genetic Algorithms
+(GA) and other fields of Evolutionary Computation and global
+optimization. To teach students how to apply these methods to solve
+problems in complex domains such as Engineering design and
+Optimization.
+
+The course is appropriate both for students preparing for research in
+Artificial Intelligence, and  Engineering students who want to
+apply AI techniques to solve problems in their fields of study.
+
+
+<H2>Recommended Background:</H2> 
+
+CSCI/PHIL 4550/6550 Artificial Intelligence (or permission of the
+instructor).  Familiarity with basic computer algorithms and data
+structures and at least one high level programming language.
+
+<H2>Topics to be Covered:</H2> 
+
+Genetic Algorithm core topics including representation, operators and
+architectures. Genetic Algorithm applications in Engineering
+optimization including design. Other fields of evolutionary
+computation. Other global optimization techniques such as simulated
+annealing.
+
+<H2>Expected Work:</H2> 
+
+Reading; assignments (including programming); midterm; and term
+project and paper.  (Unless otherwise announced by the instructor: all
+assignments and all exams must be done entirely on your own.)
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All students are responsible for maintaining the highest standards of
+honesty and integrity in every phase of their academic careers. The
+penalties for academic dishonesty are severe and ignorance is not an
+acceptable defense.
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 30% (Programs, questions, attendance, paper
+presentations)
+<li>Midterm Examination: 20%
+<li>Term Project: 50% (includes term paper and presentation)
+<br>
+
+Students may work on their term projects in groups of up to three
+students each. The above distribution is only tentative and may change
+later. The instructor will announce any changes.
+
+<H2>Assignment Submission Policy</H2> 
+
+Assignments must be turned in by the assigned deadline. Late
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the CI Class
+Home-page at <A HREF="http://www.cs.uga.edu/~khaled/CIcourse/">
+http://www.cs.uga.edu/~khaled/CIcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there.
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> "Genetic Algorithms and Engineering Optimization", Mitsuo Gen and
+Runwei Cheng.  John Wiley & Sons Inc., 2000. (Required.) </a>
+
+<H2>Additional Books</H2> 
+
+<li> "Genetic Algorithms in Search, Optimization, and Machine
+Learning", David Goldberg. Addison-Wesley, 1989.
+
+<li> "An Introduction to Genetic Algorithms", Melanie Mitchell. MIT
+Press, 1996.
+ 
+<li> "Genetic Algorithms + Data Structures = Evolution Programs",
+Zbigniew Michalewicz. Springer-Verlag, New York,1996.
+
+<li> "Evolutionary Algorithms in Engineering Applications",
+D. Dasgupta and Z. Michalewicz(editors). Springer-Verlag, New
+York,1997.
+
+<H2>Announcements:</H2> 
+
+<li> 4-27-2001: The grades so far have been posted <A
+HREF="current_results.txt">here</A>. The total is out of 50 which will
+be added to the term project to form your 100 point score in the GA
+part of the course. The column before the total represents your grade
+in the paper presentation plus paper critics. Please make sure your
+grades are recorded correctly and let me know if any are misrecorded.
+
+<li> 2-27-2001: The grades of the midterm and second
+homework assignment are posted <A HREF="results">here</A>. I only
+included the last 4 digits of each student's ID number. I shall add
+the grades of the first assignment as soon as they are ready.
+
+<li>1-12-2001: For next week please read as much as you can from
+Chapter 1 in the text book. Please check the <A
+HREF="ftp://ftp.cs.wayne.edu/pub/EC/Welcome.html#SEC12">Hitch-Hicker's
+guide to Evolutionary Computation</a> for a general overview of the
+basic paradigms.
+
+
+<H2>Papers:</H2> 
+
+<li> "GeneAS: A robust optimal design technique for mechanical
+component design" Kalyanmoy Deb, 1997. []
+
+<li> "The generation of form using an evolutionary approach" Mike
+Rosenman, 1997. []
+
+<li> "Current applications of genetic algorithms to aeronautical
+systems" M. F. Bramlette et al, 1992. []
+
+<li> "Evolution by means of genetic programming of analog circuits
+that perform digital functions" Forrest Bennett III et
+al. []
+
+<li> "Experimental validation of the learnable evolution model" Guido
+Cervone et al, 2000. []
+
+<li> "Aerial spray deposition management using the genetic algorithm"
+W. D. Potter et al, 2000. []
+
+<li> "Strategies for the integration of evolutionary/adaptive search
+with the engineering design process" Ian Parmee, 1997. []
+
+<li> "Improving simple heuristic algorithms for the travelling
+salesman problem using a genetic algorithm" Christine Valenzuela and
+L. Williams. []
+
+<li> "Synthesis of Low-Power DSP Systems Using a Genetic Algorithm"
+Marc Bright and Tughrul Arslan. []
+
+<li> "Metamodeling techniques for evolutionary optimization of
+computationally expensive problems: Promises and limitations" Mohammed
+El-Beltagy et al, 1999. []
+
+<li> "A memetic algorithm with self-adaptive local search: TSP as a
+case study" Natalio Krasnogor and jim smith. []
+
+<li> "Variable-complexity evolution of shape grammars for engineering
+design" Peter Gage, 1996. []
+
+
+
+
+<H2>Assignments:</H2> 
+<li><A HREF="assignment1.ps">assignment #1</A>
+
+<li><A HREF="assignment2.ps">assignment #2</A>,<A
+HREF="hw2sol.txt">Solutions</A>
+
+<li><A HREF="assignment3.ps">assignment #3</A>
+
+<H2>Lecture Notes:</H2> 
+<li>
+<A HREF="EC1.ps">Lecture #1</A>,<A HREF="EC1_4.ps">Compressed</A>
+<li>
+<A HREF="EC2.ps">Lecture #2</A>,<A HREF="EC2_4.ps">Compressed</A>
+<li>
+<A HREF="EC3.ps">Lecture #3(part a)</A>,<A HREF="lecture3b.ps">Lecture #3(part b)</A>
+<li>
+<A HREF="lecture4.ps">Lecture #4</A>,<A HREF="lecture4_4.ps">Compressed</A>
+<li>
+<A HREF="lecture5.ps">Lecture #5</A>,<A HREF="lecture5_4.ps">Compressed</A>
+<li>
+<A HREF="lecture6.ps">Lecture #6</A>,<A HREF="lecture6_4.ps">Compressed</A>
+<li>
+<A HREF="lecture7.ps">Lecture #7</A>,<A HREF="lecture7_4.ps">Compressed</A>
+<li>
+<A HREF="lecture8.PDF">Lecture #8 (PDF)</A>,<A HREF="lecture8.ps">Lecture #8 (Postscript)</A>,<A HREF="lecture8_4.ps">Compressed postscript</A>
+<li>
+<A HREF="gadoIO.ps">Lecture #16,#17</A>,<A HREF="gadoIO_4.ps">Compressed</A>
+<Hr>
+
+
+Last modified: April 27, 2001.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@cs.uga.edu">khaled@cs.uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>

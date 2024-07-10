@@ -1,0 +1,1476 @@
+%!PS-Adobe-1.0
+%%DocumentFonts: Courier
+%%Title: lecture7.ps (mpage)
+%%Creator: mpage
+%%CreationDate: Thu Feb  1 20:36:53 2001
+%%Pages: (atend)
+%%BoundingBox: 20 20 596 776
+%%EndComments
+
+/mp_stm usertime def
+/mp_pgc statusdict begin pagecount end def
+statusdict begin /jobname (lecture7.ps) def end
+%%%Title: /var/tmp/vaaa002nV
+%%%Creator: IslandPresents for krasheed
+%%%CreationDate: Fri Jan 26 02:28:52 2001
+%%%Pages: 5
+%%%BoundingBox: 0 0 792 612
+%%%DocumentNeededResources: (atend)
+%%%DocumentSuppliedResources: (atend)
+%%%EndComments
+/showsheet { showpage } bind def
+/showpage { } def
+save
+
+userdict /IslandPresentsDict 300 dict dup begin put
+
+/bdef	{bind def} bind def
+/E	{exch} bdef
+/FF	{findfont} bdef
+/MF	{makefont} bdef
+/RO	{rotate} bdef
+/SC	{scale} bdef
+/SF	{setfont} bdef
+/SG	{setgray} bdef
+/TR	{translate} bdef
+/bp	{lj lw rgb} bdef
+/bpbw	{lj lw setgray} bdef
+/c	{curveto} bdef
+/cl	{closepath} bdef
+/fi	{eofill} bdef
+/g	{setgray} bdef
+/gr	{grestore} bdef
+/gs	{gsave} bdef
+/l	{lineto} bdef
+/lj	{setlinejoin} bdef
+/lw	{setlinewidth} bdef
+/m	{moveto} bdef
+/n	{newpath} bdef
+/nx	{/x E def} bdef
+/r	{rmoveto} bdef
+/rl	{rlineto} bdef
+/rgb	{setrgbcolor} bdef
+/s	{show} bdef
+/sd	{setdash} bdef
+/sp	{x 0 rmoveto} bdef
+/ss	{currentpoint pop E m} bdef
+/st	{stroke} bdef
+%% pattern stuff
+/BPSIDE	32 def	%% pixels per pattern side
+/PATFREQ 3.0 def	%% pattern pixels per mm
+/dp_mat [PATFREQ 0 0 PATFREQ 0 0] def
+/dp_pw	BPSIDE def	%% pattern pixel width
+/dp_ph	BPSIDE def	%% pattern pixel height
+/dp_w	dp_pw PATFREQ div def	%% pattern mm width
+/dp_h	dp_ph PATFREQ div def	%% pattern mm height
+/savemat matrix def
+/topmat matrix def
+/patmat matrix def
+
+%%	catch nocurrentpoint error for:		pathbbox
+/ncpoint errordict /nocurrentpoint get def
+errordict begin
+/nocurrentpoint	{
+	dup /pathbbox load eq
+	{pop 0 0 1 1}
+	{ncpoint}
+	ifelse
+} bdef
+end
+/ar	{ %% sa ea sx sy rot tx ty
+	matrix currentmatrix 8 1 roll TR RO SC
+	n 0 0 1 5 3 roll arc setmatrix
+} bdef
+/arn	{ %% sa ea sx sy rot tx ty
+ TR RO SC
+	matrix currentmatrix 8 1 roll
+	n 0 0 1 5 3 roll arcn setmatrix
+} bdef
+/el	{ %% sx sy rot tx ty
+	matrix currentmatrix 6 1 roll TR RO SC
+	n 0 0 1 0 360 arc setmatrix cl
+} bdef
+/image_raster	{ %% sw sh sd dw dh xs ys
+	TR SC /sd E def /sh E def /sw E def
+	/imagebuf sw sd mul 7 add 8 idiv string def
+	sw sh sd [sw 0 0 sh 0 0] { currentfile imagebuf readhexstring pop}
+	image
+} bdef
+/imagemask_raster	{
+	TR SC /sh E def /sw E def
+	/imagebuf sw 7 add 8 idiv string def
+	sw sh false [sw 0 0 sh 0 0]
+	{currentfile imagebuf readhexstring pop}
+	imagemask
+} bdef
+/image_color_raster	{ % sw sh sd dw dh xs ys
+	systemdict /colorimage known not {
+		/colorimage /colimg load def
+	} if
+	TR SC /sd E def /sh E def /sw E def
+	/imagebuf sw 3 mul sd mul 7 add 8 idiv string def
+	sw sh sd [sw 0 0 sh 0 0] { currentfile imagebuf readhexstring pop}
+	false 3 colorimage
+} bdef
+/patpath	{
+	/inv E def
+	topmat setmatrix
+	pathbbox	%% get lo - hi indecies
+	/hy E dp_h div floor cvi def
+	/hx E dp_w div floor cvi def
+	/ly E dp_h div floor cvi def
+	/lx E dp_w div floor cvi def
+	lx 1 hx	{
+	    dp_w mul
+	    ly 1 hy {
+		dp_h mul
+		E dup 3 1 roll E
+		patmat currentmatrix pop
+		TR
+		dp_pw dp_ph inv
+		dp_mat dp_proc imagemask
+		patmat setmatrix
+	    } for
+	    pop
+	} for
+} bdef
+% setpattern brush of patterns instead of gray
+/setpattern	{
+	/blue E def /green E def /red E def
+	/freq E def /bwidth E def /bpside E def
+	/bstring E def
+	/onbits 0 def /offbits 0 def
+	freq 0 {/y E def /x E def
+		/xindex x 1 add 2 div bpside mul cvi def
+		/yindex y 1 add 2 div bpside mul cvi def
+		bstring yindex bwidth mul xindex 8 idiv add get not
+		1 7 xindex 8 mod sub bitshift and 0 ne
+		{/onbits onbits 1 add def 1}
+		{/offbits offbits 1 add def 0}
+		ifelse
+	} setscreen {} settransfer
+	systemdict /setcmykcolor known
+	{ /fact 1 onbits offbits onbits add div sub def
+	1 red sub fact mul 1 green sub fact mul 1 blue sub fact mul 0
+		setcmykcolor
+	}
+	{ offbits offbits onbits add div setgray}
+	ifelse
+} bdef
+/dmatrix matrix def
+/dpi 72 0 dmatrix defaultmatrix dtransform
+	dup mul E dup mul add sqrt
+def
+
+/B	{gs bp st gr} bdef %% brush: gr lw lj
+/Bbw	{gs bpbw st gr} bdef %% brush: gr lw lj
+/F	{gs rgb eofill gr} bdef %% fill: gr
+/Fbw	{gs setgray eofill gr} bdef %% fill: gr
+/PB	{gs lj lw setpattern st gr} bdef
+/PF	{gs eoclip patpath gr} bdef
+/BB	{gs rgb lj lw strokepath clip patpath gr} bdef
+%! Island text prolog Version 3.1
+%%
+%%BeginProlog
+/reencode_small_dict 12 dict def
+/ReencodeSmall {
+reencode_small_dict begin
+/new_codes_and_names exch def
+/new_font_name exch def
+/base_font_name exch def
+/base_font_dict base_font_name findfont def
+/newfont base_font_dict maxlength dict def
+base_font_dict {
+exch dup /FID ne
+{ dup /Encoding eq
+{ exch dup length array copy newfont 3 1 roll put }
+{ exch newfont 3 1 roll put }
+ifelse
+}
+{ pop pop }
+ifelse
+} forall
+newfont /FontName new_font_name put
+new_codes_and_names aload pop
+new_codes_and_names length 2 idiv
+{ newfont /Encoding get 3 1 roll put }
+repeat
+new_font_name newfont definefont pop
+end     %reencode_small_dict
+} def
+/extended_Zapf [
+8#223 /a89
+8#224 /a90
+8#225 /a93
+8#226 /a94
+8#227 /a91
+8#230 /a92
+8#231 /a205
+8#232 /a85
+8#233 /a206
+8#234 /a86
+8#235 /a87
+8#236 /a88
+8#237 /a95
+8#240 /a96
+] def
+/extended_Standard [
+29 /thorn
+30 /yacute
+31 /divide
+128 /Acircumflex
+129 /Adieresis
+130 /Agrave
+131 /Aring
+132 /Atilde
+133 /Ccedilla
+134 /Eacute
+135 /Ecircumflex
+136 /Edieresis
+137 /Egrave
+138 /Iacute
+139 /Icircumflex
+140 /Idieresis
+141 /Igrave
+142 /Ntilde
+143 /Oacute
+144 /Ocircumflex
+145 /Odieresis
+146 /Ograve
+147 /Otilde
+148 /Scaron
+149 /Uacute
+150 /Ucircumflex
+151 /Udieresis
+152 /Ugrave
+153 /Ydieresis
+154 /Zcaron
+155 /aacute
+156 /acircumflex
+157 /adieresis
+158 /agrave
+159 /aring
+160 /atilde
+161 /exclamdown
+162 /cent
+163 /sterling
+164 /fraction
+165 /yen
+166 /florin
+167 /section
+168 /currency
+169 /quotesingle
+170 /quotedblleft
+171 /guillemotleft
+172 /guilsinglleft
+173 /guilsinglright
+174 /fi
+175 /fl
+176 /plusminus
+177 /endash
+178 /dagger
+179 /daggerdbl
+180 /periodcentered
+181 /twosuperior
+182 /paragraph
+183 /bullet
+184 /quotesinglbase
+185 /quotedblbase
+186 /quotedblright
+187 /guillemotright
+188 /ellipsis
+189 /perthousand
+190 /threesuperior
+191 /questiondown
+192 /mu
+193 /grave
+194 /acute
+195 /circumflex
+196 /tilde
+197 /macron
+198 /breve
+199 /dotaccent
+200 /dieresis
+201 /onesuperior
+202 /ring
+203 /cedilla
+204 /onequarter
+205 /hungarumlaut
+206 /ogonek
+207 /caron
+208 /emdash
+209 /ccedilla
+210 /copyright
+211 /eacute
+212 /ecircumflex
+213 /edieresis
+214 /egrave
+215 /iacute
+216 /icircumflex
+217 /idieresis
+218 /igrave
+219 /logicalnot
+220 /minus
+221 /ntilde
+222 /oacute
+223 /ocircumflex
+224 /odieresis
+225 /AE
+226 /onehalf
+227 /ordfeminine
+228 /ograve
+229 /otilde
+230 /registered
+231 /scaron
+232 /Lslash
+233 /Oslash
+234 /OE
+235 /ordmasculine
+236 /trademark
+237 /uacute
+238 /ucircumflex
+239 /udieresis
+240 /ugrave
+241 /ae
+242 /ydieresis
+243 /zcaron
+244 /Aacute
+245 /dotlessi
+246 /threequarters
+247 /Eth
+248 /lslash
+249 /oslash
+250 /oe
+251 /germandbls
+252 /multiply
+253 /Yacute
+254 /Thorn
+255 /eth
+] def
+/extended_Symbol [
+] def
+/extend_font {  % stack: fontname newfontname
+exch dup (ZapfDingbats) eq
+{ cvn exch cvn extended_Zapf ReencodeSmall }
+{ dup (Symbol) eq
+{ cvn exch cvn extended_Symbol ReencodeSmall }
+{ cvn exch cvn extended_Standard ReencodeSmall }
+ifelse
+}
+ifelse
+} bind def
+/extend_font_name { % stack: font_name_string
+dup length 1 add string /extended_font_name exch def
+extended_font_name 0 (_) putinterval
+extended_font_name 1 3 -1 roll putinterval
+extended_font_name
+} bind def
+/gf {
+/f exch def f cvn where
+{ f exch begin cvn load exec setfont end }
+{ f 0 f length 8 sub getinterval dup
+/localfont exch extend_font_name def
+localfont extend_font
+localfont findfont
+/xsz f f length 4 sub 4 getinterval cvi def
+/ysz f f length 8 sub 4 getinterval cvi def
+[ xsz 0 0 ysz neg 0 0 ] makefont dup f cvn exch def
+setfont
+}
+ifelse
+} bind def
+/gfns {
+/f exch def f cvn where
+{ f exch begin cvn load exec setfont end }
+{ f 0 f length 8 sub getinterval cvn findfont
+/xsz f f length 4 sub 4 getinterval cvi def
+/ysz f f length 8 sub 4 getinterval cvi def
+[ xsz 0 0 ysz neg 0 0 ] makefont dup f cvn exch def
+setfont
+}
+ifelse
+} bind def
+/ul { % space drop thickness
+gs currentpoint currentlinewidth 
+currentpoint n m 6 -3 roll 
+lw 0 exch r
+0 rl st lw m
+gr 
+} bind def
+/nxtab { currentpoint pop 1000.0 mul cvi tab mod
+	tab exch sub 1000.0 div 0 rmoveto } bind def
+/nx { /x exch def } bind def
+0. nx
+%%EndProlog
+%%EndProlog
+
+% %%Page: 14 1
+%%Page: 1 1
+0 setlinewidth
+ 20  20 moveto
+ 20 772 lineto
+592 772 lineto
+592  20 lineto
+closepath stroke
+ 20 396 moveto
+592 396 lineto
+stroke
+306  20 moveto
+306 772 lineto
+stroke
+/sheetsave save def
+gsave
+24 400 translate 0 rotate
+278 612 div 368 792 div scale
+0 0 moveto 0 792 lineto 612 792 lineto 612 0 lineto
+closepath clip newpath
+save
+gs
+18 23.2941 TR
+
+ 612 0 TR 90 RO
+2.83465 -2.83465 SC 0 -215.9 TR
+0.940969 0.940969 SC
+topmat currentmatrix pop
+n 0 0 m
+279.4 0 l
+279.4 215.9 l
+0 215.9 l
+cl
+1 1 1 F
+n 40.262 55.013 m
+279.4 55.013 l
+279.4 59.528 l
+40.262 59.528 l
+cl
+1 0.8039 0.1569 F
+n 39.102 6.61 m
+238.93 6.61 l
+238.93 52.531 l
+39.102 52.531 l
+cl
+gs
+n 39.102 6.61 m 238.93 6.61 l
+238.93 52.531 l
+39.102 52.531 l
+39.102 6.61 l
+cl eoclip
+n savemat currentmatrix pop [1 0 -0 1 39.102 48.087] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Palatino-Bold09000900) gf
+1.00 0.00 0.00 rgb 
+(GA representation) s
+savemat setmatrix
+gr
+n 26.776 66.948 m
+267.76 66.948 l
+267.76 121.94 l
+26.776 121.94 l
+cl
+n savemat currentmatrix pop [1 0 -0 1 26.776 79.6452] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Palatino-Bold07200720) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Bold07200720) gf
+0 0 m 0 ss 
+(\267) s
+654 0 m 0 ss 
+(Group-based) s
+720 0 m 616 ss (Palatino-Bold07200720) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Roman04800480) gf
+720 0 m 616 ss 
+(\267) s
+1156 0 m 616 ss 
+(Individual: group part + object part) s
+720 616 m 1165 ss (Palatino-Roman04800480) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Roman04800480) gf
+720 0 m 1165 ss 
+(\267) s
+1156 0 m 1165 ss 
+(Group part: vector of characters representing bins) s
+720 1165 m 1714 ss (Palatino-Roman04800480) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Roman04800480) gf
+720 0 m 1714 ss 
+(\267) s
+1156 0 m 1714 ss 
+(object part: for each bin, which objects went there) s
+720 1714 m 2263 ss (Palatino-Roman04800480) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Roman04800480) gf
+720 0 m 2263 ss 
+(\267) s
+1156 0 m 2263 ss 
+(variable length representation) s
+savemat setmatrix
+n 64.029 155.22 m
+82.656 155.22 l
+82.656 168.42 l
+64.029 168.42 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 83.059 155.24 m
+101.69 155.24 l
+101.69 168.43 l
+83.059 168.43 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 102.19 155.25 m
+120.82 155.25 l
+120.82 168.45 l
+102.19 168.45 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 140.44 155.21 m
+159.06 155.21 l
+159.06 168.41 l
+140.44 168.41 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 121.45 155.25 m
+140.08 155.25 l
+140.08 168.45 l
+121.45 168.45 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n savemat currentmatrix pop [1 0 0 1 68.0391 164.711] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+( B) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 89.0178 164.995] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(E) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 108.373 165.072] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(C) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 127.729 165.15] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(D) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 147.084 165.228] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(A) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 68.1436 176.678] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.17 0.52 0.32 rgb 
+(3,6     5      4      2      1) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1.5022 179.17 163.836] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold03600360) gf
+1.00 0.00 0.00 rgb 
+(group \(bin\)) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 179.274 175.335] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.17 0.52 0.32 rgb 
+(object) s
+savemat setmatrix
+n 164.14 161.59 m
+169.82 159.7 l
+169.82 163.48 l
+cl
+0 0 0 F
+n 173.78 161.59 m
+169.82 161.59 l
+gs
+0 0 0 1.058 0 B
+gr
+n 166.03 173.15 m
+171.7 171.25 l
+171.7 175.04 l
+cl
+0 0 0 F
+n 175.67 173.15 m
+171.7 173.15 l
+gs
+0 0 0 1.058 0 B
+gr
+userdict /#copies 1 put
+gr
+showpage
+restore
+%%PageTrailer
+
+% %%Page: 15 2
+grestore sheetsave restore
+/sheetsave save def
+gsave
+24 24 translate 0 rotate
+278 612 div 368 792 div scale
+0 0 moveto 0 792 lineto 612 792 lineto 612 0 lineto
+closepath clip newpath
+save
+gs
+18 23.2941 TR
+
+ 612 0 TR 90 RO
+2.83465 -2.83465 SC 0 -215.9 TR
+0.940969 0.940969 SC
+topmat currentmatrix pop
+n 0 0 m
+279.4 0 l
+279.4 215.9 l
+0 215.9 l
+cl
+1 1 1 F
+n 40.262 55.013 m
+279.4 55.013 l
+279.4 59.528 l
+40.262 59.528 l
+cl
+1 0.8039 0.1569 F
+n 39.102 6.61 m
+238.93 6.61 l
+238.93 52.531 l
+39.102 52.531 l
+cl
+gs
+n 39.102 6.61 m 238.93 6.61 l
+238.93 52.531 l
+39.102 52.531 l
+39.102 6.61 l
+cl eoclip
+n savemat currentmatrix pop [1 0 -0 1 39.102 48.087] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Palatino-Bold09000900) gf
+1.00 0.00 0.00 rgb 
+(Crossover) s
+savemat setmatrix
+gr
+n 172.9 82.176 m
+191.53 82.176 l
+191.53 95.37 l
+172.9 95.37 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 191.93 82.191 m
+210.56 82.191 l
+210.56 95.385 l
+191.93 95.385 l
+cl
+0.6 0.6 0.6 F
+gs
+0 0 0 1.058 0 B
+gr
+n 211.06 82.206 m
+229.69 82.206 l
+229.69 95.4 l
+211.06 95.4 l
+cl
+0.851 0.851 0.851 F
+gs
+0 0 0 1.058 0 B
+gr
+n 249.31 82.168 m
+267.93 82.168 l
+267.93 95.362 l
+249.31 95.362 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 230.32 82.206 m
+248.95 82.206 l
+248.95 95.4 l
+230.32 95.4 l
+cl
+0.851 0.851 0.851 F
+gs
+0 0 0 1.058 0 B
+gr
+n savemat currentmatrix pop [1 0 0 1 176.909 91.6647] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+( B) s
+savemat setmatrix
+n savemat currentmatrix pop [0.853243 0 0 1.02011 198.965 91.9134] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(E) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 217.243 92.0257] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(A) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 236.599 92.1037] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(C) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 255.954 92.1817] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(D) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 177.014 103.632] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.17 0.52 0.32 rgb 
+(3,7  1,4,5  1,4   2,5   6,8) s
+savemat setmatrix
+n 17.199 102.27 m
+35.826 102.27 l
+35.826 115.46 l
+17.199 115.46 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 36.229 102.28 m
+54.856 102.28 l
+54.856 115.47 l
+36.229 115.47 l
+cl
+0.851 0.851 0.851 F
+gs
+0 0 0 1.058 0 B
+gr
+n 55.363 102.3 m
+73.99 102.3 l
+73.99 115.49 l
+55.363 115.49 l
+cl
+0.851 0.851 0.851 F
+gs
+0 0 0 1.058 0 B
+gr
+n 74.622 102.3 m
+93.248 102.3 l
+93.248 115.49 l
+74.622 115.49 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n savemat currentmatrix pop [1 0 0 1 21.2088 111.754] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+( B) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 42.1878 112.038] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(A) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 61.5428 112.115] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(C) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 80.8988 112.193] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(D) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 21.3138 123.721] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.17 0.52 0.32 rgb 
+(3,7   1,4   2,5   6,8) s
+savemat setmatrix
+n 22.124 70.905 m
+40.751 70.905 l
+40.751 84.099 l
+22.124 84.099 l
+cl
+0.6 0.6 0.6 F
+gs
+0 0 0 1.058 0 B
+gr
+n 41.154 70.92 m
+59.781 70.92 l
+59.781 84.114 l
+41.154 84.114 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 60.288 70.935 m
+78.915 70.935 l
+78.915 84.129 l
+60.288 84.129 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n savemat currentmatrix pop [1 0 0 1 26.1341 80.3944] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+( E) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 47.1131 80.6784] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(F) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 66.4681 80.7554] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(G) s
+savemat setmatrix
+n savemat currentmatrix pop [0.877677 0 0 1 23.3156 92.3614] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.17 0.52 0.32 rgb 
+(1,4,5  2,3,7  6,8) s
+savemat setmatrix
+n 35.617 165.11 m
+54.244 165.11 l
+54.244 178.31 l
+35.617 178.31 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 54.647 165.13 m
+73.274 165.13 l
+73.274 178.32 l
+54.647 178.32 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 73.781 165.14 m
+92.408 165.14 l
+92.408 178.34 l
+73.781 178.34 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n savemat currentmatrix pop [1 0 0 1 39.6266 174.602] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+( B) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 60.6056 174.886] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(E) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 79.9606 174.963] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(D) s
+savemat setmatrix
+n savemat currentmatrix pop [0.877677 0 0 1 36.8081 186.569] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.17 0.52 0.32 rgb 
+( 3,7   1,4,5   6,8) s
+savemat setmatrix
+n 189.59 166.96 m
+208.21 166.96 l
+208.21 180.16 l
+189.59 180.16 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 208.62 166.98 m
+227.24 166.98 l
+227.24 180.17 l
+208.62 180.17 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n 227.75 166.99 m
+246.38 166.99 l
+246.38 180.19 l
+227.75 180.19 l
+cl
+gs
+0 0 0 1.058 0 B
+gr
+n savemat currentmatrix pop [1 0 0 1 193.595 176.453] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+( B) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 214.574 176.737] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(E) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 233.929 176.814] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(D) s
+savemat setmatrix
+n savemat currentmatrix pop [0.877677 0 0 1 190.777 188.42] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.17 0.52 0.32 rgb 
+( 3,7   1,4,5   6,8,2) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 8.53722 131.939] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.00 0.00 1.00 rgb 
+(1. Select crossing sections                       2. Inject crossing section) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 9.22389 197.043] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.00 0.00 1.00 rgb 
+(3. Eliminate empty bin\(s\)                      4. Reinsert missing objects) s
+0 0 m 548 ss (Helvetica-Bold04800480) gf
+0.00 0.00 1.00 rgb 
+(    and bin\(s\) with doubles) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 -0 1 111.372 169.968] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(     ) s
+0.17 0.52 0.32 rgb 
+667 0 m 0 ss 
+( 2) s
+0 0 m 548 ss (Helvetica-Bold04800480) gf
+0.17 0.52 0.32 rgb 
+() s
+1.00 0.00 0.00 rgb 
+0 0 m 548 ss 
+(left aside) s
+savemat setmatrix
+5.0447 5.2388 0 127.28 167.06 el
+gs
+0 0 0 1.058 0 B
+gr
+n savemat currentmatrix pop [1 0 0 1 210.714 108.267] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(   ~ ~     ~) s
+0 0 m 548 ss (Helvetica-Bold04800480) gf
+1.00 0.00 0.00 rgb 
+(appear twice) s
+savemat setmatrix
+userdict /#copies 1 put
+gr
+showpage
+restore
+%%PageTrailer
+
+% %%Page: 16 3
+grestore sheetsave restore
+/sheetsave save def
+gsave
+310 400 translate 0 rotate
+278 612 div 368 792 div scale
+0 0 moveto 0 792 lineto 612 792 lineto 612 0 lineto
+closepath clip newpath
+save
+gs
+18 23.2941 TR
+
+ 612 0 TR 90 RO
+2.83465 -2.83465 SC 0 -215.9 TR
+0.940969 0.940969 SC
+topmat currentmatrix pop
+n 0 0 m
+279.4 0 l
+279.4 215.9 l
+0 215.9 l
+cl
+1 1 1 F
+n 40.262 55.013 m
+279.4 55.013 l
+279.4 59.528 l
+40.262 59.528 l
+cl
+1 0.8039 0.1569 F
+n 39.102 6.61 m
+238.93 6.61 l
+238.93 52.531 l
+39.102 52.531 l
+cl
+gs
+n 39.102 6.61 m 238.93 6.61 l
+238.93 52.531 l
+39.102 52.531 l
+39.102 6.61 l
+cl eoclip
+n savemat currentmatrix pop [1 0 -0 1 39.102 48.087] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Palatino-Bold09000900) gf
+1.00 0.00 0.00 rgb 
+(Mutation) s
+savemat setmatrix
+gr
+n 16.298 66.948 m
+263.88 66.948 l
+263.88 126.78 l
+16.298 126.78 l
+cl
+n savemat currentmatrix pop [1 0 -0 1 16.2983 79.6452] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Palatino-Bold07200720) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Bold07200720) gf
+0 0 m 0 ss 
+(\267) s
+654 0 m 0 ss 
+(Works with groups \(bins\) not objects) s
+0 0 m 823 ss (Palatino-Bold07200720) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Bold07200720) gf
+0 0 m 823 ss 
+(\267) s
+654 0 m 823 ss 
+(eliminate a bin or create one \(why?\)) s
+0 823 m 1646 ss (Palatino-Bold07200720) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Bold07200720) gf
+0 0 m 1646 ss 
+(\267) s
+654 0 m 1646 ss 
+(objects in eliminated bin redistributed ) s
+654 1646 m 2470 ss (Palatino-Bold07200720) gf
+0.00 0.00 1.00 rgb 
+(using heuristics) s
+savemat setmatrix
+userdict /#copies 1 put
+gr
+showpage
+restore
+%%PageTrailer
+
+% %%Page: 17 4
+grestore sheetsave restore
+/sheetsave save def
+gsave
+310 24 translate 0 rotate
+278 612 div 368 792 div scale
+0 0 moveto 0 792 lineto 612 792 lineto 612 0 lineto
+closepath clip newpath
+save
+gs
+18 23.2941 TR
+
+ 612 0 TR 90 RO
+2.83465 -2.83465 SC 0 -215.9 TR
+0.940969 0.940969 SC
+topmat currentmatrix pop
+n 0 0 m
+279.4 0 l
+279.4 215.9 l
+0 215.9 l
+cl
+1 1 1 F
+n 40.262 55.013 m
+279.4 55.013 l
+279.4 59.528 l
+40.262 59.528 l
+cl
+1 0.8039 0.1569 F
+n 39.102 6.61 m
+238.93 6.61 l
+238.93 52.531 l
+39.102 52.531 l
+cl
+gs
+n 39.102 6.61 m 238.93 6.61 l
+238.93 52.531 l
+39.102 52.531 l
+39.102 6.61 l
+cl eoclip
+n savemat currentmatrix pop [1 0 -0 1 39.102 48.087] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Palatino-Bold09000900) gf
+1.00 0.00 0.00 rgb 
+(Fitness function) s
+savemat setmatrix
+gr
+n 35.978 64.232 m
+235.29 64.232 l
+235.29 109.54 l
+35.978 109.54 l
+cl
+n savemat currentmatrix pop [1 0 0 1 35.9781 76.9288] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Palatino-Bold07200720) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Bold07200720) gf
+0 0 m 0 ss 
+(\267) s
+654 0 m 0 ss 
+(Two possible objectives) s
+720 0 m 616 ss (Palatino-Bold07200720) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Roman04800480) gf
+720 0 m 616 ss 
+(\267) s
+1156 0 m 616 ss 
+(Minimize number of bins) s
+720 616 m 1165 ss (Palatino-Roman04800480) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Roman04800480) gf
+720 0 m 1165 ss 
+(\267) s
+1156 0 m 1165 ss 
+(Minimize number of bins and fill all used bins) s
+1440 1165 m 1714 ss (Palatino-Roman04800480) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Roman04800480) gf
+1440 0 m 1714 ss 
+(\267) s
+1876 0 m 1714 ss 
+(Example:) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 -0 1 112.924 131.163] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold14401440) gf
+0.00 0.00 1.00 rgb 
+() s(Symbol14401440) gf
+0 0 m 0 ss 
+(\246) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 123.402 130.775] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold09600960) gf
+0.00 0.00 1.00 rgb 
+(=) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 139.312 124.566] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold09600960) gf
+0.00 0.00 1.00 rgb 
+() s(Symbol09600960) gf
+0 0 m 0 ss 
+(\345) s(Helvetica-Bold06400640) gf
+684 0 m 0 ss 
+(     ) s(Helvetica-Bold09600960) gf
+1574 0 m 0 ss 
+(\(Fi/C\)) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 209.938 114.864] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.00 0.00 1.00 rgb 
+(k) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 0 1 156.774 141.252] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold07200720) gf
+0.00 0.00 1.00 rgb 
+(N) s
+savemat setmatrix
+n 137.76 130 m 194.8 130 l
+gs
+0 0 0 1.058 0 B
+gr
+n savemat currentmatrix pop [1 0 0 1 152.118 109.044] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.00 0.00 1.00 rgb 
+(N) s
+0 0 m 1097 ss (Helvetica-Bold04800480) gf
+0.00 0.00 1.00 rgb 
+(i=1) s
+savemat setmatrix
+n savemat currentmatrix pop [1 0 -0 1 114.088 155.222] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Helvetica-Bold04800480) gf
+0.00 0.00 1.00 rgb 
+(where N: number of bins used) s
+0 0 m 548 ss (Helvetica-Bold04800480) gf
+0.00 0.00 1.00 rgb 
+(           Fi: sum of object sizes in bin i) s
+0 548 m 1097 ss (Helvetica-Bold04800480) gf
+0.00 0.00 1.00 rgb 
+(           C: bin capacity) s
+0 1097 m 1646 ss (Helvetica-Bold04800480) gf
+0.00 0.00 1.00 rgb 
+(         k>1: concentration constant \(2\)) s
+savemat setmatrix
+userdict /#copies 1 put
+gr
+showpage
+restore
+%%PageTrailer
+
+% %%Page: 18 5
+grestore sheetsave restore
+showsheet
+%%Page: 2 2
+0 setlinewidth
+ 20  20 moveto
+ 20 772 lineto
+592 772 lineto
+592  20 lineto
+closepath stroke
+ 20 396 moveto
+592 396 lineto
+stroke
+306  20 moveto
+306 772 lineto
+stroke
+/sheetsave save def
+gsave
+24 400 translate 0 rotate
+278 612 div 368 792 div scale
+0 0 moveto 0 792 lineto 612 792 lineto 612 0 lineto
+closepath clip newpath
+save
+gs
+18 23.2941 TR
+
+ 612 0 TR 90 RO
+2.83465 -2.83465 SC 0 -215.9 TR
+0.940969 0.940969 SC
+topmat currentmatrix pop
+n 0 0 m
+279.4 0 l
+279.4 215.9 l
+0 215.9 l
+cl
+1 1 1 F
+n 40.262 55.013 m
+279.4 55.013 l
+279.4 59.528 l
+40.262 59.528 l
+cl
+1 0.8039 0.1569 F
+n 39.102 6.61 m
+238.93 6.61 l
+238.93 52.531 l
+39.102 52.531 l
+cl
+gs
+n 39.102 6.61 m 238.93 6.61 l
+238.93 52.531 l
+39.102 52.531 l
+39.102 6.61 l
+cl eoclip
+n savemat currentmatrix pop [1 0 -0 1 39.102 48.087] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Palatino-Bold09000900) gf
+1.00 0.00 0.00 rgb 
+(Initial population) s
+savemat setmatrix
+gr
+n 42.187 66.948 m
+241.5 66.948 l
+241.5 112.25 l
+42.187 112.25 l
+cl
+n savemat currentmatrix pop [1 0 -0 1 42.187 79.6452] concat
+25.4 1440 div 1.000000 mul dup scale 0 0 m
+/tab 283.00 1000.0 mul cvi def
+
+0 0 m 0 ss (Palatino-Bold07200720) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Bold07200720) gf
+0 0 m 0 ss 
+(\267) s
+654 0 m 0 ss 
+(Two ways) s
+720 0 m 616 ss (Palatino-Bold07200720) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Roman04800480) gf
+720 0 m 616 ss 
+(\267) s
+1156 0 m 616 ss 
+(randomly) s
+720 616 m 1165 ss (Palatino-Roman04800480) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Roman04800480) gf
+720 0 m 1165 ss 
+(\267) s
+1156 0 m 1165 ss 
+(heuristically) s
+1440 1165 m 1714 ss (Palatino-Roman04800480) gf
+0.00 0.00 1.00 rgb 
+() s(Palatino-Roman04800480) gf
+1440 0 m 1714 ss 
+(\267) s
+1876 0 m 1714 ss 
+(Example: using First-fit) s
+savemat setmatrix
+userdict /#copies 1 put
+gr
+showpage
+restore
+%%PageTrailer
+
+% %%Trailer
+grestore sheetsave restore
+/sheetsave save def
+gsave
+24 24 translate 0 rotate
+278 612 div 368 792 div scale
+0 0 moveto 0 792 lineto 612 792 lineto 612 0 lineto
+closepath clip newpath
+grestore sheetsave restore
+/sheetsave save def
+gsave
+310 400 translate 0 rotate
+278 612 div 368 792 div scale
+0 0 moveto 0 792 lineto 612 792 lineto 612 0 lineto
+closepath clip newpath
+grestore sheetsave restore
+/sheetsave save def
+gsave
+310 24 translate 0 rotate
+278 612 div 368 792 div scale
+0 0 moveto 0 792 lineto 612 792 lineto 612 0 lineto
+closepath clip newpath
+grestore sheetsave restore
+showsheet
+%%Trailer
+statusdict begin jobname print flush (: Job finished:\n) print
+(\tmpage time (s) = ) print flush usertime mp_stm sub 1000 div ==
+(\tmpage pages = ) print flush pagecount mp_pgc sub ==
+end flush
+%%Pages: 2

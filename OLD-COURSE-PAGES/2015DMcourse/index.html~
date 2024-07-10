@@ -1,0 +1,307 @@
+<Html>
+
+<Head>
+
+<!--
+<SCRIPT language="JavaScript">
+var password; var pass1="4900"; password=prompt('Enter Password',' ');
+if (password==pass1) alert('Correct Password! Click OK to Enter!');
+else { window.location="http://www.cs.uga.edu/~khaled/"; } //
+</SCRIPT>
+--->
+
+<BODY BGCOLOR="#FFFFFF" link=blue alink=green vlink=red>
+<Title>
+CSCI 4380/6380 Data Mining
+</Title>
+
+</Head>
+
+<Body>
+
+<H1>CSCI 4380/6380 Data Mining</H1>
+
+Fall 2015: Tuesdays and Thursdays 5:00pm - 6:15pm &
+Wednesdays 4:40pm - 5:30pm, Boyd GSRC Room 208</BR>
+
+
+</BR>
+
+<A HREF="http://www.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
+Rasheed</A> </BR>
+Telephone: (706)542-3444</BR> 
+Office Hours: Wednesday 5:30-7:00pm and Thursday 2:00-3:00pm or by email
+appointment</BR>
+Office Location: Room 545, Boyd GSRC</BR> 
+Email: khaled@uga.edu</BR>
+</BR>
+
+
+<!--
+--->
+Teaching Assistant: Karan Sharma</BR>
+Office Hours: Tuesday 2:00pm-4:00pm</BR>
+Office Location: Room 207a, Boyd GSRC</BR>
+Email: karan1234@gmail.com</BR>
+
+<Hr>
+
+<H2>Objectives:</H2> 
+
+The course aims to provide students with a broad introduction to the
+field of Data Mining and related areas and to teach students how to
+apply these methods to solve problems in complex domains.
+
+The course is appropriate both for students preparing for research in
+Data Mining and Machine Learning, as well as Bioinformatics, Science
+and Engineering students who want to apply Data Mining techniques to
+solve problems in their fields of study.
+
+
+<H2>Recommended Background:</H2> 
+
+CSCI 2720 Data Structures. Familiarity with basic computer algorithms
+and data structures. Familiarity with the Java programming language is
+recommended but not required.
+
+
+<H2>Topics to be Covered:</H2> 
+
+<li>Part I: Data Mining techniques: Selected from: Association and
+Classification Rule Mining, Linear Models, Decision Trees and Random
+Forests, Neural Network approaches, Support Vector Machines, Bayesian
+Learning, Instance-based Learning, Pre-processing and Feature
+Selection, Performance evaluation, Ensemble Learning and clustering.
+
+<li>Part II: Data Mining applications: Selected from: Bioinformatics,
+Biomedical/Physical/Chemical modeling, medical diagnosis, text/web
+mining, pattern recognition and/or other contemporary applications.
+
+
+<H2>Expected Work:</H2> 
+
+Reading; assignments (include running experiments using the Weka
+package); paper presentation, two midterms; and term project (may
+require programming or running existing packages) and paper. <strong>
+Unless otherwise announced by the instructor, all assignments and all
+exams must be done entirely on your own.</strong>
+
+<H2>Academic Honesty and Integrity:</H2> 
+
+All academic work must meet the standards contained in <A
+HREF="http://www.uga.edu/honesty/ahpd/culture_honesty.htm">
+"A Culture of Honesty."</A> Students are responsible for informing
+themselves about those standards before performing any academic
+work. The penalties for academic dishonesty are severe and ignorance
+is not an acceptable defense.
+
+<H2>Grading Policy:</H2> 
+
+<li>Assignments: 20% (Programs, homeworks, attendance, paper presentation)
+<li>Midterm Examinations: 40%   
+<li>Term Project: 40% (includes term paper and presentation)
+<br>
+
+Students may work on their term projects in groups of up to
+<strong>FOUR</strong> students each. The above distribution is only
+tentative and may change later. The instructor will announce any
+changes.
+
+<H2>Assignment Submission Policy</H2> 
+
+Assignments must be turned in by the assigned deadline. Late
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
+
+<H2>Course Home-page</H2> 
+
+A variety of materials will be made available on the DM Class
+Home-page at <A HREF="http://cobweb.cs.uga.edu/~khaled/DMcourse/">
+http://cobweb.cs.uga.edu/~khaled/DMcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there.
+
+<H2>Lecture Notes</H2>
+
+Copies of <strong>some</strong> of Dr. Rasheed's lecture notes will be
+available at the bottom of the class home page. Not all the lectures
+will have electronic notes though and the students should be prepared
+to take notes inside the lecture at any time.
+
+<H2>Textbook in Bookstore</H2> 
+
+<li> "Data Mining: Practical Machine Learning Tools and Techniques
+(3rd edition)", Ian Witten, Eibe Frank & Mark Hall. Morgan Kaufmann,
+2011. <strong>(Required)</strong><br>
+<strong>ISBN-10: 0123748569 & ISBN-13: 978-0123748560 </strong> <br>
+
+
+<H2>Web Resources</H2> 
+
+<li> <A HREF="http://www.cs.waikato.ac.nz/~ml">
+The WEKA Machine Learning Project</a>
+
+<li> <A HREF="http://archive.ics.uci.edu/ml/">
+University of California at Irvine ML Repository</a>
+
+<li> <A
+HREF="http://home.earthlink.net/~dwaha/research/machine-learning.html">
+David Aha's Machine Learning Resources</a>
+
+
+<H2>Announcements:</H2>
+
+<li> [11-30-2015] The course project presentations will be done on
+12-16-2015 at the time of the final exam (because there is no final
+exam). They will be done from 7pm to 10pm with about 20 minutes per
+group in Boyd room 208. The course project reports are due on the same
+day. For the project report format, please write it as a conference
+paper of about 8 two-column pages or 12 single-column pages (there is
+no restriction on size though). You should include a title, an
+abstract, an introduction, a mention of related work if any, a
+description of your experiments and results and a conclusion. In the
+introduction or elsewhere in the paper you should describe the domain
+that you applied your Data Mining technique(s) to, in enough detail
+for the reader to appreciate the significance and difficulty of the
+problem. Please bring a hard copy. Please also include your email
+addresses as well as the URLs of any demo/supporting web pages. There
+is a slight chance that I might contact you soon after the submission
+deadline (within 48 hours) requesting codes, clarifications or more
+data.
+
+<li> [11-29-2015] The second midterm will be on Thursday 12-3-2015. It
+will focus on Chapter 5 and the sections of Chapters 6 and 8 that are
+covered in the lecture notes but please bring all lecture notes for
+all chapters with you. It will be open notes but the use of laptops or
+phones will not be allowed. Please bring your text book and a
+calculator to the exam. You should also bring your own lecture notes
+and all handouts. The lecture on Wednesday 12-2-2015 will be a review
+lecture.
+
+<li> [10-11-2015] The first midterm exam will be this Thursday 10-15-2015
+5:00-6:15pm. It will cover all the topics discussed in the course till
+last Wednesday (i.e. up to Chapter 5 Page 176). It will be open notes
+but the use of books, laptops or phones will not be allowed. You
+should bring a calculator to the exam. You should also bring your
+lecture notes and all handouts and you may also bring any additional
+notes, homeworks etc.
+
+
+<H2>Papers</H2>
+
+<li> "Clustering by Passing Messages Between Data Points"
+2007. [Roxana][11-10]
+{<A HREF="http://www.psi.toronto.edu/affinitypropagation/FreyDueckScience07.pdf">download</A>}
+
+<li> "Feature Selection Based on Mutual Information: Criteria of
+Max-Dependency, Max-Relevance, and Min-Redundancy" Hanchuan Peng et
+al., 2005. [Yang Shi][11-11]
+{<A HREF="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1453511">download</A>}
+
+<li> "Discrimination by Design: predictive data mining as security
+practice in the United States war on terrorism" Keith Guzik,
+2009. [Aggeles][11-12]
+{<A HREF="http://library.queensu.ca/ojs/index.php/surveillance-and-society/article/view/3304/3267">download</A>}
+
+<li> "Mining Large Streams of User Data for Personalized Recommendations" [Pranjay][11-12]
+{<A HREF="http://li231-127.members.linode.com/sites/default/files/issues/14-2-2012-12/V14-02-05-Amatriain.pdf">download</A>}
+
+<li> "LARS: A Location-Aware Recommender System"
+Justin J. Levandoski et al. [Narita][11-18]
+{<A HREF="http://www.msr-waypoint.com/pubs/156453/ICDE12_LARS.pdf">download</A>}
+
+<li> "Earthquake Shakes Twitter Users: Real-time Event Detection by
+Social Sensors" Takeshi Sakaki et al. [Navid][11-18]
+{<A HREF="http://www.ymatsuo.com/papers/www2010.pdf">download</A>}
+
+<li> "Feature Selection: An Ever Evolving Frontier in Data Mining"
+2010. [Guohui][11-18]
+{<A HREF="http://jmlr.org/proceedings/papers/v10/liu10b/liu10b">download</A>}
+
+<li> "A study on video data mining" [Zengyan][11-19]
+{<A HREF="http://link.springer.com/article/10.1007%2Fs13735-012-0016-2">download</A>}
+
+<li>"Anatomy of a Web-Scale Resale Market: A Data Mining Approach"
+[Yan Wang][11-19]
+{<A HREF="http://www.cs.uic.edu/~yzhao/research/papers/pe012-zhao.pdf">download</A>}
+
+<li> "Text and Structural Data Mining of Influenza Mentions in Web and
+Social Media" 2010. [Qiang Hao][11-19]
+{<A HREF="http://www.mdpi.com/1660-4601/7/2/596/pdf">download</A>}
+
+<li> "Least squares support vector machines ensemble models for credit scoring" 2010. [Shiyu Ye][11-19]
+{<A HREF="http://www.sciencedirect.com/science/article/pii/S0957417409004394">download</A>}
+
+<li> "Unsupervised feature selection for multi-cluster data" 2010. [Liuyang Zhang][11-19]
+{<A HREF="http://dl.acm.org/citation.cfm?id=1835848">download</A>}
+
+<li> "Extending market basket analysis with graph mining techniques: A real case" 2014. [Zheliang Liu][12-1]
+{<A HREF="http://www.sciencedirect.com/science/article/pii/S0957417413007094">download</A>}
+
+<li> "Large-Scale Matrix Factorization with Distributed Stochastic Gradient Descent" 2011. [Brittany][12-1]
+{<A HREF="http://dl.acm.org/citation.cfm?id=2020426">download</A>}
+
+<li> "MCL - a cluster algorithm for graphs" 2000. [Hongye Zhou][12-1]
+{<A HREF="http://micans.org/mcl/index.html?sec_thesisetc">download</A>}
+
+
+
+<H2>Assignments:</H2> 
+<li>Homework 1: Exercise 17.1 on page 559 of the text book.[Due
+9-10-2015 in class]
+<li><A HREF="homework2.pdf">Homework 2</A>
+<li><A HREF="homework3.pdf">Homework 3</A>
+<li>Homework 4: Exercise 17.6 on page 582 of the text book.[Due
+11-3-2015 in class]
+<li><A HREF="homework5.pdf">Homework 5</A>
+<li><A HREF="homework6.pdf">Homework 6</A>
+<!--
+
+--->
+
+
+<H2>Lecture Notes:</H2> 
+
+
+<li>
+<A HREF="Chapter1.pptx">Chapter 1</A>
+<li>
+<A HREF="Chapter2.pptx">Chapter 2</A>
+<li>
+<A HREF="Chapter3.pptx">Chapter 3</A>
+<li>
+<A HREF="Chapter4.pdf">Chapter 4</A>
+<li>
+<A HREF="weka2013slides.pdf">Weka Tutorial Slides by Tomasz Oliwa</A>
+<li>
+<A HREF="Chapter5.pdf">Chapter 5</A>
+<li>
+<A HREF="Chapter6-part1.pdf">Chapter 6 Part 1</A>
+<li>
+<A HREF="Chapter6-part2.pdf">Chapter 6 Part 2</A>
+<li>
+<A HREF="Chapter8.pdf">Chapter 8</A>
+<!--
+---->
+
+<Hr>
+
+<strong>The course syllabus is a general plan for the course;
+deviations announced to the class by the instructor may be
+necessary.</strong><BR>
+
+<P>
+
+Last modified: November 30, 2015.
+<ADDRESS>
+<A Href="http://www.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
+>
+(<A Href="mailto:khaled@uga.edu">khaled[at]uga.edu</A>)
+
+</ADDRESS>
+
+</Body>
+
+</Html>

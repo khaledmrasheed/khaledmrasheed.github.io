@@ -1,0 +1,31 @@
+Paper Presentation
+[100 points]
+
+Purpose:
+
+The purpose of this assignment is to teach you how to present a
+research paper in evolutionary computation.
+
+Rubric:
+
+Content and  Scientific Merit (80 points)
+Introduction:
+- Defines background and importance of research.
+- States objective, and is able to identify research questions.
+Body:
+- Addresses audience at an appropriate level.
+- Describes methodology and/or experiments.
+- Pays special attention to the Evolutionary Computation content in the paper.	
+Conclusion:
+- Summarizes major points of talk.
+- Summarizes potential weaknesses (if any) in findings.
+
+Style/Delivery (20 points)
+- Speaks clearly and at an understandable pace.
+- Good use of figures and/or tables.
+- Speaker is within time limits.
+- Speaker is able to answer questions professionally.
+
+- [in the case of two speakers] Each speaker did a reasonable part of
+  the presentation
+	

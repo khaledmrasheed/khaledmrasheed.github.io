@@ -15,34 +15,63 @@ CSCI 4560/6560 Evolutionary Computation and Its Applications
 
 <H1>CSCI 4560/6560 Evolutionary Computation and Its Applications</H1>
 
-Fall 2024: Tuesdays and Thursdays 2:20pm - 3:35pm & Mondays 3:00pm -
+Fall 2021: Tuesdays and Thursdays 2:20pm - 3:35pm & Mondays 3:00pm -
 3:50pm, Boyd GSRC Room 208</BR>
 
 <A HREF="http://cobweb.cs.uga.edu/~khaled/">Instructor: Prof. Khaled
 Rasheed</A></BR>
 Telephone: 542-0881</BR>
-Office Hours: Monday 4 pm to 6 pm or by email arrangement</BR>
+Office Hours: Monday 4:00-5:00pm & Thursday 4:00-5:00pm or by email
+appointment</BR>
 Office Location: Room 518, Boyd GSRC</BR>
 Email: khaled@uga.edu</BR>
 </BR>
-
+Teaching Assistant: To be announced </BR>
 <!--
-Teaching Assistant: Mohammad Al-Saad</BR>
-Office hours: Wednesdays: 2:00 PM - 3:00 PM or by email arrangement</BR>
-Office Location: via zoom at https://zoom.us/j/94885256649</BR>
-Email: mohammad.alsaad@uga.edu</BR>
+Office hours: Mondays and Thursdays: 12:30 PM - 1:30 PM</BR>
+Email: mza42660@uga.edu</BR>
+Teaching Assistant: Farid Gharehmohammadi</BR>
+Office hours: Tuesdays and Thursdays: 12:30 PM - 1:30 PM</BR>
+Office Location: Room 307, Boyd GSRC</BR>
+Email: farid.ghm@uga.edu</BR>
 
 -->
 <Hr>
 
-<H2>Attendance Note:</H2>
+<H2>COVID-19 Note:</H2> 
 
-I will do the lecture in person (face to face) in room 208 and all
-students are expected to attend unless you are sick or under
-quarantine. In such cases please email me and I can work with you by
-zoom to catch up. If you are planning to travel in December, make sure
-your travel date is after the final exam. I cannot offer early makeup
-exams under any circumstances.
+Due to COVID-19, the following is the format I am planning to use
+unless the situation changes. I will do the lecture in person in room
+208 and up to 15 of you can attend in person with your masks
+on. Please check your email and reply to my request for your
+preference of attendance day (Monday or Tuesday or Thursday). The
+lecture will simultaneously be a Zoom meeting and will be recorded and
+posted online on the same day. Those who do not attend in person can
+join the zoom meeting (i.e. synchronously), which will enable them to
+ask questions and participate in the discussions or wait and review
+the recording later (i.e. asynchronously). Attendance in class will
+not be mandatory.</BR>
+
+<H2>Zoom meeting information:</H2> 
+
+Topic: Khaled Rasheed's Personal Meeting Room</BR>
+</BR>
+Join Zoom Meeting</BR>
+https://zoom.us/j/4449516499</BR>
+</BR>
+Meeting ID: 444 951 6499</BR>
+One tap mobile</BR>
++16465588656,,4449516499# US (New York)</BR>
++13017158592,,4449516499# US (Germantown)</BR>
+</BR>
+Dial by your location</BR>
+        +1 646 558 8656 US (New York)</BR>
+        +1 301 715 8592 US (Germantown)</BR>
+        +1 312 626 6799 US (Chicago)</BR>
+        +1 669 900 9128 US (San Jose)</BR>
+        +1 253 215 8782 US (Tacoma)</BR>
+        +1 346 248 7799 US (Houston)</BR>
+Meeting ID: 444 951 6499</BR>
 
 <H2>Objectives:</H2> 
 
@@ -58,7 +87,7 @@ problems in their fields of study.
 
 <H2>Recommended Background:</H2> 
 
-CSCI 2720 or CSCI 2725 Data Structures. Students must have a strong
+CSCI 2720 or CSCI 2725 Data Structures. Students must have a good
 understanding of basic computer algorithms and data structures and at
 least one high level programming language.
 
@@ -108,44 +137,41 @@ is not an acceptable defense.
 
 <H2>Grading Policy:</H2> 
 
-<li>Assignments: 30% (Programs, questions, attendance)
+<li>Assignments: 30% (Programs, questions, paper presentations)
 <li>Midterm Examination: 20%
-<li>Paper presentation: 10%
-<li>Paper reviews: 10%
-<li>Undergraduates: Final Examination: 30%
-<li>Graduates: Final Examination 10% And Term Project: 20% (includes
+<li>Final Examination: 20%
+<li>Term Project: 30% (includes
 term paper and presentation)
 
 <br>
 
-Term projects are required for graduate students and optional for
-undergraduates. If any undergraduates choose to do term projects,
-their grade distribution will be the same as that of graduate
-students. Students may work on their term projects individually or in
-groups of up to Four students each. The above distribution is only
-tentative and may change later. The instructor will announce any
-changes.
+Term projects are required from all students. Students may work on
+their term projects individually or in groups of up to FIVE students
+each. The above distribution is only tentative and may change
+later. The instructor will announce any changes.
 
 <H2>Assignment Submission Policy</H2> 
 
 Assignments must be turned in by the assigned deadline. Late
-assignments will lose 10% for every calendar day. Rare exceptions may
-be made by the instructor in case of illness or under extenuating
-circumstances and in accordance with the university policies.
+assignments will not be accepted. Rare exceptions may be made by the
+instructor only under extenuating circumstances and in accordance with
+the university policies.
 
 <H2>Course Home-page</H2> 
 
 A variety of materials will be made available on the EC Class
 Home-page at <A HREF="http://cobweb.cs.uga.edu/~khaled/ECcourse/">
-http://cobweb.cs.uga.edu/~khaled/ECcourse/</a>. Announcements may be
-posted between class meetings.  You are responsible for being aware of
-whatever information is posted there.
+http://cobweb.cs.uga.edu/~khaled/ECcourse/</a>, including handouts,
+lecture notes and assignments. Announcements may be posted between
+class meetings.  You are responsible for being aware of whatever
+information is posted there. 
 
 <H2>Lecture Notes</H2>
 
-Copies of Dr. Rasheed's lecture notes will be available on eLC. Not
-all the lectures will have electronic notes though and the students
-should be prepared to take notes inside the lecture at any time.
+Copies of Dr. Rasheed's lecture notes will be available at the bottom
+of the class home page. Not all the lectures will have electronic
+notes though and the students should be prepared to take notes inside
+the lecture at any time.
 
 <H2>Textbook</H2> 
 
@@ -173,68 +199,42 @@ Zbigniew Michalewicz. Springer-Verlag, New York,1996.
 <li> "Evolutionary Computation, A "Unified Approach", K. DeJong. MIT
 Press, 2006.
 
-  <H2>Web Resources</H2>
-  
+<H2>Web Resources</H2> 
+
 <li><A HREF="http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/genetic/ga/systems/0.html">
 GA software packages from the CMU Artificial Intelligence
 repository</a>
 
+<li> <A HREF="http://web.archive.org/web/20050319094717/aic.nrl.navy.mil/galist/src/">Web
+archived version of the GA source codes at GALIST archives</a>
+
   <H2>Announcements:</H2>
-
-<!-- 
-<li> [10-3-2023] As announced in class, the midterm exam will be next
-Thursday 10-12-2023. It will cover all the topics discussed in the
-course till the end of Chapter 5. It will be open notes but the use of
-books, laptops or phones will not be allowed. Although you may not
-need one, I recommend that you bring a calculator to the exam. You
-should also bring your lecture notes and all handouts and you may also
-bring any additional notes, homeworks etc. We shall have a review
-lecture on Tuesday in which we will go over the solutions to Homework 3
-and other problems. Attendance of the review lecture is very
-important.
-
-<li>[9-18-2023] The following evolutionary computation packages are
-  recommended by the TA: </br>
-  Python: DEAP, pyevolve, GeneAI, Pystep, Pyvolution</br>
-  Java: jgap, jenetics, GA Playground</br>
-  C++: GAlib</br>
-  C: GAUL</br>
--->
   
+
 <H2>Papers:</H2>
 
 
-
-<!--
-  
-<li> "" 2020. [?][?]
-{<A HREF="">download</A>}
-
---->
-  
-  <p>
-   
+    
+<p>
 
   <H2>Assignments:</H2>
-<!-- 
-  <li><A HREF="homework1.pdf">Homework 1</A>
+  <!--
+<li><A HREF="homework1.pdf">Homework 1</A>
 <li><A HREF="homework2.pdf">Homework 2</A>
 <li><A HREF="homework3.pdf">Homework 3</A>
 <li><A HREF="homework4.pdf">Homework 4</A>
-<li><A HREF="Presentation.txt">Paper Presentation</A>
 <li><A HREF="homework5.pdf">Homework 5</A>
-
-<li><A HREF="Review.txt">Paper Review</A>
-  
 <li><A HREF="homework6.pdf">Homework 6</A>
-<li><A HREF="Homework7.txt">Homework 7</A>
+<li><A HREF="homework7.pdf">Homework 7</A>
+<!--
 
 --->
 
 <H2>Lecture Notes:</H2> 
+
 <li>
 <A HREF="Evolutionary_Computation.pptx">Introduction</A>
-<!-- 
+<!--  
 <li>
 <A HREF="chapter01.ppt">Chapter 1</A>
 <li>
@@ -250,19 +250,18 @@ important.
 <li>
 <A HREF="chapter08.ppt">Chapter 8</A>
 <li>
-  <A HREF="chapter09.ppt">Chapter 9</A>
-<li>
-<A HREF="../gado-short.pdf">Genetic Algorithm for Design
-  Optimization (GADO)</A>
-<li>
-<A HREF="chapter14.ppt">Chapter 14</A>
-
+<A HREF="chapter09.ppt">Chapter 9</A>
 <li>
 <A HREF="chapter11.ppt">Chapter 11</A>
 
 <li>
+<A HREF="chapter14.ppt">Chapter 14</A>
+ 
+
+<li>
 <A HREF="chapter10.ppt">Chapter 10</A>
-<!--  
+<li>
+<A HREF="../gado-short.pdf">GADO</A>
 
 --->
 
@@ -273,7 +272,7 @@ important.
 announced to the class by the instructor may be necessary.</strong><BR>
 
 <Hr>
-Last modified: 8/1/2024.
+Last modified: August 11, 2021.
 <ADDRESS>
 <A Href="http://cobweb.cs.uga.edu/~khaled" Name="signature">Khaled Rasheed</A
 >

@@ -1,0 +1,26 @@
+
+
+
+
+
+
+[10 points] Proposal
+One page summary proposal due in class (one printout from each group) on 3-3-2026. The summary should include the project title, group member names, a brief description of the intended experimental plan including data source, methods and expected outcomes.
+
+
+[10 points] Status report presentation
+We shall have our course project progress status report presentations on the last week of March. Please aim for 12 to 15 minutes. You should briefly describe your project, what you did, what remains to be done and if you have any questions to the class. All members of each group should take part in the presentation. It is understandable that you may have much remaining to be done.
+
+[60 points] Project report
+
+The course project reports are due on the day of the final exam (there is no final exam). For the project report format, please write it as a conference paper of about 8 two-column pages or 12 single-column pages (there is no restriction on size though). You should include a title, an abstract, an introduction, related work, a
+description of your experiments and results and a conclusion. In the introduction or elsewhere in the paper you should describe the domain
+that you applied your Data Mining technique(s) to, in enough detail for the reader to appreciate the significance and difficulty of the
+problem.
+
+To improve the value of your course project there are many things you can do. I list some of them below. Feel free to contact me regarding your specific project. A good project will typically exercise many of the ideas discussed in the class and possibly other methods. You should apply several data mining methods. For example, for classification problems, you can try tree based, SVM based, Neural networks, Bayesian, Nearest neighbor, logistic regression or other suitable methods. For regression you should compare linear, SVM, Neural Nets, kernel approaches among others. For clustering problems you can try several clustering approaches including Hierarchical, Kmeans, spectral, EM or other suitable methods. You should try to improve performance using ideas such as hyper parameter tuning, discretization, preprocessing or other suitable ideas. You should analyze the performance of the different methods using appropriate performance measures. You should also try to combine multiple classifiers using bagging, boosting and/or stacking if applicable. In summary, I recommend you start with one method and close the loop, then add the other methods, do the tuning, analyze performance and finish with ensemble learning.
+
+
+[20 points] Final presentation
+The course project presentations will be done on 4-30-2026 at the time of the final exam (because there is no final
+exam). They will be done from noon to 3:00 pm with about 15 minutes per group in the Tuesday/Thursday classroom. Please focus on the experiments and results. The project reports are due on the same day. Only one person from each group should submit the report on eLC.

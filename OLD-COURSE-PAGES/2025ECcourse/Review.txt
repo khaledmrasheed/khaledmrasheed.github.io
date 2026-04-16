@@ -1,0 +1,15 @@
+Paper Reviews: Due 11/30/2023&nbsp;
+[100 points]
+
+Purpose:
+The purpose of this assignment is to teach you how to review and critique
+research papers in evolutionary computation.
+
+Task
+Choose five of the research papers presented in class and provide a brief review for each of them (no more than one page each). Your review for each paper should include:
+
+\item Paper title [2 points]
+\item Which evolutionary computation technique(s) was used in the paper? [4 points]
+\item What was the best thing you liked about the paper? [4 points]
+\item What was the worst thing about the paper? [4 points]
+\item How could you continue/extend the research described in the paper? [6 points]
